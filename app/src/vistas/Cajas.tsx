@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import { cajaDeSobre, cajaPorId, cajas, estadisticas, fotoPorId, fotosPorSobre, sobresEnOrden } from "@/lib/datos"
+import { cajaDeSobre, cajaPorId, cajas, entradaDeSobre, estadisticas, fotoPorId, fotosPorSobre, sobresEnOrden } from "@/lib/datos"
 import { enlace } from "@/lib/ruta"
 import { Imagen } from "@/components/Imagen"
 import { Grilla, TarjetaFoto } from "@/components/TarjetaFoto"
@@ -38,7 +38,7 @@ export function Cajas() {
                 const portada = fotoPorId.get(s.portada)
                 return (
                   <li key={s.id}>
-                    <a href={enlace.sobre(s.id)} className="foco group block rounded-sm">
+                    <a href={enlace.sobre(s.id)} title={entradaDeSobre.get(s.id)?.titulo} className="foco group block rounded-sm">
                       <span className="block aspect-[4/5] overflow-hidden rounded-sm border">
                         {portada && <Imagen foto={portada} ancho={200} className="transition-transform duration-500 group-hover:scale-105" />}
                       </span>
@@ -74,6 +74,9 @@ export function VistaCaja({ id }: { id: string }) {
           <section key={s.id}>
             <h2 className="mb-4 border-b pb-2 text-lg font-semibold">
               <a href={enlace.sobre(s.id)} className="hover:text-primary">Sobre {s.id}</a>
+              {entradaDeSobre.get(s.id) && (
+                <span className="ml-2 font-serif font-normal italic">{entradaDeSobre.get(s.id)!.titulo}</span>
+              )}
               <span className="ml-2 text-sm font-normal text-muted-foreground">{s.cantidad} fotografías</span>
             </h2>
             <Grilla>
@@ -106,6 +109,13 @@ export function VistaSobre({ id }: { id: string }) {
         <div>
           <p className="etiqueta">Caja {c.numero} ({c.id}) · {lista.length} fotografías</p>
           <h1 className="mt-2 text-3xl font-semibold md:text-4xl">Sobre {id}</h1>
+          {entradaDeSobre.get(id) && (
+            <p className="mt-2 font-serif text-lg">
+              <a href="#/indice" className="hover:text-primary">
+                Índice manuscrito, entrada {entradaDeSobre.get(id)!.n}: <em>{entradaDeSobre.get(id)!.titulo}</em>
+              </a>
+            </p>
+          )}
         </div>
         <div className="flex gap-2 text-sm">
           {ant && (

@@ -67,6 +67,8 @@ export interface EntradaIndice {
   lectura_dudosa: boolean
   nota: string
   fotos: string[]
+  /** Sobres que describe la entrada (la entrada N corresponde al sobre SN). */
+  sobres: string[]
 }
 
 export interface Faceta {
@@ -83,6 +85,9 @@ export const config = configJson as {
   facetas: Faceta[]
   por_pagina: number
 }
+
+/** Sobre -> entrada del índice manuscrito que lo describe. */
+export const entradaDeSobre = new Map(indice.flatMap((e) => e.sobres.map((s) => [s, e] as const)))
 
 export const fotoPorId = new Map(fotos.map((f) => [f.id, f]))
 export const cajaPorId = new Map(cajas.map((c) => [c.id, c]))

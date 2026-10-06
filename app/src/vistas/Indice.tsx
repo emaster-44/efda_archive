@@ -4,7 +4,7 @@ import { enlace } from "@/lib/ruta"
 import { normalizar } from "@/lib/busqueda"
 import { Imagen } from "@/components/Imagen"
 
-/** Índice manuscrito "Índice Fotografías": describe fotografías individuales. */
+/** Índice manuscrito "Índice Fotografías": la entrada N describe el sobre SN. */
 export function Indice() {
   const [filtro, setFiltro] = useState("")
   const [soloVinculadas, setSoloVinculadas] = useState(false)
@@ -23,9 +23,9 @@ export function Indice() {
       <h1 className="mt-2 text-3xl font-semibold">Índice manuscrito</h1>
       <p className="mt-3 max-w-3xl text-sm leading-relaxed text-muted-foreground">
         Transcripción del <em>Índice Fotografías</em> manuscrito del archivo ({estadisticas.entradasIndice} entradas).
-        Cada entrada describe una fotografía. El vínculo entre la entrada y la fotografía se establece durante la
-        catalogación: hasta ahora hay {estadisticas.vinculadasIndice} de {estadisticas.entradasIndice} entradas
-        vinculadas. Las lecturas dudosas de la transcripción están señaladas con <sup className="text-primary">?</sup>.
+        Cada entrada corresponde a un sobre del fondo: la entrada N describe el sobre SN, y sus fotografías toman
+        de ella el título atribuido. Hay {estadisticas.vinculadasIndice} de {estadisticas.entradasIndice} entradas
+        con sobre en el fondo. Las lecturas dudosas de la transcripción están señaladas con <sup className="text-primary">?</sup>.
       </p>
 
       <div className="mt-6 flex flex-wrap items-center gap-4">
@@ -44,7 +44,7 @@ export function Indice() {
             onChange={(e) => setSoloVinculadas(e.target.checked)}
             className="accent-[hsl(var(--primary))]"
           />
-          Solo entradas vinculadas a una fotografía
+          Solo entradas con sobre en el fondo
         </label>
       </div>
 
@@ -64,14 +64,17 @@ export function Indice() {
                 )}
               </span>
               {foto ? (
-                <a href={enlace.foto(foto.id)} className="foco group flex shrink-0 items-center gap-2 rounded-sm">
-                  <span className="signatura text-primary group-hover:underline">{foto.id}</span>
+                <a href={enlace.sobre(e.sobres[0])} className="foco group flex shrink-0 items-center gap-2 rounded-sm">
+                  <span className="text-right font-sans text-xs leading-tight">
+                    <span className="signatura text-primary group-hover:underline">{e.sobres.join(" · ")}</span>
+                    <span className="block text-muted-foreground">{e.fotos.length} {e.fotos.length === 1 ? "foto" : "fotos"}</span>
+                  </span>
                   <span className="block h-10 w-8 overflow-hidden rounded-[2px] border">
                     <Imagen foto={foto} ancho={120} />
                   </span>
                 </a>
               ) : (
-                <span className="shrink-0 font-sans text-xs text-muted-foreground">sin vincular</span>
+                <span className="shrink-0 font-sans text-xs text-muted-foreground">sobre no hallado</span>
               )}
             </li>
           )

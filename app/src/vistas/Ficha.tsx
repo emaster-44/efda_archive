@@ -119,7 +119,7 @@ export function Ficha({ id }: { id: string }) {
               <strong className="font-medium">Ficha en proceso de catalogación.</strong>{" "}
               <span className="text-muted-foreground">
                 {foto.titulo_atribuido
-                  ? "El título se toma de la entrada del índice manuscrito vinculada a esta fotografía. "
+                  ? "El título se toma de la entrada del índice manuscrito que describe el sobre. "
                   : "Todavía no tiene título asignado, entrada del índice manuscrito vinculada ni leyenda en el reverso. "}
                 Descripción, personas y datos técnicos se incorporarán a medida que avance el trabajo del proyecto.
               </span>
@@ -143,7 +143,7 @@ export function Ficha({ id }: { id: string }) {
               v={
                 foto.indice_n ? (
                   <a href="#/indice" className="text-primary hover:underline">
-                    Entrada {foto.indice_n}: <em>{foto.indice_titulo}</em>
+                    Entrada {foto.indice_n} (sobre {foto.sobre}): <em>{foto.indice_titulo}</em>
                   </a>
                 ) : undefined
               }
