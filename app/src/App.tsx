@@ -54,7 +54,7 @@ export default function App() {
       <a href="#contenido" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-2 focus:z-50 focus:bg-card focus:px-3 focus:py-2">
         Saltar al contenido
       </a>
-      <Cabecera vista={ruta.vista} q={ruta.vista === "buscar" ? consulta.q : ""} />
+      <Cabecera />
       <main id="contenido" className="flex-1">
         {vista}
       </main>

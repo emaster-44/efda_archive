@@ -3,58 +3,53 @@ import { cajaDeSobre, cajaPorId, cajas, entradaDeSobre, estadisticas, fotoPorId,
 import { enlace } from "@/lib/ruta"
 import { Imagen } from "@/components/Imagen"
 import { Grilla, TarjetaFoto } from "@/components/TarjetaFoto"
+import { PanelExplorador } from "@/components/PanelExplorador"
+import { ilustracionesCaja } from "@/assets/cajas"
 
-/** Ubicación física: Caja › Sobre. Son unidades de resguardo, no de descripción. */
+/** Ubicación física: Caja › Sobre. Son unidades de resguardo, no de descripción. Nivel raíz: las 7 cajas. */
 export function Cajas() {
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 md:px-6">
+    <PanelExplorador>
       <p className="etiqueta">Ubicación física</p>
-      <h1 className="mt-2 text-3xl font-semibold">Cajas y sobres</h1>
-      <p className="mt-3 max-w-3xl text-sm leading-relaxed text-muted-foreground">
+      <h1 className="mt-2 text-3xl font-semibold">Cajas</h1>
+      <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
         {estadisticas.seleccion
           ? `La selección piloto reúne ${estadisticas.fotos} fotografías de ${sobresEnOrden.length} sobres, en ${cajas.length} cajas. `
           : `El fondo se conserva en ${cajas.length} cajas y ${sobresEnOrden.length} sobres. `}
-        Cajas y sobres son
-        unidades de resguardo: indican dónde se guarda cada fotografía, no qué representa. La unidad de
-        archivo es la fotografía, identificada por su signatura (por ejemplo{" "}
-        <span className="signatura">C01a20-S20-0004</span>: caja C01a20, sobre S20, fotografía 4).
+        Cajas y sobres son unidades de resguardo: indican dónde se guarda cada fotografía, no qué representa.
+        Elegí una caja para ver sus sobres.
       </p>
 
-      <div className="mt-10 space-y-12">
-        {cajas.map((c) => (
-          <section key={c.id} aria-labelledby={`caja-${c.id}`}>
-            <div className="flex flex-wrap items-baseline justify-between gap-2 border-b pb-2">
-              <h2 id={`caja-${c.id}`} className="text-xl font-semibold">
-                <a href={enlace.caja(c.id)} className="hover:text-primary">
-                  Caja {c.numero} <span className="font-normal text-muted-foreground">· {c.etiqueta}</span>
-                </a>
-              </h2>
-              <span className="signatura text-muted-foreground">
-                {c.id} · {c.cantidad} fotografías
-              </span>
-            </div>
-            <ul className="mt-4 grid grid-cols-3 gap-3 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-10">
-              {c.sobres.map((s) => {
-                const portada = fotoPorId.get(s.portada)
-                return (
-                  <li key={s.id}>
-                    <a href={enlace.sobre(s.id)} title={entradaDeSobre.get(s.id)?.titulo} className="foco group block rounded-sm">
-                      <span className="block aspect-[4/5] overflow-hidden rounded-sm border">
-                        {portada && <Imagen foto={portada} ancho={200} className="transition-transform duration-500 group-hover:scale-105" />}
-                      </span>
-                      <span className="mt-1 flex items-baseline justify-between gap-1 text-xs">
-                        <span className="signatura group-hover:text-primary">{s.id}</span>
-                        <span className="tabular-nums text-muted-foreground">{s.cantidad}</span>
-                      </span>
-                    </a>
-                  </li>
-                )
-              })}
-            </ul>
-          </section>
+      <ul className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
+        {cajas.map((c, i) => (
+          <li key={c.id}>
+            <a
+              href={enlace.caja(c.id)}
+              className="foco group block overflow-hidden rounded-md border bg-card transition-colors hover:border-primary"
+            >
+              <div className="relative aspect-[16/10] bg-[hsl(var(--placa))]">
+                <img
+                  src={ilustracionesCaja[i % ilustracionesCaja.length]}
+                  alt=""
+                  aria-hidden
+                  className="absolute inset-0 h-full w-full object-contain p-6 transition-transform duration-500 group-hover:scale-[1.03] dark:brightness-90"
+                />
+                <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center px-12 text-center">
+                  <p className="font-serif text-lg font-semibold text-[#2a2a2a]">Caja {c.numero}</p>
+                  <p className="text-xs text-[#4a4a4a]">{c.etiqueta}</p>
+                </div>
+              </div>
+              <div className="flex items-center justify-between border-t px-4 py-2.5 text-xs">
+                <span className="signatura text-muted-foreground">{c.id}</span>
+                <span className="text-muted-foreground">
+                  {c.sobres.length} sobres · {c.cantidad} fotografías
+                </span>
+              </div>
+            </a>
+          </li>
         ))}
-      </div>
-    </div>
+      </ul>
+    </PanelExplorador>
   )
 }
 
@@ -62,32 +57,32 @@ export function VistaCaja({ id }: { id: string }) {
   const c = cajaPorId.get(id)
   if (!c) return <NoEncontrado que={`la caja ${id}`} />
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 md:px-6">
+    <PanelExplorador cajaActiva={id}>
       <nav aria-label="Ruta" className="text-sm text-muted-foreground">
-        <a href="#/cajas" className="hover:text-primary">Cajas y sobres</a> / Caja {c.numero}
+        <a href={enlace.cajas()} className="hover:text-primary">Cajas</a> / Caja {c.numero}
       </nav>
       <p className="etiqueta mt-4">Caja {c.numero} · {c.id}</p>
       <h1 className="mt-2 text-3xl font-semibold">{c.etiqueta}</h1>
       <p className="mt-2 text-sm text-muted-foreground">{c.cantidad} fotografías en {c.sobres.length} sobres</p>
-      <div className="mt-8 space-y-10">
-        {c.sobres.map((s) => (
-          <section key={s.id}>
-            <h2 className="mb-4 border-b pb-2 text-lg font-semibold">
-              <a href={enlace.sobre(s.id)} className="hover:text-primary">Sobre {s.id}</a>
-              {entradaDeSobre.get(s.id) && (
-                <span className="ml-2 font-serif font-normal italic">{entradaDeSobre.get(s.id)!.titulo}</span>
-              )}
-              <span className="ml-2 text-sm font-normal text-muted-foreground">{s.cantidad} fotografías</span>
-            </h2>
-            <Grilla>
-              {(fotosPorSobre.get(s.id) ?? []).map((f) => (
-                <TarjetaFoto key={f.id} foto={f} mostrarSobre={false} />
-              ))}
-            </Grilla>
-          </section>
-        ))}
-      </div>
-    </div>
+      <ul className="mt-8 grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6">
+        {c.sobres.map((s) => {
+          const portada = fotoPorId.get(s.portada)
+          return (
+            <li key={s.id}>
+              <a href={enlace.sobre(s.id)} title={entradaDeSobre.get(s.id)?.titulo} className="foco group block rounded-sm">
+                <span className="block aspect-[4/5] overflow-hidden rounded-sm border">
+                  {portada && <Imagen foto={portada} ancho={200} className="transition-transform duration-500 group-hover:scale-105" />}
+                </span>
+                <span className="mt-1 flex items-baseline justify-between gap-1 text-xs">
+                  <span className="signatura group-hover:text-primary">{s.id}</span>
+                  <span className="tabular-nums text-muted-foreground">{s.cantidad}</span>
+                </span>
+              </a>
+            </li>
+          )
+        })}
+      </ul>
+    </PanelExplorador>
   )
 }
 
@@ -100,9 +95,9 @@ export function VistaSobre({ id }: { id: string }) {
   if (!c) return <NoEncontrado que={`el sobre ${id}`} />
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 md:px-6">
+    <PanelExplorador cajaActiva={c.id} sobreActivo={id}>
       <nav aria-label="Ruta" className="text-sm text-muted-foreground">
-        <a href="#/cajas" className="hover:text-primary">Cajas y sobres</a> /{" "}
+        <a href={enlace.cajas()} className="hover:text-primary">Cajas</a> /{" "}
         <a href={enlace.caja(c.id)} className="hover:text-primary">Caja {c.numero}</a> / Sobre {id}
       </nav>
       <div className="mt-4 flex flex-wrap items-end justify-between gap-4 border-b pb-6">
@@ -137,7 +132,7 @@ export function VistaSobre({ id }: { id: string }) {
           ))}
         </Grilla>
       </div>
-    </div>
+    </PanelExplorador>
   )
 }
 
