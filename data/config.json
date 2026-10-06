@@ -1,0 +1,60 @@
+{
+  "archivo": {
+    "nombre": "Archivo Fotográfico de El Fogón de los Arrieros",
+    "sigla": "EFDA",
+    "subtitulo": "Fondo de consulta · Prototipo",
+    "institucion": "Fundación El Fogón de los Arrieros · Resistencia, Chaco",
+    "proyecto": "El dispositivo expográfico de El Fogón de los Arrieros: colecciones, fotografías y boletín (SGCyT-UNNE)",
+    "url_base": "https://emaster-44.github.io/efda_archive/",
+    "licencia_metadatos": "CC BY 4.0"
+  },
+  "imagenes": {
+    "modo": "drive",
+    "_modos": "drive = miniaturas servidas desde Google Drive (requiere que las carpetas estén compartidas 'cualquier persona con el enlace'); local = media/{tamaño}/{signatura}.jpg; ninguna = solo ficha",
+    "ancho_miniatura": 400,
+    "ancho_ficha": 1600
+  },
+  "planilla_catalogacion": {
+    "drive_id": "11u4hZu6P0aiuukPV4WYlq7kXzvc4wT8sjt8O_7KB_mw",
+    "nota": "Planilla maestra de catalogación (Drive: EFDA_KB/03_fondo_fotografico). Exportar como CSV a data/fuentes/inventario_base.csv antes de empaquetar."
+  },
+  "facetas": [
+    {
+      "campo": "caja",
+      "etiqueta": "Caja"
+    },
+    {
+      "campo": "decada",
+      "etiqueta": "Década"
+    },
+    {
+      "campo": "personas",
+      "etiqueta": "Personas"
+    },
+    {
+      "campo": "lugar",
+      "etiqueta": "Lugar"
+    },
+    {
+      "campo": "evento",
+      "etiqueta": "Evento"
+    },
+    {
+      "campo": "materias",
+      "etiqueta": "Materias"
+    },
+    {
+      "campo": "fotografo",
+      "etiqueta": "Fotógrafo/a"
+    },
+    {
+      "campo": "vinculo_indice",
+      "etiqueta": "Índice manuscrito"
+    },
+    {
+      "campo": "estado_ficha",
+      "etiqueta": "Estado de la ficha"
+    }
+  ],
+  "por_pagina": 48
+}
