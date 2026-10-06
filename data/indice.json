@@ -357,9 +357,9 @@
  },
  {
   "n": 16,
-  "titulo": "Dr. Roberto Guidión",
-  "lectura_dudosa": true,
-  "nota": "apellido de lectura dudosa",
+  "titulo": "Dr. Carlos R. Guichón",
+  "lectura_dudosa": false,
+  "nota": "corregida según los reversos de C01a20-S16-0004 y S16-0005 (antes: «Dr. Roberto Guidión»)",
   "fotos": [
    "C01a20-S16-0001",
    "C01a20-S16-0002",
@@ -746,9 +746,9 @@
  },
  {
   "n": 31,
-  "titulo": "José Battini",
-  "lectura_dudosa": true,
-  "nota": "apellido de lectura dudosa",
+  "titulo": "José Babini",
+  "lectura_dudosa": false,
+  "nota": "corregida según los reversos de C21a40-S31-0011 y S31-0012 (antes: «José Battini»)",
   "fotos": [
    "C21a40-S31-0001",
    "C21a40-S31-0002",
@@ -1241,9 +1241,9 @@
  },
  {
   "n": 50,
-  "titulo": "Adolfo Guidoni – Tito Diric",
-  "lectura_dudosa": true,
-  "nota": "nombres de lectura dudosa",
+  "titulo": "Adolfo Guntoni – Tito Divic",
+  "lectura_dudosa": false,
+  "nota": "corregida según el reverso de C41a60-S50-0016 (antes: «Adolfo Guidoni – Tito Diric»)",
   "fotos": [
    "C41a60-S50-0001",
    "C41a60-S50-0002",
@@ -1624,9 +1624,9 @@
  },
  {
   "n": 65,
-  "titulo": "Teatro: \"Azuk\"",
-  "lectura_dudosa": true,
-  "nota": "título de lectura dudosa",
+  "titulo": "Teatro: \"Azouk\"",
+  "lectura_dudosa": false,
+  "nota": "corregida según los reversos de C61a80-S65-0038 a S65-0040 (antes: «Azuk»)",
   "fotos": [
    "C61a80-S65-0001",
    "C61a80-S65-0002",
