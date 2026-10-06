@@ -32,5 +32,6 @@ export function ir(destino: string) {
 export const enlace = {
   foto: (id: string) => `#/foto/${id}`,
   sobre: (id: string) => `#/sobre/${id}`,
+  caja: (id: string) => `#/caja/${id}`,
   buscar: (qs = "") => `#/buscar${qs ? "?" + qs : ""}`,
 }

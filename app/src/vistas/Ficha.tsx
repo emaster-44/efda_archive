@@ -2,11 +2,11 @@ import { useEffect, useState } from "react"
 import { Check, ChevronLeft, ChevronRight, Copy, Maximize2 } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"
-import { config, fechaLegible, fotoPorId, fotosPorSobre, numeroSobre, type Foto } from "@/lib/datos"
+import { cajaPorId, config, fechaLegible, fotoPorId, fotosPorSobre, type Foto } from "@/lib/datos"
 import { enlace, ir } from "@/lib/ruta"
 import { citaAPA, citaBibTeX, citaChicago, urlPermanente } from "@/lib/citas"
 import { Imagen } from "@/components/Imagen"
-import { NoEncontrado } from "./Sobres"
+import { NoEncontrado } from "./Cajas"
 
 export function Ficha({ id }: { id: string }) {
   const foto = fotoPorId.get(id)
@@ -36,13 +36,15 @@ export function Ficha({ id }: { id: string }) {
   if (!foto) return <NoEncontrado que={`la fotografía ${id}`} />
 
   const pendiente = foto.estado_ficha === "pendiente"
+  const caja = cajaPorId.get(foto.caja)
 
   return (
     <article className="mx-auto max-w-7xl px-4 py-8 md:px-6">
       <nav aria-label="Ruta" className="flex flex-wrap items-center justify-between gap-3 text-sm text-muted-foreground">
         <span>
-          <a href="#/sobres" className="hover:text-primary">Índice de sobres</a> /{" "}
-          <a href={enlace.sobre(foto.sobre)} className="hover:text-primary">Sobre {numeroSobre(foto.sobre)}</a> /{" "}
+          <a href="#/cajas" className="hover:text-primary">Cajas y sobres</a> /{" "}
+          <a href={enlace.caja(foto.caja)} className="hover:text-primary">Caja {caja?.numero}</a> /{" "}
+          <a href={enlace.sobre(foto.sobre)} className="hover:text-primary">Sobre {foto.sobre}</a> /{" "}
           <span className="signatura">{foto.id}</span>
         </span>
         <span className="flex items-center gap-1">
@@ -88,15 +90,21 @@ export function Ficha({ id }: { id: string }) {
 
         {/* Ficha */}
         <div>
-          <p className="etiqueta">Fotografía · Sobre {numeroSobre(foto.sobre)}</p>
+          <p className="etiqueta">Fotografía · <span className="signatura normal-case tracking-normal">{foto.id}</span></p>
           <h1 className="mt-2 text-3xl font-semibold leading-tight md:text-[2.15rem]">
-            {foto.titulo_atribuido && <span className="font-normal text-muted-foreground">[</span>}
-            {foto.titulo}
-            {foto.titulo_atribuido && <span className="font-normal text-muted-foreground">]</span>}
+            {foto.sin_titulo ? (
+              <span className="font-normal italic text-muted-foreground">Sin título</span>
+            ) : (
+              <>
+                {foto.titulo_atribuido && <span className="font-normal text-muted-foreground">[</span>}
+                {foto.titulo}
+                {foto.titulo_atribuido && <span className="font-normal text-muted-foreground">]</span>}
+              </>
+            )}
           </h1>
           <p className="mt-2 text-muted-foreground">
             {fechaLegible(foto)}
-            {foto.fecha_inferida && " (inferida del índice)"}
+            {foto.fecha_inferida && " (inferida del índice manuscrito)"}
             {foto.lugar && ` · ${foto.lugar}`}
           </p>
 
@@ -104,8 +112,10 @@ export function Ficha({ id }: { id: string }) {
             <div className="mt-5 border-l-2 border-primary bg-card px-4 py-3 text-sm leading-relaxed">
               <strong className="font-medium">Ficha en proceso de catalogación.</strong>{" "}
               <span className="text-muted-foreground">
-                El título está atribuido a partir del índice manuscrito del sobre. Descripción, personas
-                y datos técnicos se incorporarán a medida que avance el trabajo del proyecto.
+                {foto.titulo_atribuido
+                  ? "El título se toma de la entrada del índice manuscrito vinculada a esta fotografía. "
+                  : "Todavía no tiene título asignado ni entrada del índice manuscrito vinculada. "}
+                Descripción, personas y datos técnicos se incorporarán a medida que avance el trabajo del proyecto.
               </span>
             </div>
           )}
@@ -115,16 +125,37 @@ export function Ficha({ id }: { id: string }) {
           <Seccion titulo="Identificación">
             <Campo k="Signatura" v={<span className="signatura">{foto.id}</span>} />
             <Campo
-              k="Sobre"
+              k="Índice manuscrito"
               v={
-                <a href={enlace.sobre(foto.sobre)} className="text-primary hover:underline">
-                  {numeroSobre(foto.sobre)} — <em>{foto.titulo_sobre || "sin título en el índice"}</em>
+                foto.indice_n ? (
+                  <a href="#/indice" className="text-primary hover:underline">
+                    Entrada {foto.indice_n}: <em>{foto.indice_titulo}</em>
+                  </a>
+                ) : undefined
+              }
+            />
+            <Campo k="Caras digitalizadas" v={foto.reverso ? "Anverso y reverso" : "Anverso"} />
+            <Campo k="Archivo digital" v={<span className="signatura">{foto.archivo}</span>} />
+          </Seccion>
+
+          <Seccion titulo="Ubicación física">
+            <Campo
+              k="Caja"
+              v={
+                <a href={enlace.caja(foto.caja)} className="text-primary hover:underline">
+                  Caja {caja?.numero} · {caja?.etiqueta} <span className="signatura text-muted-foreground">({foto.caja})</span>
                 </a>
               }
             />
-            <Campo k="Unidad en el sobre" v={foto.numero ?? undefined} />
-            <Campo k="Caras digitalizadas" v={foto.reverso ? "Anverso y reverso" : "Anverso"} />
-            <Campo k="Archivo digital" v={<span className="signatura">{foto.archivo}</span>} />
+            <Campo
+              k="Sobre"
+              v={
+                <a href={enlace.sobre(foto.sobre)} className="text-primary hover:underline">
+                  {foto.sobre}
+                </a>
+              }
+            />
+            <Campo k="Posición en el sobre" v={foto.numero ?? undefined} />
           </Seccion>
 
           <Seccion titulo="Contenido">

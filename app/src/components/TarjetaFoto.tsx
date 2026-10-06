@@ -1,6 +1,6 @@
 import { Imagen } from "./Imagen"
 import { enlace } from "@/lib/ruta"
-import { config, fechaLegible, numeroSobre, type Foto } from "@/lib/datos"
+import { config, fechaLegible, nombreCaja, type Foto } from "@/lib/datos"
 
 export function TarjetaFoto({ foto, mostrarSobre = true }: { foto: Foto; mostrarSobre?: boolean }) {
   return (
@@ -21,14 +21,20 @@ export function TarjetaFoto({ foto, mostrarSobre = true }: { foto: Foto; mostrar
         )}
       </div>
       <div className="mt-2 space-y-0.5 px-0.5">
-        <p className="signatura text-muted-foreground">{foto.id.replace("EFDA-F-", "")}</p>
+        <p className="signatura text-muted-foreground">{foto.id}</p>
         <p className="line-clamp-2 font-serif text-[0.95rem] leading-snug group-hover:text-primary">
-          {foto.titulo_atribuido ? <span className="text-muted-foreground">[</span> : null}
-          {foto.titulo}
-          {foto.titulo_atribuido ? <span className="text-muted-foreground">]</span> : null}
+          {foto.sin_titulo ? (
+            <span className="italic text-muted-foreground">Sin título</span>
+          ) : (
+            <>
+              {foto.titulo_atribuido && <span className="text-muted-foreground">[</span>}
+              {foto.titulo}
+              {foto.titulo_atribuido && <span className="text-muted-foreground">]</span>}
+            </>
+          )}
         </p>
         <p className="text-xs text-muted-foreground">
-          {mostrarSobre && <>Sobre {numeroSobre(foto.sobre)} · </>}
+          {mostrarSobre && <>{nombreCaja(foto.caja)} · {foto.sobre} · </>}
           {fechaLegible(foto)}
         </p>
       </div>

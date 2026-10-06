@@ -1,22 +1,23 @@
-import { config, fechaLegible, numeroSobre, type Foto } from "./datos"
+import { config, fechaLegible, nombreCaja, type Foto } from "./datos"
 
 export function urlPermanente(f: Foto) {
   return `${config.archivo.url_base}#/foto/${f.id}`
 }
 
 function tituloCita(f: Foto) {
+  if (f.sin_titulo) return "[Sin título]"
   return f.titulo_atribuido ? `[${f.titulo}]` : f.titulo
 }
 
 export function citaAPA(f: Foto) {
   const autor = f.fotografo ? `${f.fotografo}.` : "[Autor desconocido]."
   const fecha = f.fecha ? fechaLegible(f) : "s. f."
-  return `${autor} (${fecha}). ${tituloCita(f)} [Fotografía]. ${config.archivo.nombre} (${f.id}, sobre ${numeroSobre(f.sobre)}). ${config.archivo.institucion}. ${urlPermanente(f)}`
+  return `${autor} (${fecha}). ${tituloCita(f)} [Fotografía]. ${config.archivo.nombre}, ${nombreCaja(f.caja)}, sobre ${f.sobre} (${f.id}). ${config.archivo.institucion}. ${urlPermanente(f)}`
 }
 
 export function citaChicago(f: Foto) {
   const autor = f.fotografo ? `${f.fotografo}. ` : ""
-  return `${autor}“${tituloCita(f)}.” Fotografía, ${fechaLegible(f)}. Sobre ${numeroSobre(f.sobre)}, ${f.id}. ${config.archivo.nombre}, ${config.archivo.institucion}. ${urlPermanente(f)}.`
+  return `${autor}“${tituloCita(f)}.” Fotografía, ${fechaLegible(f)}. ${nombreCaja(f.caja)}, sobre ${f.sobre}, ${f.id}. ${config.archivo.nombre}, ${config.archivo.institucion}. ${urlPermanente(f)}.`
 }
 
 export function citaBibTeX(f: Foto) {
@@ -25,14 +26,14 @@ export function citaBibTeX(f: Foto) {
   return `@misc{${clave},
   title = {${tituloCita(f)}},
   author = {${f.fotografo ?? "{Autor desconocido}"}},${anio}
-  howpublished = {Fotografía. ${config.archivo.nombre}, sobre ${numeroSobre(f.sobre)}},
+  howpublished = {Fotografía. ${config.archivo.nombre}, ${nombreCaja(f.caja)}, sobre ${f.sobre}},
   note = {Signatura ${f.id}. ${config.archivo.institucion}},
   url = {${urlPermanente(f)}}
 }`
 }
 
 const COLUMNAS: (keyof Foto)[] = [
-  "id", "sobre", "numero", "titulo", "titulo_atribuido", "titulo_sobre", "fecha", "lugar",
+  "id", "caja", "sobre", "numero", "titulo", "titulo_atribuido", "indice_n", "indice_titulo", "fecha", "lugar",
   "personas", "evento", "materias", "fotografo", "tecnica", "soporte", "dimensiones",
   "inscripciones_reverso", "descripcion", "estado_ficha",
 ]

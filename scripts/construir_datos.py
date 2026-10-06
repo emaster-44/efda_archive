@@ -3,15 +3,16 @@
 JSON que consume el sitio.
 
 Entrada:  data/fuentes/inventario_base.csv (o la ruta que se indique)
-Salida:   data/fotografias.json, data/sobres.json
+          data/fuentes/indice_manuscrito.csv
+Salida:   data/fotografias.json, data/cajas.json, data/indice.json
 
 Reglas:
+- Orden de precedencia: Caja -> Sobre -> Fotografía (unidad de archivo).
 - Se excluyen las filas con publicable = "no" y las que no tienen signatura.
-- Si la ficha no tiene título, se usa el del sobre según el índice manuscrito,
-  marcado como título atribuido (entre corchetes, según práctica archivística).
-- La fecha se expresa en EDTF (1956, 1956-04, 1950/1955, ~1956, 1956?, 195X).
-  Si falta, se intenta inferir el año desde el título del índice y se marca.
-- Las listas (personas, materias, documentos_relacionados) se separan con ";".
+- Título: el catalogado; si falta y la foto está vinculada a una entrada del
+  índice manuscrito (indice_n), el de esa entrada, marcado como atribuido.
+- Fecha en EDTF (1956, 1956-04, 1950/1955, ~1956, 1956?, 195X).
+- Listas (personas, materias, documentos_relacionados, bibliografia) separadas con ";".
 
 Uso: python3 scripts/construir_datos.py [inventario.csv]
 """
@@ -23,11 +24,11 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 ENTRADA = RAIZ / "data/fuentes/inventario_base.csv"
-INDICE = RAIZ / "data/fuentes/indice_sobres.csv"
+INDICE = RAIZ / "data/fuentes/indice_manuscrito.csv"
 
 LISTAS = ("personas", "materias", "documentos_relacionados", "bibliografia")
 TEXTO = (
-    "titulo", "descripcion", "lugar", "evento", "fotografo", "tecnica", "soporte",
+    "descripcion", "lugar", "evento", "fotografo", "tecnica", "soporte",
     "dimensiones", "inscripciones_reverso", "estado_conservacion", "nota_historica",
     "nota_biografica", "derechos", "observaciones",
 )
@@ -49,48 +50,53 @@ def rango_edtf(fecha):
         calif = "incierta"
     f = f.strip("~?%")
     if "/" in f:
-        a, b = (p.strip() for p in f.split("/", 1))
-        ra, rb = rango_edtf(a), rango_edtf(b)
-        if ra and rb:
-            return ra[0], rb[1], calif
-        return None
+        a, b = (rango_edtf(p) for p in f.split("/", 1))
+        return (a[0], b[1], calif) if a and b else None
     m = re.match(r"^(\d{3})X", f, re.I)
     if m:
         d = int(m[1]) * 10
         return d, d + 9, "decada"
     m = re.match(r"^(\d{4})", f)
-    if m:
-        y = int(m[1])
-        return y, y, calif
-    return None
+    return (int(m[1]), int(m[1]), calif) if m else None
+
+
+def etiqueta_caja(nombre):
+    m = re.match(r"C0*(\d+)a(\d+)", nombre)
+    return f"Sobres {int(m[1]):02d} a {int(m[2]):02d}" if m else nombre
 
 
 def main(entrada):
     with INDICE.open(encoding="utf-8") as f:
-        indice = {int(r["sobre"]): r for r in csv.DictReader(f)}
-
+        indice = {int(r["n"]): r for r in csv.DictReader(f)}
     with Path(entrada).open(encoding="utf-8") as f:
         filas = list(csv.DictReader(f))
 
-    fotos, sobres = [], {}
+    fotos = []
     for r in filas:
         sig = (r.get("signatura") or "").strip()
         if not sig or (r.get("publicable") or "").strip().lower() == "no":
             continue
-        sobre = r["sobre"].strip()
-        titulo_sobre = (r.get("titulo_sobre_indice") or "").strip()
+        n_raw = (r.get("indice_n") or "").strip()
+        indice_n = int(float(n_raw)) if re.fullmatch(r"\d+(\.0)?", n_raw) else None
+        entrada_indice = indice.get(indice_n) if indice_n else None
+        titulo = (r.get("titulo") or "").strip()
 
         foto = {
             "id": sig,
-            "sobre": sobre,
-            "numero": int(r["numero"]) if r.get("numero", "").isdigit() else None,
-            "titulo_sobre": titulo_sobre,
-            "titulo_atribuido": not (r.get("titulo") or "").strip(),
+            "caja": r["caja"].strip(),
+            "sobre": r["sobre"].strip(),
+            "numero": int(r["numero"]) if (r.get("numero") or "").strip().isdigit() else None,
             "anverso": (r.get("drive_id_anverso") or "").strip(),
             "reverso": (r.get("drive_id_reverso") or "").strip(),
             "archivo": (r.get("archivo_anverso") or "").strip(),
             "estado_ficha": (r.get("estado_ficha") or "pendiente").strip(),
+            "titulo": titulo or (entrada_indice["titulo"] if entrada_indice else "Sin título"),
+            "titulo_atribuido": not titulo and bool(entrada_indice),
+            "sin_titulo": not titulo and not entrada_indice,
         }
+        if entrada_indice:
+            foto["indice_n"] = indice_n
+            foto["indice_titulo"] = entrada_indice["titulo"]
         for c in TEXTO:
             v = (r.get(c) or "").strip()
             if v:
@@ -99,15 +105,13 @@ def main(entrada):
             v = lista(r.get(c))
             if v:
                 foto[c] = v
-        if foto["titulo_atribuido"]:
-            foto["titulo"] = titulo_sobre or "Sin título"
 
         fecha = (r.get("fecha") or "").strip()
         rango = rango_edtf(fecha)
         if fecha:
             foto["fecha"] = fecha
-        elif titulo_sobre:
-            m = re.search(r"\b(19\d{2})\b", titulo_sobre)
+        elif entrada_indice:
+            m = re.search(r"\b(19\d{2})\b", entrada_indice["titulo"])
             if m:
                 foto["fecha"] = m[1]
                 foto["fecha_inferida"] = True
@@ -117,35 +121,46 @@ def main(entrada):
             foto["decada"] = f"{rango[0] // 10 * 10}s"
             if rango[2]:
                 foto["fecha_calificador"] = rango[2]
-
         fotos.append(foto)
-        s = sobres.setdefault(sobre, {
-            "id": sobre,
-            "titulo": titulo_sobre,
-            "lectura_dudosa": (r.get("indice_lectura_dudosa") or "") == "si",
-            "cantidad": 0,
-            "portada": foto["anverso"],
-        })
+
+    def clave_sobre(s):
+        m = re.match(r"S(\d+)([a-z]?)", s)
+        return (int(m[1]), m[2])
+
+    fotos.sort(key=lambda f: (clave_sobre(f["sobre"]), f["numero"] or 0, f["id"]))
+
+    # Cajas -> sobres (ubicación física)
+    cajas = {}
+    for f in fotos:
+        c = cajas.setdefault(f["caja"], {"id": f["caja"], "etiqueta": etiqueta_caja(f["caja"]), "sobres": {}})
+        s = c["sobres"].setdefault(f["sobre"], {"id": f["sobre"], "cantidad": 0, "portada": f["id"]})
         s["cantidad"] += 1
+    lista_cajas = sorted(cajas.values(), key=lambda c: int(re.match(r"C0*(\d+)", c["id"])[1]))
+    for i, c in enumerate(lista_cajas, 1):
+        c["numero"] = i
+        c["sobres"] = sorted(c["sobres"].values(), key=lambda s: clave_sobre(s["id"]))
+        c["cantidad"] = sum(s["cantidad"] for s in c["sobres"])
 
-    # Sobres listados en el índice pero ausentes en la digitalización
-    presentes = {int(re.match(r"S(\d+)", s)[1]) for s in sobres}
-    faltantes = [
-        {"id": f"S{n:03d}", "titulo": r["titulo_indice"], "cantidad": 0, "faltante": True}
-        for n, r in sorted(indice.items()) if n not in presentes
+    # Índice manuscrito con sus vínculos
+    vinculos = {}
+    for f in fotos:
+        if f.get("indice_n"):
+            vinculos.setdefault(f["indice_n"], []).append(f["id"])
+    lista_indice = [
+        {"n": n, "titulo": e["titulo"], "lectura_dudosa": e["lectura_dudosa"] == "si",
+         "nota": e["nota"], "fotos": vinculos.get(n, [])}
+        for n, e in sorted(indice.items())
     ]
-
-    clave = lambda f: (f["sobre"], f["numero"] or 0, f["id"])
-    fotos.sort(key=clave)
-    lista_sobres = sorted(list(sobres.values()) + faltantes, key=lambda s: s["id"])
 
     salida = RAIZ / "data"
     (salida / "fotografias.json").write_text(
         json.dumps(fotos, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    (salida / "sobres.json").write_text(
-        json.dumps(lista_sobres, ensure_ascii=False, indent=1), encoding="utf-8")
+    (salida / "cajas.json").write_text(json.dumps(lista_cajas, ensure_ascii=False, indent=1), encoding="utf-8")
+    (salida / "indice.json").write_text(json.dumps(lista_indice, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    print(f"{len(fotos)} fotografías · {len(sobres)} sobres · {len(faltantes)} sobres del índice sin digitalizar")
+    print(f"{len(fotos)} fotografías · {len(lista_cajas)} cajas · "
+          f"{sum(len(c['sobres']) for c in lista_cajas)} sobres · "
+          f"{sum(1 for e in lista_indice if e['fotos'])}/{len(lista_indice)} entradas del índice vinculadas")
 
 
 if __name__ == "__main__":

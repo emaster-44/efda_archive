@@ -1,0 +1,837 @@
+[
+ {
+  "n": 1,
+  "titulo": "Viejo edificio de \"El Fogón de los Arrieros\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 2,
+  "titulo": "Juan de Dios Mena – Sus obras",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 3,
+  "titulo": "En el viejo \"Fogón de los Arrieros\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 4,
+  "titulo": "Conjunto \"Fray Mocho\" en el viejo \"Fogón\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 5,
+  "titulo": "Estela Quatrocchio",
+  "lectura_dudosa": true,
+  "nota": "apellido de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 6,
+  "titulo": "Visita del hijo del Gral. Montgomery",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 7,
+  "titulo": "Mauro Núñez y conjunto folklórico",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 8,
+  "titulo": "René Brusau",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 9,
+  "titulo": "Pedro López Lagar",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 10,
+  "titulo": "Hermanos Carrillo",
+  "lectura_dudosa": true,
+  "nota": "apellido de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 11,
+  "titulo": "Moisés Chilese",
+  "lectura_dudosa": true,
+  "nota": "apellido de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 12,
+  "titulo": "Jorge Rigaud, Santiago Gómez Cou, Carlos Ginés",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 13,
+  "titulo": "Fernando Birri",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 14,
+  "titulo": "Jorge Luis Borges",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 15,
+  "titulo": "Antonio de Raco – Elizabeth Westerkamp",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 16,
+  "titulo": "Dr. Roberto Guidión",
+  "lectura_dudosa": true,
+  "nota": "apellido de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 17,
+  "titulo": "Witold Malcuzynski",
+  "lectura_dudosa": false,
+  "nota": "grafía original: Malcusinsky",
+  "fotos": []
+ },
+ {
+  "n": 18,
+  "titulo": "Entregas de llaves",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 19,
+  "titulo": "Arturo Barea",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 20,
+  "titulo": "Dr. Alberto Torres",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 21,
+  "titulo": "Juan L. Ortiz",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 22,
+  "titulo": "Luis Ángel Firpo",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 23,
+  "titulo": "Haydée Helguera",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 24,
+  "titulo": "Teatro: \"El café de Pomona\"",
+  "lectura_dudosa": true,
+  "nota": "título de lectura dudosa",
+  "fotos": [
+   "C1a20-S20-0004"
+  ]
+ },
+ {
+  "n": 25,
+  "titulo": "Teatro: \"El jugador\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 26,
+  "titulo": "Cumpleaños de Aldo",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 27,
+  "titulo": "Víctor Marchese",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 28,
+  "titulo": "\"Fernando\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 29,
+  "titulo": "Coronel (R) Miguel Ángel Mascaró",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 30,
+  "titulo": "Homenaje a Mena – Abril de 1956",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 31,
+  "titulo": "José Battini",
+  "lectura_dudosa": true,
+  "nota": "apellido de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 32,
+  "titulo": "Teatro: Obra de Hochwälder – Conferencia de Aldo",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 33,
+  "titulo": "Dr. José R. Bergallo",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 34,
+  "titulo": "Visita de poetas correntinos y Ballet del \"Fogón\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 35,
+  "titulo": "Vistas de la construcción del edificio del \"Fogón\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 36,
+  "titulo": "Ezequiel Martínez Estrada",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 37,
+  "titulo": "Medina Ortiz",
+  "lectura_dudosa": true,
+  "nota": "lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 38,
+  "titulo": "Teatro: \"Cita en Senlis\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 39,
+  "titulo": "Teatro: \"El profesor Taranne\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 40,
+  "titulo": "Emilio Novas",
+  "lectura_dudosa": true,
+  "nota": "apellido de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 41,
+  "titulo": "Arturo Frondizi",
+  "lectura_dudosa": true,
+  "nota": "papel dañado en el nombre",
+  "fotos": []
+ },
+ {
+  "n": 42,
+  "titulo": "Visita del Presidente del Rotary Club Internacional",
+  "lectura_dudosa": true,
+  "nota": "papel dañado",
+  "fotos": []
+ },
+ {
+  "n": 43,
+  "titulo": "Carlos Erro",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 44,
+  "titulo": "Teatro: \"Antígona\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 45,
+  "titulo": "Revolución septiembre de 1955 – Aerolíneas",
+  "lectura_dudosa": true,
+  "nota": "última palabra de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 46,
+  "titulo": "Teatro: \"Fin de semana\"",
+  "lectura_dudosa": false,
+  "nota": "tachado en el original: \"Antígona\"",
+  "fotos": []
+ },
+ {
+  "n": 47,
+  "titulo": "Dr. Abraham Jaroslavsky",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 48,
+  "titulo": "Euclides Ventura Cardoso y comitiva Caja Ahorro",
+  "lectura_dudosa": true,
+  "nota": "final de línea de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 49,
+  "titulo": "Teatro: \"El zoo de cristal\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 50,
+  "titulo": "Adolfo Guidoni – Tito Diric",
+  "lectura_dudosa": true,
+  "nota": "nombres de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 51,
+  "titulo": "Inauguración mural de Demetrio Urruchúa",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 52,
+  "titulo": "Ariel Ramírez",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 53,
+  "titulo": "Teatro: \"Santiago o la sumisión\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 54,
+  "titulo": "Robert Mac Errin",
+  "lectura_dudosa": true,
+  "nota": "lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 55,
+  "titulo": "César Fernández Navarro",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 56,
+  "titulo": "Oscar Alemán",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 57,
+  "titulo": "Haydée Loustaunau",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 58,
+  "titulo": "Teatro: \"La libra de carne\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 59,
+  "titulo": "Jorge Romero Brest",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 60,
+  "titulo": "Homenaje a la libertad de Cuba",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 61,
+  "titulo": "Nicolás Guillén",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 62,
+  "titulo": "Hugo del Carril y su compañía",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 63,
+  "titulo": "Paulina Ossona y conjunto coreográfico – 1959",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 64,
+  "titulo": "Francisco Javier",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 65,
+  "titulo": "Teatro: \"Azuk\"",
+  "lectura_dudosa": true,
+  "nota": "título de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 66,
+  "titulo": "María Fux",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 67,
+  "titulo": "Aldo",
+  "lectura_dudosa": false,
+  "nota": "tachado en verde: \"64 bis\"",
+  "fotos": []
+ },
+ {
+  "n": 68,
+  "titulo": "Aldo",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 69,
+  "titulo": "Aldo",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 70,
+  "titulo": "Dr. Nicolás Juárez García – Interventor Tucumán",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 71,
+  "titulo": "Conjunto \"Fray Mocho\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 72,
+  "titulo": "Fernando Arranz – Martín Rampín – R. Bonome",
+  "lectura_dudosa": true,
+  "nota": "segundo nombre de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 73,
+  "titulo": "Nicolás Antonio de San Luis",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 74,
+  "titulo": "Antonio Vázquez",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 75,
+  "titulo": "Contraalmirante Isaac Rojas",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 76,
+  "titulo": "Ubaldo Martínez",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 77,
+  "titulo": "Raúl Monsegur – Murales",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 78,
+  "titulo": "Teatro: \"Liliom\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 79,
+  "titulo": "Juan Mantovani",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 80,
+  "titulo": "Directorio de La Forestal Argentina",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 81,
+  "titulo": "Interiores y exteriores del \"Fogón\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 82,
+  "titulo": "Brigadier Moragues – Concentración Aerolíneas",
+  "lectura_dudosa": true,
+  "nota": "lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 83,
+  "titulo": "Jacinto Castillo",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 84,
+  "titulo": "Armando Asti Vera",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 85,
+  "titulo": "Fiesta y baile en \"El Fogón de los Arrieros\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 86,
+  "titulo": "Ikebana",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 87,
+  "titulo": "\"El Fogón de los Arrieros\" – Varios",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 88,
+  "titulo": "\"El Fogón de los Arrieros\" – Varios",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 89,
+  "titulo": "\"El Fogón de los Arrieros\" – Varios",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 90,
+  "titulo": "Homenaje a Mena – Abril de 1961",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 91,
+  "titulo": "Estatuas en las calles",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 92,
+  "titulo": "Santiago Gómez Cou",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 93,
+  "titulo": "Mesa redonda sobre A. Eichmann",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 94,
+  "titulo": "Teatro leído – Obra de Rattigan",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 95,
+  "titulo": "Nelly Vaccarezza de Vaccarezza",
+  "lectura_dudosa": true,
+  "nota": "lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 96,
+  "titulo": "Teatro: Obra de Chéjov",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 97,
+  "titulo": "Premier del \"Fogón\" – 3 de junio de 1961",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 98,
+  "titulo": "Ernesto Sábato",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 99,
+  "titulo": "Teatro: \"Un sabor a miel\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 100,
+  "titulo": "Despedida de soltero: Tila Morgs – Jaulín",
+  "lectura_dudosa": true,
+  "nota": "nombres de lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 101,
+  "titulo": "Profesor Tacca – Litografías Pettoruti",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 102,
+  "titulo": "Despedida matrimonio Bustos y S. de Bustamante",
+  "lectura_dudosa": true,
+  "nota": "lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 103,
+  "titulo": "Cónsul General de Italia – 1961",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 104,
+  "titulo": "Juan Manuel Fangio – Eduardo Falú",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 105,
+  "titulo": "Oberdan Caletti",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 106,
+  "titulo": "Interiores y exteriores de \"El Fogón de los Arrieros\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 107,
+  "titulo": "Bernardo Canal Feijóo",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 108,
+  "titulo": "Despedida Gallego Hermida – 30-6-61",
+  "lectura_dudosa": true,
+  "nota": "año de lectura dudosa (51 o 61)",
+  "fotos": []
+ },
+ {
+  "n": 109,
+  "titulo": "Banquines y jardines",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 110,
+  "titulo": "Homenaje al Maestro Luis Gusberti",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 111,
+  "titulo": "Paulina Ossona y su conjunto – 1962",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 112,
+  "titulo": "Festejo Día del Niño",
+  "lectura_dudosa": true,
+  "nota": "lectura dudosa",
+  "fotos": []
+ },
+ {
+  "n": 113,
+  "titulo": "Emilio Pettoruti – Córdoba Iturburu",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 114,
+  "titulo": "Libero Badii",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 115,
+  "titulo": "Mabel Bonome",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 116,
+  "titulo": "María Fux – 1962",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 117,
+  "titulo": "Teatro: \"La gran furia de Felipe Hotz\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 118,
+  "titulo": "Teatro: \"El que dice sí, el que dice no\"",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ },
+ {
+  "n": 119,
+  "titulo": "Muestra de las obras de Mena",
+  "lectura_dudosa": false,
+  "nota": "",
+  "fotos": []
+ }
+]

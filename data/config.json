@@ -20,8 +20,8 @@
   },
   "facetas": [
     {
-      "campo": "sobre",
-      "etiqueta": "Sobre (índice original)"
+      "campo": "caja",
+      "etiqueta": "Caja"
     },
     {
       "campo": "decada",
@@ -46,6 +46,10 @@
     {
       "campo": "fotografo",
       "etiqueta": "Fotógrafo/a"
+    },
+    {
+      "campo": "vinculo_indice",
+      "etiqueta": "Índice manuscrito"
     },
     {
       "campo": "estado_ficha",

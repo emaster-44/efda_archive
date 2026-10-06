@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react"
 import { Download, SlidersHorizontal, X } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { config } from "@/lib/datos"
+import { config, rotuloCaja } from "@/lib/datos"
 import { enlace, ir } from "@/lib/ruta"
 import {
   contarFaceta,
@@ -138,7 +138,7 @@ export function Buscar({ consulta }: { consulta: Consulta }) {
               <p className="font-serif text-lg">Ninguna fotografía coincide con la consulta.</p>
               <p className="mt-2 text-sm text-muted-foreground">
                 Probá con menos palabras, quitá filtros o recorré el{" "}
-                <a href="#/sobres" className="text-primary underline">índice de sobres</a>.
+                <a href="#/cajas" className="text-primary underline">cajas y sobres</a>.
               </p>
             </div>
           )}
@@ -186,7 +186,7 @@ function BotonPagina({
 }
 
 const etiquetaCampo = (c: string) => config.facetas.find((f) => f.campo === c)?.etiqueta ?? c
-const etiquetaValor = (c: string, v: string) => (c === "sobre" ? v.replace(/^S0*/, "") : v)
+const etiquetaValor = (c: string, v: string) => (c === "caja" ? rotuloCaja(v) : v)
 
 function Facetas({
   consulta,

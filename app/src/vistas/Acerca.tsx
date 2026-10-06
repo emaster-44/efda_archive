@@ -22,17 +22,19 @@ export function Acerca() {
       <h2 className="mt-12 text-2xl font-semibold">Criterios</h2>
       <ul className="mt-4 space-y-3 leading-relaxed text-muted-foreground">
         <li>
-          <strong className="text-foreground">Orden original.</strong> Se respeta la organización por sobres del
-          archivo y su <em>Índice Fotografías</em> manuscrito, transcripto para este prototipo.
+          <strong className="text-foreground">Orden de precedencia.</strong> Se respeta la organización del
+          fondo: Caja › Sobre › Fotografía. Cajas y sobres son unidades de resguardo; la fotografía es la
+          unidad de archivo.
         </li>
         <li>
-          <strong className="text-foreground">Signatura estable.</strong> Cada fotografía recibe una signatura{" "}
-          <span className="signatura">EFDA-F-S&lt;sobre&gt;-&lt;número&gt;</span> que no cambia aunque cambie la
-          ficha, y que sirve como enlace permanente para citar.
+          <strong className="text-foreground">Signaturas preservadas.</strong> Cada fotografía conserva la
+          signatura de su archivo digital, <span className="signatura">C1a20-S20-0004</span> (caja C01a20,
+          sobre S20, fotografía 4), que sirve también como enlace permanente para citar.
         </li>
         <li>
-          <strong className="text-foreground">Títulos atribuidos.</strong> Mientras una fotografía no está
-          catalogada, su título se toma del índice del sobre y se muestra entre corchetes.
+          <strong className="text-foreground">Índice manuscrito.</strong> El <em>Índice Fotografías</em> describe
+          fotografías individuales. Cuando una entrada se vincula con su fotografía, la ficha toma de ella un
+          título atribuido, entre corchetes.
         </li>
         <li>
           <strong className="text-foreground">Anverso y reverso.</strong> Los dorsos digitalizados se vinculan
@@ -49,8 +51,8 @@ export function Acerca() {
       <dl className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-sm border bg-border text-sm">
         {[
           ["Fotografías inventariadas", estadisticas.fotos],
-          ["Sobres digitalizados", estadisticas.sobres],
-          ["Sobres del índice sin digitalizar", estadisticas.faltantes],
+          ["Cajas · sobres", `${estadisticas.cajas} · ${estadisticas.sobres}`],
+          ["Entradas del índice vinculadas", `${estadisticas.vinculadasIndice} / ${estadisticas.entradasIndice}`],
           ["Fichas catalogadas", estadisticas.catalogadas],
         ].map(([k, v]) => (
           <div key={k} className="bg-card px-4 py-3">

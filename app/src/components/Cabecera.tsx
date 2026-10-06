@@ -29,7 +29,8 @@ export function Cabecera({ vista, q }: { vista: string; q: string }) {
 
   const nav = [
     { href: "#/buscar", etiqueta: "Explorar", activo: vista === "buscar" || vista === "foto" },
-    { href: "#/sobres", etiqueta: "Índice de sobres", activo: vista === "sobres" || vista === "sobre" },
+    { href: "#/cajas", etiqueta: "Cajas y sobres", activo: ["cajas", "caja", "sobre"].includes(vista) },
+    { href: "#/indice", etiqueta: "Índice manuscrito", activo: vista === "indice" },
     { href: "#/acerca", etiqueta: "Acerca", activo: vista === "acerca" },
   ]
 

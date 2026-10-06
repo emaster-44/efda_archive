@@ -1,14 +1,19 @@
 import fotosJson from "../../../data/fotografias.json"
-import sobresJson from "../../../data/sobres.json"
+import cajasJson from "../../../data/cajas.json"
+import indiceJson from "../../../data/indice.json"
 import configJson from "../../../data/config.json"
 
+/** Fotografía: unidad de archivo. Caja y sobre son unidades de resguardo. */
 export interface Foto {
   id: string
+  caja: string
   sobre: string
   numero: number | null
   titulo: string
-  titulo_sobre: string
   titulo_atribuido: boolean
+  sin_titulo: boolean
+  indice_n?: number
+  indice_titulo?: string
   anverso: string
   reverso: string
   archivo: string
@@ -40,20 +45,34 @@ export interface Foto {
 
 export interface Sobre {
   id: string
-  titulo: string
   cantidad: number
-  lectura_dudosa?: boolean
-  portada?: string
-  faltante?: boolean
+  portada: string
+}
+
+export interface Caja {
+  id: string
+  numero: number
+  etiqueta: string
+  cantidad: number
+  sobres: Sobre[]
+}
+
+export interface EntradaIndice {
+  n: number
+  titulo: string
+  lectura_dudosa: boolean
+  nota: string
+  fotos: string[]
 }
 
 export interface Faceta {
-  campo: keyof Foto
+  campo: string
   etiqueta: string
 }
 
 export const fotos = fotosJson as Foto[]
-export const sobres = sobresJson as Sobre[]
+export const cajas = cajasJson as Caja[]
+export const indice = indiceJson as EntradaIndice[]
 export const config = configJson as {
   archivo: Record<string, string>
   imagenes: { modo: "drive" | "local" | "ninguna"; ancho_miniatura: number; ancho_ficha: number }
@@ -62,7 +81,9 @@ export const config = configJson as {
 }
 
 export const fotoPorId = new Map(fotos.map((f) => [f.id, f]))
-export const sobrePorId = new Map(sobres.map((s) => [s.id, s]))
+export const cajaPorId = new Map(cajas.map((c) => [c.id, c]))
+export const cajaDeSobre = new Map(cajas.flatMap((c) => c.sobres.map((s) => [s.id, c] as const)))
+export const sobresEnOrden = cajas.flatMap((c) => c.sobres)
 export const fotosPorSobre = fotos.reduce((m, f) => {
   const l = m.get(f.sobre) ?? []
   l.push(f)
@@ -70,10 +91,21 @@ export const fotosPorSobre = fotos.reduce((m, f) => {
   return m
 }, new Map<string, Foto[]>())
 
-/** Número legible de sobre: "S030" -> "30", "S106b" -> "106 b" */
-export function numeroSobre(id: string) {
-  const m = id.match(/^S0*(\d+)([a-z]?)$/i)
-  return m ? `${m[1]}${m[2] ? " " + m[2] : ""}` : id
+/** "C01a20" -> "Caja 1" */
+export function nombreCaja(id: string) {
+  const c = cajaPorId.get(id)
+  return c ? `Caja ${c.numero}` : id
+}
+
+/** "C01a20" -> "Caja 1 · Sobres 01 a 20" */
+export function rotuloCaja(id: string) {
+  const c = cajaPorId.get(id)
+  return c ? `Caja ${c.numero} · ${c.etiqueta}` : id
+}
+
+/** Ubicación física legible: "Caja 1 (C01a20) › Sobre S20 › n.º 4" */
+export function ubicacion(f: Foto) {
+  return `${nombreCaja(f.caja)} (${f.caja}) › Sobre ${f.sobre}${f.numero ? ` › n.º ${f.numero}` : ""}`
 }
 
 export function urlImagen(f: Foto, lado: "anverso" | "reverso", ancho: number): string | null {
@@ -94,16 +126,17 @@ export function urlImagen(f: Foto, lado: "anverso" | "reverso", ancho: number): 
 export function fechaLegible(f: Foto) {
   if (!f.fecha) return "s. f."
   const base = f.fecha.replace(/[~?]/g, "").replace("/", "–")
-  const calif =
-    f.fecha_calificador === "circa" ? "ca. " : ""
+  const calif = f.fecha_calificador === "circa" ? "ca. " : ""
   const duda = f.fecha_calificador === "incierta" ? " (?)" : ""
   return `${calif}${base}${duda}`
 }
 
 export const estadisticas = {
   fotos: fotos.length,
-  sobres: sobres.filter((s) => !s.faltante).length,
+  cajas: cajas.length,
+  sobres: sobresEnOrden.length,
   reversos: fotos.filter((f) => f.reverso).length,
   catalogadas: fotos.filter((f) => f.estado_ficha !== "pendiente").length,
-  faltantes: sobres.filter((s) => s.faltante).length,
+  vinculadasIndice: indice.filter((e) => e.fotos.length).length,
+  entradasIndice: indice.length,
 }

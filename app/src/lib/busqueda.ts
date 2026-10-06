@@ -1,5 +1,5 @@
 import MiniSearch from "minisearch"
-import { fotos, fotoPorId, sobrePorId, numeroSobre, type Foto } from "./datos"
+import { fotos, fotoPorId, rotuloCaja, type Foto } from "./datos"
 
 const VACIAS = new Set(
   "a al con de del el en la las los o para por que se su sus un una y e u".split(" "),
@@ -12,7 +12,7 @@ export function normalizar(t: string) {
 const indice = new MiniSearch<Foto>({
   idField: "id",
   fields: [
-    "id", "titulo", "titulo_sobre", "descripcion", "personas", "lugar", "evento",
+    "id", "titulo", "indice_titulo", "descripcion", "personas", "lugar", "evento",
     "materias", "fotografo", "inscripciones_reverso", "nota_historica", "nota_biografica",
   ],
   extractField: (doc, campo) => {
@@ -27,7 +27,7 @@ const indice = new MiniSearch<Foto>({
     prefix: true,
     fuzzy: 0.18,
     combineWith: "AND",
-    boost: { id: 6, titulo: 3, personas: 3, evento: 2, titulo_sobre: 2, lugar: 1.5 },
+    boost: { id: 6, titulo: 3, personas: 3, evento: 2, indice_titulo: 2, lugar: 1.5 },
   },
 })
 indice.addAll(fotos)
@@ -74,6 +74,7 @@ export function paramsDesdeConsulta(c: Partial<Consulta>) {
 }
 
 function valores(f: Foto, campo: string): string[] {
+  if (campo === "vinculo_indice") return [f.indice_n ? "Vinculada a una entrada" : "Sin vincular"]
   const v = (f as unknown as Record<string, unknown>)[campo]
   if (v == null || v === "") return []
   return Array.isArray(v) ? (v as string[]) : [String(v)]
@@ -84,8 +85,8 @@ export function ejecutar(c: Consulta): Foto[] {
   const q = c.q.trim()
   if (!q) {
     base = fotos
-  } else if (/^EFDA-F-/i.test(q) && fotoPorId.has(q.toUpperCase())) {
-    base = [fotoPorId.get(q.toUpperCase())!]
+  } else if (fotoPorId.has(q)) {
+    base = [fotoPorId.get(q)!]
   } else {
     base = indice.search(q).map((r) => fotoPorId.get(r.id as string)!)
   }
@@ -105,7 +106,9 @@ export function ejecutar(c: Consulta): Foto[] {
   })
 
   if (c.orden === "signatura" || (c.orden === "relevancia" && !q)) {
-    return filtradas.slice().sort((a, b) => a.id.localeCompare(b.id))
+    // Orden de precedencia del fondo: caja › sobre › número (el orden de `fotos`)
+    const pos = new Map(fotos.map((f, i) => [f.id, i]))
+    return filtradas.slice().sort((a, b) => pos.get(a.id)! - pos.get(b.id)!)
   }
   if (c.orden === "fecha") {
     return filtradas
@@ -125,15 +128,13 @@ export function contarFaceta(resultados: Foto[], campo: string): ValorFaceta[] {
   const cuenta = new Map<string, number>()
   for (const f of resultados) for (const v of valores(f, campo)) cuenta.set(v, (cuenta.get(v) ?? 0) + 1)
   const etiqueta = (v: string) => {
-    if (campo === "sobre") {
-      const s = sobrePorId.get(v)
-      return `${numeroSobre(v)} · ${s?.titulo || "sin título en el índice"}`
-    }
+    if (campo === "caja") return rotuloCaja(v)
     if (campo === "estado_ficha") return v.charAt(0).toUpperCase() + v.slice(1)
     return v
   }
   const lista = [...cuenta].map(([valor, cantidad]) => ({ valor, etiqueta: etiqueta(valor), cantidad }))
-  if (campo === "sobre" || campo === "decada") return lista.sort((a, b) => a.valor.localeCompare(b.valor))
+  if (campo === "caja") return lista.sort((a, b) => a.etiqueta.localeCompare(b.etiqueta, "es", { numeric: true }))
+  if (campo === "decada") return lista.sort((a, b) => a.valor.localeCompare(b.valor))
   return lista.sort((a, b) => b.cantidad - a.cantidad || a.etiqueta.localeCompare(b.etiqueta))
 }
 

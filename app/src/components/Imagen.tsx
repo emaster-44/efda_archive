@@ -27,7 +27,7 @@ export function Imagen({ foto, lado = "anverso", ancho, className, contener, alt
         role="img"
         aria-label={`${foto.id}: imagen no disponible`}
       >
-        <span className="signatura text-muted-foreground">{foto.id.replace("EFDA-F-", "")}</span>
+        <span className="signatura text-muted-foreground">{foto.id}</span>
         <span className="text-[0.68rem] leading-tight text-muted-foreground/80">
           {lado === "reverso" ? "reverso" : "imagen"} no disponible
         </span>
