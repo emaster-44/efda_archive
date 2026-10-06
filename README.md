@@ -28,7 +28,7 @@ Prototipo del proyecto *El dispositivo expográfico de El Fogón de los Arrieros
 | Sobre | `S20` | |
 | Fotografía | `C01a20-S20-0004` | Caja-sobre-número, con el nombre de carpeta de la caja (archivo digital: `C1a20-S20-0004.jpg`; reverso con sufijo `r`). |
 
-La **entrada N del índice manuscrito corresponde al sobre SN**. Se registra en la columna `indice_n` de cada fotografía del sobre: por ejemplo, las fotografías del sobre S24 llevan `indice_n` = 24 («Teatro: "El café de Pomona"»). Los sobres desdoblados (S106b, S141b) van con su número. Para registrar una fotografía fuera de lugar, se corrige su `indice_n` a mano.
+La **entrada N del índice manuscrito corresponde al sobre SN**. Se registra en la columna `indice_n` de cada fotografía del sobre: por ejemplo, las fotografías del sobre S24 llevan `indice_n` = 24 («Teatro: "El café de Pomona"»). Los sobres desdoblados (S106b, S141b) van con su número. Para registrar una fotografía fuera de lugar, se corrige su `indice_n` a mano y se anota en `observaciones`: por ejemplo, `C101a119-S106-0016` lleva «Sobre 19» en el reverso, así que tiene `indice_n` = 19 y sigue guardada en S106.
 
 ## Flujo de trabajo
 
