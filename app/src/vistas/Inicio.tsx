@@ -103,13 +103,12 @@ export function Inicio() {
           <p className="etiqueta">Fuente descriptiva</p>
           <h2 className="mt-2 text-2xl font-semibold">El índice manuscrito</h2>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            El archivo conserva un <em>Índice Fotografías</em> escrito a mano que describe fotografías
-            individuales: personas, visitas, funciones de teatro, homenajes. Durante la catalogación cada
-            entrada se vincula con su fotografía; una vez vinculada, la ficha toma de allí su título
-            atribuido, entre corchetes.
+            El archivo conserva un <em>Índice Fotografías</em> escrito a mano: personas, visitas, funciones de
+            teatro, homenajes. Cada entrada corresponde a un sobre (la entrada N describe el sobre SN) y sus
+            fotografías toman de allí su título atribuido, entre corchetes.
           </p>
           <p className="mt-3 text-sm text-muted-foreground">
-            Entradas vinculadas: {estadisticas.vinculadasIndice} de {estadisticas.entradasIndice}.
+            Entradas con sobre en el fondo: {estadisticas.vinculadasIndice} de {estadisticas.entradasIndice}.
           </p>
           <a href="#/indice" className="foco mt-5 inline-flex items-center gap-1.5 rounded-sm text-sm font-medium text-primary hover:underline">
             Ver el índice completo <ArrowRight className="h-4 w-4" />
@@ -121,12 +120,12 @@ export function Inicio() {
             return (
               <li key={e.n} className="renglon">
                 <a
-                  href={foto ? enlace.foto(foto.id) : "#/indice"}
+                  href={foto ? enlace.sobre(e.sobres[0]) : "#/indice"}
                   className="flex items-baseline gap-3 py-1.5 hover:text-primary"
                 >
                   <span className="w-8 shrink-0 text-right font-mono text-xs tabular-nums text-muted-foreground">{e.n}</span>
                   <span className="flex-1 italic">{e.titulo}</span>
-                  {foto && <span className="signatura text-xs text-primary">{foto.id}</span>}
+                  {foto && <span className="signatura text-xs text-primary">{e.sobres[0]} · {e.fotos.length}</span>}
                 </a>
               </li>
             )

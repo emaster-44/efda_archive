@@ -32,10 +32,10 @@ export function Acerca() {
           sobre S20, fotografía 4), que sirve también como enlace permanente para citar.
         </li>
         <li>
-          <strong className="text-foreground">Índice manuscrito.</strong> El <em>Índice Fotografías</em> describe
-          fotografías individuales. Cuando una entrada se vincula con su fotografía, la ficha toma de ella un
-          título atribuido, entre corchetes. Si la fotografía no tiene entrada en el índice, el título
-          atribuido se toma de la leyenda manuscrita del reverso.
+          <strong className="text-foreground">Índice manuscrito.</strong> Cada entrada del <em>Índice
+          Fotografías</em> corresponde a un sobre: la entrada N describe el sobre SN. Las fotografías del sobre
+          toman de ella su título atribuido, entre corchetes. Si no hay entrada (sobres 120 a 149), el título
+          atribuido se toma de la leyenda manuscrita del reverso, que la ficha muestra siempre.
         </li>
         <li>
           <strong className="text-foreground">Anverso y reverso.</strong> Cada ficha presenta las dos caras. Los
@@ -62,7 +62,7 @@ export function Acerca() {
           ["Fotografías inventariadas", estadisticas.inventario.toLocaleString("es-AR")],
           ...(estadisticas.seleccion ? [["Publicadas en el piloto", estadisticas.fotos]] : []),
           ["Cajas · sobres", `${estadisticas.cajas} · ${estadisticas.sobres}`],
-          ["Entradas del índice vinculadas", `${estadisticas.vinculadasIndice} / ${estadisticas.entradasIndice}`],
+          ["Entradas del índice con sobre", `${estadisticas.vinculadasIndice} / ${estadisticas.entradasIndice}`],
           ["Fichas catalogadas", estadisticas.catalogadas],
         ].map(([k, v]) => (
           <div key={k} className="bg-card px-4 py-3">

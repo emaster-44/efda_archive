@@ -52,8 +52,8 @@
       "etiqueta": "Fotógrafo/a"
     },
     {
-      "campo": "vinculo_indice",
-      "etiqueta": "Índice manuscrito"
+      "campo": "indice_titulo",
+      "etiqueta": "Índice manuscrito (sobre)"
     },
     {
       "campo": "estado_ficha",

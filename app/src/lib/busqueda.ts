@@ -13,7 +13,7 @@ const indice = new MiniSearch<Foto>({
   idField: "id",
   fields: [
     "id", "titulo", "indice_titulo", "descripcion", "personas", "lugar", "evento",
-    "materias", "fotografo", "inscripciones_reverso", "nota_historica", "nota_biografica",
+    "materias", "fotografo", "leyenda_reverso", "inscripciones_reverso", "nota_historica", "nota_biografica",
   ],
   extractField: (doc, campo) => {
     const v = (doc as unknown as Record<string, unknown>)[campo]
@@ -27,7 +27,7 @@ const indice = new MiniSearch<Foto>({
     prefix: true,
     fuzzy: 0.18,
     combineWith: "AND",
-    boost: { id: 6, titulo: 3, personas: 3, evento: 2, indice_titulo: 2, lugar: 1.5 },
+    boost: { id: 6, titulo: 3, personas: 3, evento: 2, indice_titulo: 2, leyenda_reverso: 2, lugar: 1.5 },
   },
 })
 indice.addAll(fotos)

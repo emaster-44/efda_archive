@@ -12,6 +12,8 @@ Reglas:
 - config.json → publicacion.criterio: "con_datos" publica solo las fotos con
   título catalogado, entrada del índice o información del reverso
   (leyenda o inscripciones); "todas" publica el inventario completo.
+- Índice manuscrito: la entrada N corresponde al sobre SN (indice_n = N en todas
+  las fotos del sobre; los sobres desdoblados, p. ej. S106b, van con su número).
 - Título, en este orden: el catalogado; el de la entrada del índice manuscrito
   vinculada (indice_n); la leyenda transcripta del reverso (leyenda_reverso).
   Los dos últimos se marcan como atribuidos y registran su fuente.
@@ -174,13 +176,16 @@ def main(entrada):
         c["cantidad"] = sum(s["cantidad"] for s in c["sobres"])
 
     # Índice manuscrito con sus vínculos
-    vinculos = {}
+    vinculos, sobres_entrada = {}, {}
     for f in fotos:
         if f.get("indice_n"):
             vinculos.setdefault(f["indice_n"], []).append(f["id"])
+            s = sobres_entrada.setdefault(f["indice_n"], [])
+            if f["sobre"] not in s:
+                s.append(f["sobre"])
     lista_indice = [
         {"n": n, "titulo": e["titulo"], "lectura_dudosa": e["lectura_dudosa"] == "si",
-         "nota": e["nota"], "fotos": vinculos.get(n, [])}
+         "nota": e["nota"], "fotos": vinculos.get(n, []), "sobres": sobres_entrada.get(n, [])}
         for n, e in sorted(indice.items())
     ]
 

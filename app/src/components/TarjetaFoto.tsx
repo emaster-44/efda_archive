@@ -33,6 +33,9 @@ export function TarjetaFoto({ foto, mostrarSobre = true }: { foto: Foto; mostrar
             </>
           )}
         </p>
+        {foto.titulo_fuente === "indice" && foto.leyenda_reverso && (
+          <p className="line-clamp-2 text-xs leading-snug text-foreground/80">{foto.leyenda_reverso}</p>
+        )}
         <p className="text-xs text-muted-foreground">
           {mostrarSobre && <>{nombreCaja(foto.caja)} · {foto.sobre} · </>}
           {fechaLegible(foto)}

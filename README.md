@@ -12,7 +12,7 @@ Prototipo del proyecto *El dispositivo expográfico de El Fogón de los Arrieros
 |---|---|
 | `index.html` | Sitio empaquetado (un solo archivo, con los datos incluidos). Es lo que publica GitHub Pages. |
 | `app/` | Código fuente (React, TypeScript, Tailwind y shadcn/ui). |
-| `data/fuentes/indice_manuscrito.csv` | Transcripción del *Índice Fotografías* manuscrito (119 entradas, una por fotografía), con lecturas dudosas señaladas. |
+| `data/fuentes/indice_manuscrito.csv` | Transcripción del *Índice Fotografías* manuscrito (119 entradas; la entrada N describe el sobre SN), con lecturas dudosas señaladas. |
 | `data/fuentes/inventario_base.csv` | Inventario: una fila por fotografía, con anverso y reverso emparejados (copia de la planilla de catalogación). |
 | `data/fotografias.json`, `data/cajas.json`, `data/indice.json` | Datos que consume el sitio (generados). |
 | `data/config.json` | Nombre del archivo, modo de imágenes, facetas y paginación. |
@@ -28,7 +28,7 @@ Prototipo del proyecto *El dispositivo expográfico de El Fogón de los Arrieros
 | Sobre | `S20` | |
 | Fotografía | `C01a20-S20-0004` | Caja-sobre-número, con el nombre de carpeta de la caja (archivo digital: `C1a20-S20-0004.jpg`; reverso con sufijo `r`). |
 
-El índice manuscrito describe **fotografías individuales**. El vínculo entre cada entrada y su fotografía se carga a mano en la columna `indice_n` (por ejemplo, entrada 24 → `C01a20-S20-0004`).
+La **entrada N del índice manuscrito corresponde al sobre SN**. Se registra en la columna `indice_n` de cada fotografía del sobre: por ejemplo, las fotografías del sobre S24 llevan `indice_n` = 24 («Teatro: "El café de Pomona"»). Los sobres desdoblados (S106b, S141b) van con su número. Para registrar una fotografía fuera de lugar, se corrige su `indice_n` a mano.
 
 ## Flujo de trabajo
 
@@ -40,7 +40,7 @@ El índice manuscrito describe **fotografías individuales**. El vínculo entre 
 ### Reglas de catalogación
 
 - **Signatura:** `C01a20-S20-0004`. Es estable: no se cambia.
-- **`indice_n`:** el número de la entrada del índice manuscrito que describe la foto. `indice_titulo` se completa solo.
+- **`indice_n`:** el número de la entrada del índice manuscrito que describe el sobre de la foto (igual al número de sobre). `indice_titulo` se completa solo.
 - **Fecha:** formato EDTF, por ejemplo `1956`, `1956-04`, `1950/1955`, `~1956` (circa), `1956?` (incierta) o `195X` (década).
 - **Listas** (personas, materias, documentos relacionados, bibliografía): valores separados con `;`, escritos siempre de la misma forma.
 - **Título:** si queda vacío, se atribuye (entre corchetes) en este orden: el título de la entrada del índice (`indice_n`) y, si no hay entrada, la leyenda del reverso (`leyenda_reverso`). La ficha indica de dónde se tomó. Sin ninguna de las dos, figura como *Sin título*.
