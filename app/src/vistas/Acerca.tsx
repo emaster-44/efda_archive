@@ -34,11 +34,13 @@ export function Acerca() {
         <li>
           <strong className="text-foreground">Índice manuscrito.</strong> El <em>Índice Fotografías</em> describe
           fotografías individuales. Cuando una entrada se vincula con su fotografía, la ficha toma de ella un
-          título atribuido, entre corchetes.
+          título atribuido, entre corchetes. Si la fotografía no tiene entrada en el índice, el título
+          atribuido se toma de la leyenda manuscrita del reverso.
         </li>
         <li>
-          <strong className="text-foreground">Anverso y reverso.</strong> Los dorsos digitalizados se vinculan
-          a su anverso: las inscripciones manuscritas son fuente documental.
+          <strong className="text-foreground">Anverso y reverso.</strong> Cada ficha presenta las dos caras. Los
+          dorsos se transcriben (leyendas, sellos de estudio, fechas y anotaciones) porque son fuente
+          documental; cuando un reverso todavía no está digitalizado, la ficha lo indica.
         </li>
         <li>
           <strong className="text-foreground">Enriquecimiento progresivo.</strong> La ficha prevé campos de

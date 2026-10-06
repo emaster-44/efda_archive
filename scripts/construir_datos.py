@@ -9,8 +9,9 @@ Salida:   data/fotografias.json, data/cajas.json, data/indice.json
 Reglas:
 - Orden de precedencia: Caja -> Sobre -> Fotografía (unidad de archivo).
 - Se excluyen las filas con publicable = "no" y las que no tienen signatura.
-- Título: el catalogado; si falta y la foto está vinculada a una entrada del
-  índice manuscrito (indice_n), el de esa entrada, marcado como atribuido.
+- Título, en este orden: el catalogado; el de la entrada del índice manuscrito
+  vinculada (indice_n); la leyenda transcripta del reverso (leyenda_reverso).
+  Los dos últimos se marcan como atribuidos y registran su fuente.
 - Fecha en EDTF (1956, 1956-04, 1950/1955, ~1956, 1956?, 195X).
 - Listas (personas, materias, documentos_relacionados, bibliografia) separadas con ";".
 
@@ -30,7 +31,7 @@ LISTAS = ("personas", "materias", "documentos_relacionados", "bibliografia")
 TEXTO = (
     "descripcion", "lugar", "evento", "fotografo", "tecnica", "soporte",
     "dimensiones", "inscripciones_reverso", "estado_conservacion", "nota_historica",
-    "nota_biografica", "derechos", "observaciones",
+    "nota_biografica", "derechos", "observaciones", "leyenda_reverso",
 )
 
 
@@ -80,6 +81,15 @@ def main(entrada):
         indice_n = int(float(n_raw)) if re.fullmatch(r"\d+(\.0)?", n_raw) else None
         entrada_indice = indice.get(indice_n) if indice_n else None
         titulo = (r.get("titulo") or "").strip()
+        leyenda = (r.get("leyenda_reverso") or "").strip()
+        if titulo:
+            titulo_final, fuente = titulo, None
+        elif entrada_indice:
+            titulo_final, fuente = entrada_indice["titulo"], "indice"
+        elif leyenda:
+            titulo_final, fuente = leyenda, "reverso"
+        else:
+            titulo_final, fuente = "Sin título", None
 
         foto = {
             "id": sig,
@@ -90,10 +100,12 @@ def main(entrada):
             "reverso": (r.get("drive_id_reverso") or "").strip(),
             "archivo": (r.get("archivo_anverso") or "").strip(),
             "estado_ficha": (r.get("estado_ficha") or "pendiente").strip(),
-            "titulo": titulo or (entrada_indice["titulo"] if entrada_indice else "Sin título"),
-            "titulo_atribuido": not titulo and bool(entrada_indice),
-            "sin_titulo": not titulo and not entrada_indice,
+            "titulo": titulo_final,
+            "titulo_atribuido": fuente is not None,
+            "sin_titulo": not titulo and fuente is None,
         }
+        if fuente:
+            foto["titulo_fuente"] = fuente
         if entrada_indice:
             foto["indice_n"] = indice_n
             foto["indice_titulo"] = entrada_indice["titulo"]
@@ -158,9 +170,12 @@ def main(entrada):
     (salida / "cajas.json").write_text(json.dumps(lista_cajas, ensure_ascii=False, indent=1), encoding="utf-8")
     (salida / "indice.json").write_text(json.dumps(lista_indice, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    fuentes = {k: sum(1 for f in fotos if f.get("titulo_fuente") == k) for k in ("indice", "reverso")}
     print(f"{len(fotos)} fotografías · {len(lista_cajas)} cajas · "
           f"{sum(len(c['sobres']) for c in lista_cajas)} sobres · "
-          f"{sum(1 for e in lista_indice if e['fotos'])}/{len(lista_indice)} entradas del índice vinculadas")
+          f"{sum(1 for e in lista_indice if e['fotos'])}/{len(lista_indice)} entradas del índice vinculadas · "
+          f"títulos del índice: {fuentes['indice']}, del reverso: {fuentes['reverso']} · "
+          f"reversos digitalizados: {sum(1 for f in fotos if f['reverso'])}")
 
 
 if __name__ == "__main__":
