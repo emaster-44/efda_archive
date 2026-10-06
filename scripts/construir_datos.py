@@ -9,6 +9,9 @@ Salida:   data/fotografias.json, data/cajas.json, data/indice.json
 Reglas:
 - Orden de precedencia: Caja -> Sobre -> Fotografía (unidad de archivo).
 - Se excluyen las filas con publicable = "no" y las que no tienen signatura.
+- config.json → publicacion.criterio: "con_datos" publica solo las fotos con
+  título catalogado, entrada del índice o información del reverso
+  (leyenda o inscripciones); "todas" publica el inventario completo.
 - Título, en este orden: el catalogado; el de la entrada del índice manuscrito
   vinculada (indice_n); la leyenda transcripta del reverso (leyenda_reverso).
   Los dos últimos se marcan como atribuidos y registran su fuente.
@@ -26,6 +29,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 ENTRADA = RAIZ / "data/fuentes/inventario_base.csv"
 INDICE = RAIZ / "data/fuentes/indice_manuscrito.csv"
+CONFIG = RAIZ / "data/config.json"
 
 LISTAS = ("personas", "materias", "documentos_relacionados", "bibliografia")
 TEXTO = (
@@ -66,7 +70,16 @@ def etiqueta_caja(nombre):
     return f"Sobres {int(m[1]):02d} a {int(m[2]):02d}" if m else nombre
 
 
+def tiene_datos(f):
+    """Criterio "con_datos": título propio, entrada del índice o datos del reverso."""
+    return bool(
+        not f["sin_titulo"] or f.get("indice_n")
+        or f.get("leyenda_reverso") or f.get("inscripciones_reverso")
+    )
+
+
 def main(entrada):
+    criterio = json.loads(CONFIG.read_text(encoding="utf-8")).get("publicacion", {}).get("criterio", "todas")
     with INDICE.open(encoding="utf-8") as f:
         indice = {int(r["n"]): r for r in csv.DictReader(f)}
     with Path(entrada).open(encoding="utf-8") as f:
@@ -141,6 +154,13 @@ def main(entrada):
 
     fotos.sort(key=lambda f: (clave_sobre(f["sobre"]), f["numero"] or 0, f["id"]))
 
+    # El número de caja sale del inventario completo, para que no cambie al filtrar
+    nombres_caja = sorted({f["caja"] for f in fotos}, key=lambda c: int(re.match(r"C0*(\d+)", c)[1]))
+    numero_caja = {c: i for i, c in enumerate(nombres_caja, 1)}
+    inventario = len(fotos)
+    if criterio == "con_datos":
+        fotos = [f for f in fotos if tiene_datos(f)]
+
     # Cajas -> sobres (ubicación física)
     cajas = {}
     for f in fotos:
@@ -148,8 +168,8 @@ def main(entrada):
         s = c["sobres"].setdefault(f["sobre"], {"id": f["sobre"], "cantidad": 0, "portada": f["id"]})
         s["cantidad"] += 1
     lista_cajas = sorted(cajas.values(), key=lambda c: int(re.match(r"C0*(\d+)", c["id"])[1]))
-    for i, c in enumerate(lista_cajas, 1):
-        c["numero"] = i
+    for c in lista_cajas:
+        c["numero"] = numero_caja[c["id"]]
         c["sobres"] = sorted(c["sobres"].values(), key=lambda s: clave_sobre(s["id"]))
         c["cantidad"] = sum(s["cantidad"] for s in c["sobres"])
 
@@ -169,9 +189,13 @@ def main(entrada):
         json.dumps(fotos, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (salida / "cajas.json").write_text(json.dumps(lista_cajas, ensure_ascii=False, indent=1), encoding="utf-8")
     (salida / "indice.json").write_text(json.dumps(lista_indice, ensure_ascii=False, indent=1), encoding="utf-8")
+    (salida / "resumen.json").write_text(json.dumps({
+        "criterio": criterio, "inventario": inventario, "publicadas": len(fotos),
+        "cajas_inventario": len(nombres_caja),
+    }, ensure_ascii=False, indent=1), encoding="utf-8")
 
     fuentes = {k: sum(1 for f in fotos if f.get("titulo_fuente") == k) for k in ("indice", "reverso")}
-    print(f"{len(fotos)} fotografías · {len(lista_cajas)} cajas · "
+    print(f"{len(fotos)} de {inventario} fotografías publicadas (criterio: {criterio}) · {len(lista_cajas)} cajas · "
           f"{sum(len(c['sobres']) for c in lista_cajas)} sobres · "
           f"{sum(1 for e in lista_indice if e['fotos'])}/{len(lista_indice)} entradas del índice vinculadas · "
           f"títulos del índice: {fuentes['indice']}, del reverso: {fuentes['reverso']} · "

@@ -9,7 +9,7 @@ const ACCESOS = [
   { etiqueta: "Mena", q: "mena" },
   { etiqueta: "Aldo Boglietti", q: "aldo" },
   { etiqueta: "Visitas", q: "visita" },
-  { etiqueta: "Murales", q: "mural" },
+  { etiqueta: "Hilda Torres Varela", q: "hilda" },
 ]
 
 export function Inicio() {
@@ -30,9 +30,19 @@ export function Inicio() {
               Archivo fotográfico de <em className="font-normal text-primary">El Fogón de los Arrieros</em>
             </h1>
             <p className="mt-5 max-w-xl text-[1.05rem] leading-relaxed text-muted-foreground">
-              {estadisticas.fotos.toLocaleString("es-AR")} fotografías conservadas en {estadisticas.cajas} cajas
-              y {estadisticas.sobres} sobres. Cada fotografía tiene su ficha, su signatura y una cita lista para
-              usar en investigación.
+              {estadisticas.seleccion ? (
+                <>
+                  Selección piloto: {estadisticas.fotos.toLocaleString("es-AR")} fotografías con título o datos
+                  manuscritos del reverso, de las {estadisticas.inventario.toLocaleString("es-AR")} inventariadas
+                  en {estadisticas.cajas} cajas.
+                </>
+              ) : (
+                <>
+                  {estadisticas.fotos.toLocaleString("es-AR")} fotografías conservadas en {estadisticas.cajas} cajas
+                  y {estadisticas.sobres} sobres.
+                </>
+              )}{" "}
+              Cada fotografía tiene su ficha, su signatura y una cita lista para usar en investigación.
             </p>
             <div className="mt-7 flex flex-wrap gap-2">
               {ACCESOS.map((a) => (
@@ -73,7 +83,7 @@ export function Inicio() {
       <section className="mx-auto max-w-7xl px-4 py-12 md:px-6">
         <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-sm border bg-border md:grid-cols-4">
           {[
-            ["Fotografías", estadisticas.fotos],
+            [estadisticas.seleccion ? "Fotografías en el piloto" : "Fotografías", estadisticas.seleccion ? `${estadisticas.fotos} / ${estadisticas.inventario.toLocaleString("es-AR")}` : estadisticas.fotos],
             ["Cajas · sobres", `${estadisticas.cajas} · ${estadisticas.sobres}`],
             ["Con reverso digitalizado", estadisticas.reversos],
             ["Fichas catalogadas", estadisticas.catalogadas],

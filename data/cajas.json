@@ -5,107 +5,72 @@
   "sobres": [
    {
     "id": "S01",
-    "cantidad": 44,
-    "portada": "C01a20-S01-0001"
+    "cantidad": 6,
+    "portada": "C01a20-S01-0039"
    },
    {
     "id": "S02",
-    "cantidad": 9,
-    "portada": "C01a20-S02-0001"
+    "cantidad": 7,
+    "portada": "C01a20-S02-0003"
    },
    {
     "id": "S03",
-    "cantidad": 21,
-    "portada": "C01a20-S03-0001"
+    "cantidad": 2,
+    "portada": "C01a20-S03-0020"
    },
    {
     "id": "S04",
-    "cantidad": 7,
-    "portada": "C01a20-S04-0001"
-   },
-   {
-    "id": "S05",
-    "cantidad": 1,
-    "portada": "C01a20-S05-0001"
-   },
-   {
-    "id": "S06",
-    "cantidad": 7,
-    "portada": "C01a20-S06-0001"
-   },
-   {
-    "id": "S07",
-    "cantidad": 13,
-    "portada": "C01a20-S07-0001"
+    "cantidad": 2,
+    "portada": "C01a20-S04-0006"
    },
    {
     "id": "S08",
-    "cantidad": 10,
-    "portada": "C01a20-S08-0001"
+    "cantidad": 2,
+    "portada": "C01a20-S08-0007"
    },
    {
     "id": "S09",
-    "cantidad": 16,
-    "portada": "C01a20-S09-0001"
-   },
-   {
-    "id": "S10",
-    "cantidad": 7,
-    "portada": "C01a20-S10-0001"
+    "cantidad": 4,
+    "portada": "C01a20-S09-0013"
    },
    {
     "id": "S11",
-    "cantidad": 10,
-    "portada": "C01a20-S11-0001"
+    "cantidad": 3,
+    "portada": "C01a20-S11-0008"
    },
    {
     "id": "S12",
-    "cantidad": 26,
-    "portada": "C01a20-S12-0001"
-   },
-   {
-    "id": "S13",
-    "cantidad": 2,
-    "portada": "C01a20-S13-0001"
+    "cantidad": 1,
+    "portada": "C01a20-S12-0026"
    },
    {
     "id": "S14",
-    "cantidad": 3,
-    "portada": "C01a20-S14-0001"
+    "cantidad": 2,
+    "portada": "C01a20-S14-0002"
    },
    {
     "id": "S15",
-    "cantidad": 15,
-    "portada": "C01a20-S15-0001"
+    "cantidad": 2,
+    "portada": "C01a20-S15-0014"
    },
    {
     "id": "S16",
-    "cantidad": 5,
-    "portada": "C01a20-S16-0001"
-   },
-   {
-    "id": "S17",
-    "cantidad": 3,
-    "portada": "C01a20-S17-0001"
-   },
-   {
-    "id": "S18",
-    "cantidad": 21,
-    "portada": "C01a20-S18-0001"
+    "cantidad": 2,
+    "portada": "C01a20-S16-0004"
    },
    {
     "id": "S19",
-    "cantidad": 60,
-    "portada": "C01a20-S19-0001"
+    "cantidad": 2,
+    "portada": "C01a20-S19-0059"
    },
    {
     "id": "S20",
-    "cantidad": 8,
-    "portada": "C01a20-S20-0001"
+    "cantidad": 2,
+    "portada": "C01a20-S20-0004"
    }
   ],
   "numero": 1,
-  "cantidad": 288
+  "cantidad": 37
  },
  {
   "id": "C21a40",
@@ -113,573 +78,268 @@
   "sobres": [
    {
     "id": "S21",
-    "cantidad": 4,
-    "portada": "C21a40-S21-0001"
+    "cantidad": 1,
+    "portada": "C21a40-S21-0004"
    },
    {
     "id": "S22",
-    "cantidad": 5,
-    "portada": "C21a40-S22-0001"
+    "cantidad": 1,
+    "portada": "C21a40-S22-0005"
    },
    {
     "id": "S23",
-    "cantidad": 2,
-    "portada": "C21a40-S23-0001"
+    "cantidad": 1,
+    "portada": "C21a40-S23-0002"
    },
    {
     "id": "S24",
-    "cantidad": 28,
-    "portada": "C21a40-S24-0001"
+    "cantidad": 2,
+    "portada": "C21a40-S24-0027"
    },
    {
     "id": "S25",
-    "cantidad": 7,
-    "portada": "C21a40-S25-0001"
+    "cantidad": 2,
+    "portada": "C21a40-S25-0006"
    },
    {
     "id": "S26",
-    "cantidad": 52,
-    "portada": "C21a40-S26-0001"
-   },
-   {
-    "id": "S27",
-    "cantidad": 5,
-    "portada": "C21a40-S27-0001"
-   },
-   {
-    "id": "S29",
-    "cantidad": 11,
-    "portada": "C21a40-S29-0001"
+    "cantidad": 4,
+    "portada": "C21a40-S26-0049"
    },
    {
     "id": "S30",
-    "cantidad": 16,
-    "portada": "C21a40-S30-0001"
+    "cantidad": 3,
+    "portada": "C21a40-S30-0014"
    },
    {
     "id": "S31",
-    "cantidad": 12,
-    "portada": "C21a40-S31-0001"
+    "cantidad": 2,
+    "portada": "C21a40-S31-0011"
    },
    {
     "id": "S32",
-    "cantidad": 7,
-    "portada": "C21a40-S32-0001"
+    "cantidad": 2,
+    "portada": "C21a40-S32-0006"
    },
    {
     "id": "S33",
-    "cantidad": 3,
-    "portada": "C21a40-S33-0001"
-   },
-   {
-    "id": "S34",
-    "cantidad": 16,
-    "portada": "C21a40-S34-0001"
+    "cantidad": 2,
+    "portada": "C21a40-S33-0002"
    },
    {
     "id": "S35",
-    "cantidad": 26,
-    "portada": "C21a40-S35-0001"
-   },
-   {
-    "id": "S36",
-    "cantidad": 9,
-    "portada": "C21a40-S36-0001"
-   },
-   {
-    "id": "S37",
-    "cantidad": 7,
-    "portada": "C21a40-S37-0001"
+    "cantidad": 6,
+    "portada": "C21a40-S35-0002"
    },
    {
     "id": "S38",
-    "cantidad": 20,
-    "portada": "C21a40-S38-0001"
+    "cantidad": 2,
+    "portada": "C21a40-S38-0018"
    },
    {
     "id": "S39",
-    "cantidad": 12,
-    "portada": "C21a40-S39-0001"
-   },
-   {
-    "id": "S40",
-    "cantidad": 5,
-    "portada": "C21a40-S40-0001"
+    "cantidad": 1,
+    "portada": "C21a40-S39-0012"
    }
   ],
   "numero": 2,
-  "cantidad": 247
+  "cantidad": 29
  },
  {
   "id": "C41a60",
   "etiqueta": "Sobres 41 a 60",
   "sobres": [
    {
-    "id": "S41",
-    "cantidad": 10,
-    "portada": "C41a60-S41-0001"
-   },
-   {
-    "id": "S42",
-    "cantidad": 12,
-    "portada": "C41a60-S42-0001"
-   },
-   {
-    "id": "S43",
-    "cantidad": 7,
-    "portada": "C41a60-S43-0001"
-   },
-   {
     "id": "S44",
-    "cantidad": 20,
-    "portada": "C41a60-S44-0001"
-   },
-   {
-    "id": "S45",
-    "cantidad": 50,
-    "portada": "C41a60-S45-0001"
+    "cantidad": 4,
+    "portada": "C41a60-S44-0017"
    },
    {
     "id": "S46",
-    "cantidad": 30,
-    "portada": "C41a60-S46-0001"
+    "cantidad": 2,
+    "portada": "C41a60-S46-0025"
    },
    {
     "id": "S47",
-    "cantidad": 10,
-    "portada": "C41a60-S47-0001"
+    "cantidad": 1,
+    "portada": "C41a60-S47-0010"
    },
    {
     "id": "S48",
-    "cantidad": 22,
-    "portada": "C41a60-S48-0001"
+    "cantidad": 2,
+    "portada": "C41a60-S48-0002"
    },
    {
     "id": "S49",
-    "cantidad": 8,
-    "portada": "C41a60-S49-0001"
+    "cantidad": 1,
+    "portada": "C41a60-S49-0002"
    },
    {
     "id": "S50",
-    "cantidad": 16,
-    "portada": "C41a60-S50-0001"
+    "cantidad": 1,
+    "portada": "C41a60-S50-0016"
    },
    {
     "id": "S51",
-    "cantidad": 24,
-    "portada": "C41a60-S51-0001"
-   },
-   {
-    "id": "S52",
-    "cantidad": 6,
-    "portada": "C41a60-S52-0001"
+    "cantidad": 2,
+    "portada": "C41a60-S51-0023"
    },
    {
     "id": "S53",
-    "cantidad": 16,
-    "portada": "C41a60-S53-0001"
-   },
-   {
-    "id": "S54",
-    "cantidad": 7,
-    "portada": "C41a60-S54-0001"
+    "cantidad": 2,
+    "portada": "C41a60-S53-0015"
    },
    {
     "id": "S55",
-    "cantidad": 9,
-    "portada": "C41a60-S55-0001"
+    "cantidad": 2,
+    "portada": "C41a60-S55-0008"
    },
    {
     "id": "S56",
-    "cantidad": 3,
-    "portada": "C41a60-S56-0001"
-   },
-   {
-    "id": "S57",
-    "cantidad": 8,
-    "portada": "C41a60-S57-0001"
+    "cantidad": 2,
+    "portada": "C41a60-S56-0002"
    },
    {
     "id": "S58",
-    "cantidad": 52,
-    "portada": "C41a60-S58-0001"
-   },
-   {
-    "id": "S59",
-    "cantidad": 10,
-    "portada": "C41a60-S59-0001"
-   },
-   {
-    "id": "S60",
-    "cantidad": 17,
-    "portada": "C41a60-S60-0001"
+    "cantidad": 3,
+    "portada": "C41a60-S58-0050"
    }
   ],
   "numero": 3,
-  "cantidad": 337
+  "cantidad": 22
  },
  {
   "id": "C61a80",
   "etiqueta": "Sobres 61 a 80",
   "sobres": [
    {
-    "id": "S62",
-    "cantidad": 10,
-    "portada": "C61a80-S62-0001"
-   },
-   {
-    "id": "S63",
-    "cantidad": 20,
-    "portada": "C61a80-S63-0001"
-   },
-   {
-    "id": "S64",
-    "cantidad": 23,
-    "portada": "C61a80-S64-0001"
-   },
-   {
     "id": "S65",
-    "cantidad": 40,
-    "portada": "C61a80-S65-0001"
-   },
-   {
-    "id": "S66",
-    "cantidad": 38,
-    "portada": "C61a80-S66-0001"
+    "cantidad": 3,
+    "portada": "C61a80-S65-0038"
    },
    {
     "id": "S67",
-    "cantidad": 37,
-    "portada": "C61a80-S67-0001"
+    "cantidad": 2,
+    "portada": "C61a80-S67-0036"
    },
    {
     "id": "S69",
-    "cantidad": 16,
-    "portada": "C61a80-S69-0001"
-   },
-   {
-    "id": "S70",
-    "cantidad": 7,
-    "portada": "C61a80-S70-0001"
-   },
-   {
-    "id": "S71",
-    "cantidad": 4,
-    "portada": "C61a80-S71-0001"
-   },
-   {
-    "id": "S72",
-    "cantidad": 6,
-    "portada": "C61a80-S72-0001"
-   },
-   {
-    "id": "S73",
-    "cantidad": 5,
-    "portada": "C61a80-S73-0001"
-   },
-   {
-    "id": "S74",
-    "cantidad": 4,
-    "portada": "C61a80-S74-0001"
-   },
-   {
-    "id": "S75",
-    "cantidad": 17,
-    "portada": "C61a80-S75-0001"
-   },
-   {
-    "id": "S76",
-    "cantidad": 8,
-    "portada": "C61a80-S76-0001"
+    "cantidad": 3,
+    "portada": "C61a80-S69-0014"
    },
    {
     "id": "S77",
-    "cantidad": 13,
-    "portada": "C61a80-S77-0001"
+    "cantidad": 1,
+    "portada": "C61a80-S77-0013"
    },
    {
     "id": "S78",
-    "cantidad": 35,
-    "portada": "C61a80-S78-0001"
-   },
-   {
-    "id": "S79",
-    "cantidad": 7,
-    "portada": "C61a80-S79-0001"
-   },
-   {
-    "id": "S80",
-    "cantidad": 15,
-    "portada": "C61a80-S80-0001"
+    "cantidad": 1,
+    "portada": "C61a80-S78-0002"
    }
   ],
   "numero": 4,
-  "cantidad": 305
+  "cantidad": 10
  },
  {
   "id": "C81a100",
   "etiqueta": "Sobres 81 a 100",
   "sobres": [
    {
-    "id": "S81",
-    "cantidad": 30,
-    "portada": "C81a100-S81-0001"
-   },
-   {
     "id": "S82",
-    "cantidad": 14,
-    "portada": "C81a100-S82-0001"
-   },
-   {
-    "id": "S83",
-    "cantidad": 7,
-    "portada": "C81a100-S83-0001"
-   },
-   {
-    "id": "S84",
-    "cantidad": 5,
-    "portada": "C81a100-S84-0001"
-   },
-   {
-    "id": "S85",
-    "cantidad": 12,
-    "portada": "C81a100-S85-0001"
-   },
-   {
-    "id": "S86",
-    "cantidad": 7,
-    "portada": "C81a100-S86-0001"
+    "cantidad": 1,
+    "portada": "C81a100-S82-0014"
    },
    {
     "id": "S87",
-    "cantidad": 30,
-    "portada": "C81a100-S87-0001"
+    "cantidad": 6,
+    "portada": "C81a100-S87-0025"
    },
    {
     "id": "S88",
-    "cantidad": 18,
-    "portada": "C81a100-S88-0001"
-   },
-   {
-    "id": "S89",
-    "cantidad": 11,
-    "portada": "C81a100-S89-0001"
-   },
-   {
-    "id": "S90",
-    "cantidad": 3,
-    "portada": "C81a100-S90-0001"
-   },
-   {
-    "id": "S91",
-    "cantidad": 31,
-    "portada": "C81a100-S91-0001"
-   },
-   {
-    "id": "S92",
-    "cantidad": 4,
-    "portada": "C81a100-S92-0001"
+    "cantidad": 1,
+    "portada": "C81a100-S88-0018"
    },
    {
     "id": "S93",
-    "cantidad": 10,
-    "portada": "C81a100-S93-0001"
-   },
-   {
-    "id": "S94",
-    "cantidad": 4,
-    "portada": "C81a100-S94-0001"
+    "cantidad": 1,
+    "portada": "C81a100-S93-0010"
    },
    {
     "id": "S95",
-    "cantidad": 5,
-    "portada": "C81a100-S95-0001"
+    "cantidad": 2,
+    "portada": "C81a100-S95-0004"
    },
    {
     "id": "S96",
-    "cantidad": 7,
-    "portada": "C81a100-S96-0001"
-   },
-   {
-    "id": "S97",
-    "cantidad": 31,
-    "portada": "C81a100-S97-0001"
-   },
-   {
-    "id": "S98",
-    "cantidad": 2,
-    "portada": "C81a100-S98-0001"
-   },
-   {
-    "id": "S99",
-    "cantidad": 15,
-    "portada": "C81a100-S99-0001"
-   },
-   {
-    "id": "S100",
-    "cantidad": 23,
-    "portada": "C81a100-S100-0001"
+    "cantidad": 6,
+    "portada": "C81a100-S96-0002"
    }
   ],
   "numero": 5,
-  "cantidad": 269
+  "cantidad": 17
  },
  {
   "id": "C101a119",
   "etiqueta": "Sobres 101 a 119",
   "sobres": [
    {
-    "id": "S102",
-    "cantidad": 12,
-    "portada": "C101a119-S102-0001"
-   },
-   {
-    "id": "S103",
-    "cantidad": 17,
-    "portada": "C101a119-S103-0001"
-   },
-   {
     "id": "S104",
-    "cantidad": 9,
-    "portada": "C101a119-S104-0001"
-   },
-   {
-    "id": "S105",
-    "cantidad": 5,
-    "portada": "C101a119-S105-0001"
+    "cantidad": 1,
+    "portada": "C101a119-S104-0009"
    },
    {
     "id": "S106",
-    "cantidad": 17,
-    "portada": "C101a119-S106-0001"
-   },
-   {
-    "id": "S106b",
-    "cantidad": 18,
-    "portada": "C101a119-S106b-0001"
-   },
-   {
-    "id": "S107",
-    "cantidad": 4,
-    "portada": "C101a119-S107-0001"
-   },
-   {
-    "id": "S108",
-    "cantidad": 6,
-    "portada": "C101a119-S108-0001"
-   },
-   {
-    "id": "S109",
-    "cantidad": 11,
-    "portada": "C101a119-S109-0001"
-   },
-   {
-    "id": "S110",
-    "cantidad": 5,
-    "portada": "C101a119-S110-0001"
-   },
-   {
-    "id": "S111",
-    "cantidad": 12,
-    "portada": "C101a119-S111-0001"
-   },
-   {
-    "id": "S112",
-    "cantidad": 10,
-    "portada": "C101a119-S112-0001"
+    "cantidad": 2,
+    "portada": "C101a119-S106-0016"
    },
    {
     "id": "S114",
-    "cantidad": 4,
-    "portada": "C101a119-S114-0001"
+    "cantidad": 1,
+    "portada": "C101a119-S114-0004"
    },
    {
     "id": "S115",
-    "cantidad": 3,
-    "portada": "C101a119-S115-0001"
-   },
-   {
-    "id": "S116",
-    "cantidad": 1,
-    "portada": "C101a119-S116-0001"
-   },
-   {
-    "id": "S117",
-    "cantidad": 8,
-    "portada": "C101a119-S117-0001"
-   },
-   {
-    "id": "S118",
-    "cantidad": 4,
-    "portada": "C101a119-S118-0001"
+    "cantidad": 2,
+    "portada": "C101a119-S115-0002"
    },
    {
     "id": "S119",
-    "cantidad": 14,
-    "portada": "C101a119-S119-0001"
+    "cantidad": 2,
+    "portada": "C101a119-S119-0012"
    }
   ],
   "numero": 6,
-  "cantidad": 160
+  "cantidad": 8
  },
  {
   "id": "C120a149",
   "etiqueta": "Sobres 120 a 149",
   "sobres": [
    {
-    "id": "S120",
-    "cantidad": 3,
-    "portada": "C120a149-S120-0001"
-   },
-   {
-    "id": "S121",
-    "cantidad": 2,
-    "portada": "C120a149-S121-0001"
-   },
-   {
-    "id": "S122",
-    "cantidad": 3,
-    "portada": "C120a149-S122-0001"
-   },
-   {
-    "id": "S123",
-    "cantidad": 12,
-    "portada": "C120a149-S123-0001"
-   },
-   {
-    "id": "S124",
-    "cantidad": 5,
-    "portada": "C120a149-S124-0001"
-   },
-   {
     "id": "S125",
-    "cantidad": 8,
-    "portada": "C120a149-S125-0001"
+    "cantidad": 7,
+    "portada": "C120a149-S125-0002"
    },
    {
     "id": "S126",
-    "cantidad": 17,
-    "portada": "C120a149-S126-0001"
+    "cantidad": 2,
+    "portada": "C120a149-S126-0015"
    },
    {
     "id": "S127",
-    "cantidad": 5,
-    "portada": "C120a149-S127-0001"
-   },
-   {
-    "id": "S128",
-    "cantidad": 6,
-    "portada": "C120a149-S128-0001"
+    "cantidad": 4,
+    "portada": "C120a149-S127-0002"
    },
    {
     "id": "S129",
-    "cantidad": 3,
-    "portada": "C120a149-S129-0001"
+    "cantidad": 1,
+    "portada": "C120a149-S129-0003"
    },
    {
     "id": "S130",
-    "cantidad": 2,
-    "portada": "C120a149-S130-0001"
+    "cantidad": 1,
+    "portada": "C120a149-S130-0002"
    },
    {
     "id": "S131",
@@ -688,101 +348,46 @@
    },
    {
     "id": "S132",
-    "cantidad": 2,
-    "portada": "C120a149-S132-0001"
+    "cantidad": 1,
+    "portada": "C120a149-S132-0002"
    },
    {
     "id": "S133",
-    "cantidad": 2,
-    "portada": "C120a149-S133-0001"
-   },
-   {
-    "id": "S134",
-    "cantidad": 11,
-    "portada": "C120a149-S134-0001"
-   },
-   {
-    "id": "S135",
-    "cantidad": 9,
-    "portada": "C120a149-S135-0001"
+    "cantidad": 1,
+    "portada": "C120a149-S133-0002"
    },
    {
     "id": "S136",
-    "cantidad": 7,
-    "portada": "C120a149-S136-0001"
-   },
-   {
-    "id": "S137",
-    "cantidad": 2,
-    "portada": "C120a149-S137-0001"
-   },
-   {
-    "id": "S138",
-    "cantidad": 2,
-    "portada": "C120a149-S138-0001"
+    "cantidad": 1,
+    "portada": "C120a149-S136-0005"
    },
    {
     "id": "S139",
-    "cantidad": 2,
-    "portada": "C120a149-S139-0001"
-   },
-   {
-    "id": "S140",
-    "cantidad": 2,
-    "portada": "C120a149-S140-0001"
+    "cantidad": 1,
+    "portada": "C120a149-S139-0002"
    },
    {
     "id": "S141",
-    "cantidad": 2,
-    "portada": "C120a149-S141-0001"
-   },
-   {
-    "id": "S141b",
-    "cantidad": 2,
-    "portada": "C120a149-S141b-0001"
-   },
-   {
-    "id": "S142",
-    "cantidad": 5,
-    "portada": "C120a149-S142-0001"
+    "cantidad": 1,
+    "portada": "C120a149-S141-0002"
    },
    {
     "id": "S143",
-    "cantidad": 3,
-    "portada": "C120a149-S143-0001"
-   },
-   {
-    "id": "S144",
-    "cantidad": 3,
-    "portada": "C120a149-S144-0001"
-   },
-   {
-    "id": "S145",
-    "cantidad": 9,
-    "portada": "C120a149-S145-0001"
+    "cantidad": 2,
+    "portada": "C120a149-S143-0002"
    },
    {
     "id": "S146",
-    "cantidad": 5,
-    "portada": "C120a149-S146-0001"
-   },
-   {
-    "id": "S147",
-    "cantidad": 2,
-    "portada": "C120a149-S147-0001"
+    "cantidad": 3,
+    "portada": "C120a149-S146-0003"
    },
    {
     "id": "S148",
-    "cantidad": 5,
-    "portada": "C120a149-S148-0001"
-   },
-   {
-    "id": "S149",
-    "cantidad": 6,
-    "portada": "C120a149-S149-0001"
+    "cantidad": 1,
+    "portada": "C120a149-S148-0005"
    }
   ],
   "numero": 7,
-  "cantidad": 149
+  "cantidad": 28
  }
 ]

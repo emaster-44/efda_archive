@@ -42,6 +42,13 @@ export function Acerca() {
           dorsos se transcriben (leyendas, sellos de estudio, fechas y anotaciones) porque son fuente
           documental; cuando un reverso todavía no está digitalizado, la ficha lo indica.
         </li>
+        {estadisticas.seleccion && (
+          <li>
+            <strong className="text-foreground">Selección piloto.</strong> Se publican solo las fotografías que
+            ya tienen título (con prioridad del índice manuscrito) o información del reverso: nombres,
+            personas, lugares y fechas. El resto del inventario se incorporará a medida que avance la catalogación.
+          </li>
+        )}
         <li>
           <strong className="text-foreground">Enriquecimiento progresivo.</strong> La ficha prevé campos de
           contexto (notas históricas y biográficas, documentos relacionados, bibliografía) que se
@@ -52,7 +59,8 @@ export function Acerca() {
       <h2 className="mt-12 text-2xl font-semibold">Estado actual</h2>
       <dl className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-sm border bg-border text-sm">
         {[
-          ["Fotografías inventariadas", estadisticas.fotos],
+          ["Fotografías inventariadas", estadisticas.inventario.toLocaleString("es-AR")],
+          ...(estadisticas.seleccion ? [["Publicadas en el piloto", estadisticas.fotos]] : []),
           ["Cajas · sobres", `${estadisticas.cajas} · ${estadisticas.sobres}`],
           ["Entradas del índice vinculadas", `${estadisticas.vinculadasIndice} / ${estadisticas.entradasIndice}`],
           ["Fichas catalogadas", estadisticas.catalogadas],
