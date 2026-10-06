@@ -33,5 +33,6 @@ export const enlace = {
   foto: (id: string) => `#/foto/${id}`,
   sobre: (id: string) => `#/sobre/${id}`,
   caja: (id: string) => `#/caja/${id}`,
+  cajas: () => `#/cajas`,
   buscar: (qs = "") => `#/buscar${qs ? "?" + qs : ""}`,
 }

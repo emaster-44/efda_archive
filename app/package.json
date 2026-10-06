@@ -57,6 +57,8 @@
   },
   "devDependencies": {
     "@parcel/config-default": "^2.16.4",
+    "@parcel/optimizer-data-url": "2.16.4",
+    "@parcel/transformer-inline-string": "2.16.4",
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
