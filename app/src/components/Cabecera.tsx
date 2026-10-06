@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Moon, Sun } from "lucide-react"
 import { config } from "@/lib/datos"
-import logo from "@/assets/logo.png"
+import logo from "data-url:../assets/logo.png"
 
 export function Cabecera() {
   const [oscuro, setOscuro] = useState(() => document.documentElement.classList.contains("dark"))
