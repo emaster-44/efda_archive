@@ -11,6 +11,8 @@ export interface Foto {
   numero: number | null
   titulo: string
   titulo_atribuido: boolean
+  /** Origen de un título atribuido: entrada del índice manuscrito o leyenda del reverso. */
+  titulo_fuente?: "indice" | "reverso"
   sin_titulo: boolean
   indice_n?: number
   indice_titulo?: string
@@ -34,6 +36,7 @@ export interface Foto {
   soporte?: string
   dimensiones?: string
   inscripciones_reverso?: string
+  leyenda_reverso?: string
   estado_conservacion?: string
   nota_historica?: string
   nota_biografica?: string

@@ -68,8 +68,8 @@ export function Ficha({ id }: { id: string }) {
               <Maximize2 className="h-4 w-4" />
             </button>
           </div>
-          {foto.reverso && (
-            <div className="mt-3 inline-flex rounded-sm border p-0.5 text-sm" role="tablist" aria-label="Lado de la fotografía">
+          <div className="mt-3 flex flex-wrap items-center gap-3">
+            <div className="inline-flex rounded-sm border p-0.5 text-sm" role="tablist" aria-label="Lado de la fotografía">
               {(["anverso", "reverso"] as const).map((l) => (
                 <button
                   key={l}
@@ -85,7 +85,8 @@ export function Ficha({ id }: { id: string }) {
                 </button>
               ))}
             </div>
-          )}
+            {!foto.reverso && <span className="text-xs text-muted-foreground">Reverso aún no digitalizado</span>}
+          </div>
         </div>
 
         {/* Ficha */}
@@ -102,6 +103,11 @@ export function Ficha({ id }: { id: string }) {
               </>
             )}
           </h1>
+          {foto.titulo_fuente && (
+            <p className="mt-1.5 text-xs text-muted-foreground">
+              Título atribuido, tomado {foto.titulo_fuente === "indice" ? "del índice manuscrito" : "de la leyenda del reverso"}
+            </p>
+          )}
           <p className="mt-2 text-muted-foreground">
             {fechaLegible(foto)}
             {foto.fecha_inferida && " (inferida del índice manuscrito)"}
@@ -114,8 +120,16 @@ export function Ficha({ id }: { id: string }) {
               <span className="text-muted-foreground">
                 {foto.titulo_atribuido
                   ? "El título se toma de la entrada del índice manuscrito vinculada a esta fotografía. "
-                  : "Todavía no tiene título asignado ni entrada del índice manuscrito vinculada. "}
+                  : "Todavía no tiene título asignado, entrada del índice manuscrito vinculada ni leyenda en el reverso. "}
                 Descripción, personas y datos técnicos se incorporarán a medida que avance el trabajo del proyecto.
+              </span>
+            </div>
+          )}
+          {foto.estado_ficha === "borrador" && (
+            <div className="mt-5 border-l-2 border-primary bg-card px-4 py-3 text-sm leading-relaxed">
+              <strong className="font-medium">Ficha en borrador.</strong>{" "}
+              <span className="text-muted-foreground">
+                Los datos provienen de la transcripción del reverso y están pendientes de revisión.
               </span>
             </div>
           )}
@@ -134,7 +148,7 @@ export function Ficha({ id }: { id: string }) {
                 ) : undefined
               }
             />
-            <Campo k="Caras digitalizadas" v={foto.reverso ? "Anverso y reverso" : "Anverso"} />
+            <Campo k="Caras digitalizadas" v={foto.reverso ? "Anverso y reverso" : "Anverso (reverso no digitalizado)"} />
             <Campo k="Archivo digital" v={<span className="signatura">{foto.archivo}</span>} />
           </Seccion>
 
@@ -171,6 +185,7 @@ export function Ficha({ id }: { id: string }) {
             <Campo k="Técnica" v={foto.tecnica} />
             <Campo k="Soporte" v={foto.soporte} />
             <Campo k="Dimensiones" v={foto.dimensiones} />
+            <Campo k="Leyenda del reverso" v={foto.leyenda_reverso} />
             <Campo k="Inscripciones (reverso)" v={foto.inscripciones_reverso} />
             <Campo k="Estado de conservación" v={foto.estado_conservacion} />
           </Seccion>

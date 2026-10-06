@@ -33,9 +33,9 @@ export function citaBibTeX(f: Foto) {
 }
 
 const COLUMNAS: (keyof Foto)[] = [
-  "id", "caja", "sobre", "numero", "titulo", "titulo_atribuido", "indice_n", "indice_titulo", "fecha", "lugar",
+  "id", "caja", "sobre", "numero", "titulo", "titulo_atribuido", "titulo_fuente", "indice_n", "indice_titulo", "fecha", "lugar",
   "personas", "evento", "materias", "fotografo", "tecnica", "soporte", "dimensiones",
-  "inscripciones_reverso", "descripcion", "estado_ficha",
+  "leyenda_reverso", "inscripciones_reverso", "descripcion", "estado_ficha",
 ]
 
 export function aCSV(lista: Foto[]) {

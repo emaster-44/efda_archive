@@ -43,7 +43,8 @@ El índice manuscrito describe **fotografías individuales**. El vínculo entre 
 - **`indice_n`:** el número de la entrada del índice manuscrito que describe la foto. `indice_titulo` se completa solo.
 - **Fecha:** formato EDTF, por ejemplo `1956`, `1956-04`, `1950/1955`, `~1956` (circa), `1956?` (incierta) o `195X` (década).
 - **Listas** (personas, materias, documentos relacionados, bibliografía): valores separados con `;`, escritos siempre de la misma forma.
-- **Título:** si queda vacío y la foto tiene `indice_n`, se usa el título de esa entrada entre corchetes, como título atribuido. Si no, la ficha figura como *Sin título*.
+- **Título:** si queda vacío, se atribuye (entre corchetes) en este orden: el título de la entrada del índice (`indice_n`) y, si no hay entrada, la leyenda del reverso (`leyenda_reverso`). La ficha indica de dónde se tomó. Sin ninguna de las dos, figura como *Sin título*.
+- **Reverso:** `leyenda_reverso` lleva la leyenda descriptiva normalizada, que puede servir de título. `inscripciones_reverso` lleva la transcripción completa: manuscritos, sellos, numeraciones y anotaciones. La ficha muestra siempre anverso y reverso; si el reverso no está digitalizado, lo indica.
 - **`publicable` = `no`:** la ficha no se publica.
 - **`estado_ficha`:** `pendiente`, `borrador` o `revisada`.
 
