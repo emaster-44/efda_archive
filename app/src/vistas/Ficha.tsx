@@ -143,7 +143,10 @@ export function Ficha({ id }: { id: string }) {
               v={
                 foto.indice_n ? (
                   <a href="#/indice" className="text-primary hover:underline">
-                    Entrada {foto.indice_n} (sobre {foto.sobre}): <em>{foto.indice_titulo}</em>
+                    Entrada {foto.indice_n}: <em>{foto.indice_titulo}</em>
+                    {Number(foto.sobre.match(/\d+/)?.[0]) !== foto.indice_n && (
+                      <span className="text-muted-foreground"> · corresponde al sobre {foto.indice_n}, se conserva en {foto.sobre}</span>
+                    )}
                   </a>
                 ) : undefined
               }

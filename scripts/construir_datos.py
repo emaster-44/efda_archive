@@ -180,8 +180,10 @@ def main(entrada):
     for f in fotos:
         if f.get("indice_n"):
             vinculos.setdefault(f["indice_n"], []).append(f["id"])
+            # Solo el sobre propio de la entrada (SN); las fotos fuera de lugar
+            # se vinculan a la entrada sin sumar su sobre de guarda.
             s = sobres_entrada.setdefault(f["indice_n"], [])
-            if f["sobre"] not in s:
+            if int(re.match(r"S(\d+)", f["sobre"])[1]) == f["indice_n"] and f["sobre"] not in s:
                 s.append(f["sobre"])
     lista_indice = [
         {"n": n, "titulo": e["titulo"], "lectura_dudosa": e["lectura_dudosa"] == "si",
