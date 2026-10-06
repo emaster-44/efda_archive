@@ -117,7 +117,7 @@ export function ejecutar(c: Consulta): Foto[] {
   }
   if (c.orden === "titulo") {
     // A–Z por título, ignorando corchetes y comillas iniciales; las fotos sin título van al final
-    const clave = (t: string) => t.replace(/^[\s\[“"«¿(]+/, "")
+    const clave = (t: string) => t.replace(/^[\s[“"«¿(]+/, "")
     return filtradas
       .slice()
       .sort(

@@ -78,7 +78,9 @@ function Fotografia({ c }: { c: Copia }) {
 export function MosaicoFondo() {
   const [pila, setPila] = useState<Copia[]>(pilaInicial)
   const pilaRef = useRef(pila)
-  pilaRef.current = pila
+  useEffect(() => {
+    pilaRef.current = pila
+  }, [pila])
 
   useEffect(() => {
     let activo = true
