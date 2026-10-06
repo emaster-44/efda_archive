@@ -14,15 +14,43 @@
     "ancho_miniatura": 400,
     "ancho_ficha": 1600
   },
+  "planilla_catalogacion": {
+    "drive_id": "11u4hZu6P0aiuukPV4WYlq7kXzvc4wT8sjt8O_7KB_mw",
+    "nota": "Planilla maestra de catalogación (Drive: EFDA_KB/03_fondo_fotografico). Exportar como CSV a data/fuentes/inventario_base.csv antes de empaquetar."
+  },
   "facetas": [
-    { "campo": "sobre", "etiqueta": "Sobre (índice original)" },
-    { "campo": "decada", "etiqueta": "Década" },
-    { "campo": "personas", "etiqueta": "Personas" },
-    { "campo": "lugar", "etiqueta": "Lugar" },
-    { "campo": "evento", "etiqueta": "Evento" },
-    { "campo": "materias", "etiqueta": "Materias" },
-    { "campo": "fotografo", "etiqueta": "Fotógrafo/a" },
-    { "campo": "estado_ficha", "etiqueta": "Estado de la ficha" }
+    {
+      "campo": "sobre",
+      "etiqueta": "Sobre (índice original)"
+    },
+    {
+      "campo": "decada",
+      "etiqueta": "Década"
+    },
+    {
+      "campo": "personas",
+      "etiqueta": "Personas"
+    },
+    {
+      "campo": "lugar",
+      "etiqueta": "Lugar"
+    },
+    {
+      "campo": "evento",
+      "etiqueta": "Evento"
+    },
+    {
+      "campo": "materias",
+      "etiqueta": "Materias"
+    },
+    {
+      "campo": "fotografo",
+      "etiqueta": "Fotógrafo/a"
+    },
+    {
+      "campo": "estado_ficha",
+      "etiqueta": "Estado de la ficha"
+    }
   ],
   "por_pagina": 48
 }
