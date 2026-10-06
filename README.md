@@ -26,9 +26,9 @@ Prototipo del proyecto *El dispositivo expográfico de El Fogón de los Arrieros
 |---|---|---|
 | Caja | `C01a20` = Caja 1, sobres 01 a 20 | Nombre de la carpeta, sin cambios. |
 | Sobre | `S20` | |
-| Fotografía | `C1a20-S20-0004` | La signatura es el nombre del archivo digital sin extensión. El reverso lleva el sufijo `r`. |
+| Fotografía | `C01a20-S20-0004` | Caja-sobre-número, con el nombre de carpeta de la caja (archivo digital: `C1a20-S20-0004.jpg`; reverso con sufijo `r`). |
 
-El índice manuscrito describe **fotografías individuales**. El vínculo entre cada entrada y su fotografía se carga a mano en la columna `indice_n` (por ejemplo, entrada 24 → `C1a20-S20-0004`).
+El índice manuscrito describe **fotografías individuales**. El vínculo entre cada entrada y su fotografía se carga a mano en la columna `indice_n` (por ejemplo, entrada 24 → `C01a20-S20-0004`).
 
 ## Flujo de trabajo
 
@@ -39,7 +39,7 @@ El índice manuscrito describe **fotografías individuales**. El vínculo entre 
 
 ### Reglas de catalogación
 
-- **Signatura:** la del archivo digital (`C1a20-S20-0004`). Es estable: no se cambia.
+- **Signatura:** `C01a20-S20-0004`. Es estable: no se cambia.
 - **`indice_n`:** el número de la entrada del índice manuscrito que describe la foto. `indice_titulo` se completa solo.
 - **Fecha:** formato EDTF, por ejemplo `1956`, `1956-04`, `1950/1955`, `~1956` (circa), `1956?` (incierta) o `195X` (década).
 - **Listas** (personas, materias, documentos relacionados, bibliografía): valores separados con `;`, escritos siempre de la misma forma.

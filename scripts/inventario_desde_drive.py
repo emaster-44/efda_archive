@@ -3,8 +3,9 @@
 
 Orden de precedencia del fondo: Caja -> Sobre -> Fotografía.
 - Caja y sobre son unidades de resguardo (ubicación física).
-- La fotografía es la unidad de archivo. Su signatura es el nombre del archivo
-  digital sin extensión (p. ej. C1a20-S20-0004); el reverso lleva sufijo "r".
+- La fotografía es la unidad de archivo. Su signatura es caja-sobre-número con el
+  nombre de carpeta de la caja (p. ej. C01a20-S20-0004 para el archivo
+  C1a20-S20-0004.jpg); el reverso del archivo lleva sufijo "r".
 - El índice manuscrito describe fotografías individuales. El vínculo entre una
   entrada del índice y una fotografía (columna indice_n) se carga a mano.
 
@@ -58,7 +59,8 @@ def main(listado_path):
         caja = nombre_caja(m["ini"], m["fin"])
         carpeta[a["parentId"]] = (caja, m["sobre"])
         reverso = m["var"].lower() == "r"
-        sig = m["base"][:-1] if reverso else m["base"]
+        var = "" if reverso else m["var"]
+        sig = f"{caja}-{m['sobre']}-{m['num']}{var}"
         u = unidades[sig]
         u.update(caja=caja, sobre=m["sobre"], numero=int(m["num"]))
         lado = "reverso" if reverso else "anverso"

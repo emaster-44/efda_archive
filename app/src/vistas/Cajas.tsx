@@ -14,7 +14,7 @@ export function Cajas() {
         El fondo se conserva en {cajas.length} cajas y {sobresEnOrden.length} sobres. Cajas y sobres son
         unidades de resguardo: indican dónde se guarda cada fotografía, no qué representa. La unidad de
         archivo es la fotografía, identificada por su signatura (por ejemplo{" "}
-        <span className="signatura">C1a20-S20-0004</span>: caja C01a20, sobre S20, fotografía 4).
+        <span className="signatura">C01a20-S20-0004</span>: caja C01a20, sobre S20, fotografía 4).
       </p>
 
       <div className="mt-10 space-y-12">

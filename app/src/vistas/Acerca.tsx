@@ -27,8 +27,8 @@ export function Acerca() {
           unidad de archivo.
         </li>
         <li>
-          <strong className="text-foreground">Signaturas preservadas.</strong> Cada fotografía conserva la
-          signatura de su archivo digital, <span className="signatura">C1a20-S20-0004</span> (caja C01a20,
+          <strong className="text-foreground">Signaturas preservadas.</strong> Cada fotografía tiene una
+          signatura estable, <span className="signatura">C01a20-S20-0004</span> (caja C01a20,
           sobre S20, fotografía 4), que sirve también como enlace permanente para citar.
         </li>
         <li>
