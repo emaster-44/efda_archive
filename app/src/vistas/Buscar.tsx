@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react"
-import { Download, SlidersHorizontal, X } from "lucide-react"
+import { SlidersHorizontal, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { config, rotuloCaja } from "@/lib/datos"
 import { enlace, ir } from "@/lib/ruta"
@@ -10,7 +10,6 @@ import {
   type Consulta,
   type Orden,
 } from "@/lib/busqueda"
-import { aCSV, descargar } from "@/lib/citas"
 import { Grilla, TarjetaFoto } from "@/components/TarjetaFoto"
 
 export function Buscar({ consulta }: { consulta: Consulta }) {
@@ -40,15 +39,19 @@ export function Buscar({ consulta }: { consulta: Consulta }) {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 md:px-6">
-      <div className="flex flex-wrap items-baseline justify-between gap-3 border-b pb-4">
+      <div className="flex flex-wrap items-end justify-between gap-3 border-b pb-5">
         <div>
-          <p className="etiqueta">{consulta.q ? "Resultados de búsqueda" : "Explorar el fondo"}</p>
-          <h1 className="mt-1 text-2xl font-semibold">
-            {consulta.q ? <>“{consulta.q}”</> : "Todas las fotografías"}
-            <span className="ml-3 font-sans text-base font-normal text-muted-foreground tabular-nums">
-              {resultados.length.toLocaleString("es-AR")} {resultados.length === 1 ? "fotografía" : "fotografías"}
-            </span>
+          <h1 className="font-serif text-3xl font-semibold uppercase tracking-[0.06em] md:text-5xl">
+            <a href="#/" className="foco rounded-sm hover:text-primary">{config.archivo.nombre}</a>
           </h1>
+          {consulta.q && (
+            <p className="mt-3 text-lg">
+              “{consulta.q}”
+              <span className="ml-3 text-base text-muted-foreground tabular-nums">
+                {resultados.length.toLocaleString("es-AR")} {resultados.length === 1 ? "fotografía" : "fotografías"}
+              </span>
+            </p>
+          )}
         </div>
         <div className="flex flex-wrap items-center gap-2 text-sm">
           <button
@@ -58,34 +61,6 @@ export function Buscar({ consulta }: { consulta: Consulta }) {
             aria-expanded={panel}
           >
             <SlidersHorizontal className="h-4 w-4" /> Filtros
-          </button>
-          <label className="flex items-center gap-2">
-            <span className="text-muted-foreground">Orden</span>
-            <select
-              value={consulta.orden}
-              onChange={(e) => navegar({ orden: e.target.value as Orden })}
-              className="h-8 rounded-sm border border-input bg-card px-2"
-            >
-              {consulta.q && <option value="relevancia">Relevancia</option>}
-              <option value="signatura">Signatura</option>
-              <option value="fecha">Fecha</option>
-            </select>
-          </label>
-          <button
-            type="button"
-            disabled={!resultados.length}
-            onClick={() => descargar("efda_resultados.csv", aCSV(resultados), "text/csv")}
-            className="foco inline-flex items-center gap-1.5 rounded-sm border px-3 py-1.5 hover:border-primary disabled:opacity-50"
-          >
-            <Download className="h-4 w-4" /> CSV
-          </button>
-          <button
-            type="button"
-            disabled={!resultados.length}
-            onClick={() => descargar("efda_resultados.json", JSON.stringify(resultados, null, 2), "application/json")}
-            className="foco inline-flex items-center gap-1.5 rounded-sm border px-3 py-1.5 hover:border-primary disabled:opacity-50"
-          >
-            <Download className="h-4 w-4" /> JSON
           </button>
         </div>
       </div>
@@ -201,6 +176,7 @@ function Facetas({
 }) {
   return (
     <div className="space-y-6">
+      <SelectorOrden consulta={consulta} navegar={navegar} />
       <RangoAnios key={`${consulta.desde}-${consulta.hasta}`} consulta={consulta} navegar={navegar} />
       {config.facetas.map((f) => {
         const valores = contarFaceta(resultados, f.campo as string)
@@ -216,9 +192,6 @@ function Facetas({
           />
         )
       })}
-      <p className="text-xs leading-relaxed text-muted-foreground">
-        Las facetas de personas, lugares y materias se completan a medida que avanza la catalogación.
-      </p>
     </div>
   )
 }
@@ -264,6 +237,25 @@ function GrupoFaceta({
         </button>
       )}
     </fieldset>
+  )
+}
+
+/** Orden de los resultados, en la barra lateral, arriba de Años. */
+function SelectorOrden({ consulta, navegar }: { consulta: Consulta; navegar: (c: Partial<Consulta>) => void }) {
+  return (
+    <label className="block">
+      <span className="etiqueta mb-2 block">Orden</span>
+      <select
+        value={consulta.orden}
+        onChange={(e) => navegar({ orden: e.target.value as Orden })}
+        className="h-9 w-full rounded-sm border border-input bg-card px-2 text-sm"
+      >
+        {consulta.q && <option value="relevancia">Relevancia</option>}
+        <option value="fecha">Fecha</option>
+        <option value="titulo">A–Z</option>
+        <option value="signatura">Signatura</option>
+      </select>
+    </label>
   )
 }
 

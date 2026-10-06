@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils"
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"
 import { cajaPorId, config, fechaLegible, fotoPorId, fotosPorSobre, type Foto } from "@/lib/datos"
 import { enlace, ir } from "@/lib/ruta"
-import { citaAPA, citaBibTeX, citaChicago, urlPermanente } from "@/lib/citas"
+import { citaAPA } from "@/lib/citas"
 import { Imagen } from "@/components/Imagen"
 import { NoEncontrado } from "./Cajas"
 
@@ -35,7 +35,6 @@ export function Ficha({ id }: { id: string }) {
 
   if (!foto) return <NoEncontrado que={`la fotografía ${id}`} />
 
-  const pendiente = foto.estado_ficha === "pendiente"
   const caja = cajaPorId.get(foto.caja)
 
   return (
@@ -85,46 +84,24 @@ export function Ficha({ id }: { id: string }) {
                 </button>
               ))}
             </div>
-            {!foto.reverso && <span className="text-xs text-muted-foreground">Reverso aún no digitalizado</span>}
           </div>
         </div>
 
         {/* Ficha */}
         <div>
-          <p className="etiqueta">Fotografía · <span className="signatura normal-case tracking-normal">{foto.id}</span></p>
-          <h1 className="mt-2 text-3xl font-semibold leading-tight md:text-[2.15rem]">
+          <h1 className="text-3xl font-semibold leading-tight md:text-[2.15rem]">
             {foto.sin_titulo ? (
               <span className="font-normal italic text-muted-foreground">Sin título</span>
             ) : (
-              <>
-                {foto.titulo_atribuido && <span className="font-normal text-muted-foreground">[</span>}
-                {foto.titulo}
-                {foto.titulo_atribuido && <span className="font-normal text-muted-foreground">]</span>}
-              </>
+              foto.titulo
             )}
           </h1>
-          {foto.titulo_fuente && (
-            <p className="mt-1.5 text-xs text-muted-foreground">
-              Título atribuido, tomado {foto.titulo_fuente === "indice" ? "del índice manuscrito" : "de la leyenda del reverso"}
-            </p>
-          )}
           <p className="mt-2 text-muted-foreground">
             {fechaLegible(foto)}
             {foto.fecha_inferida && " (inferida del índice manuscrito)"}
             {foto.lugar && ` · ${foto.lugar}`}
           </p>
 
-          {pendiente && (
-            <div className="mt-5 border-l-2 border-primary bg-card px-4 py-3 text-sm leading-relaxed">
-              <strong className="font-medium">Ficha en proceso de catalogación.</strong>{" "}
-              <span className="text-muted-foreground">
-                {foto.titulo_atribuido
-                  ? "El título se toma de la entrada del índice manuscrito que describe el sobre. "
-                  : "Todavía no tiene título asignado, entrada del índice manuscrito vinculada ni leyenda en el reverso. "}
-                Descripción, personas y datos técnicos se incorporarán a medida que avance el trabajo del proyecto.
-              </span>
-            </div>
-          )}
           {foto.estado_ficha === "borrador" && (
             <div className="mt-5 border-l-2 border-primary bg-card px-4 py-3 text-sm leading-relaxed">
               <strong className="font-medium">Ficha en borrador.</strong>{" "}
@@ -151,7 +128,6 @@ export function Ficha({ id }: { id: string }) {
                 ) : undefined
               }
             />
-            <Campo k="Caras digitalizadas" v={foto.reverso ? "Anverso y reverso" : "Anverso (reverso no digitalizado)"} />
             <Campo k="Archivo digital" v={<span className="signatura">{foto.archivo}</span>} />
           </Seccion>
 
@@ -198,13 +174,6 @@ export function Ficha({ id }: { id: string }) {
             <Campo k="Nota biográfica" v={foto.nota_biografica} />
             <Campo k="Documentos relacionados" v={foto.documentos_relacionados?.join("; ")} />
             <Campo k="Bibliografía" v={foto.bibliografia?.join("; ")} />
-          </Seccion>
-
-          <Seccion titulo="Derechos" siempre>
-            <Campo
-              k="Uso"
-              v={foto.derechos ?? "Consultar a la Fundación El Fogón de los Arrieros antes de reproducir."}
-            />
           </Seccion>
 
           <Citas foto={foto} />
@@ -275,19 +244,12 @@ function Campo({ k, v }: { k: string; v?: React.ReactNode }) {
 }
 
 function Citas({ foto }: { foto: Foto }) {
-  const formatos = [
-    { id: "apa", etiqueta: "APA 7", texto: citaAPA(foto) },
-    { id: "chicago", etiqueta: "Chicago", texto: citaChicago(foto) },
-    { id: "bibtex", etiqueta: "BibTeX", texto: citaBibTeX(foto) },
-    { id: "url", etiqueta: "Enlace", texto: urlPermanente(foto) },
-  ]
-  const [activo, setActivo] = useState("apa")
+  const texto = citaAPA(foto)
   const [copiado, setCopiado] = useState(false)
-  const actual = formatos.find((f) => f.id === activo)!
 
   const copiar = async () => {
     try {
-      await navigator.clipboard.writeText(actual.texto)
+      await navigator.clipboard.writeText(texto)
       setCopiado(true)
       setTimeout(() => setCopiado(false), 1600)
     } catch {
@@ -297,25 +259,9 @@ function Citas({ foto }: { foto: Foto }) {
 
   return (
     <section className="mt-10">
-      <h2 className="etiqueta border-b pb-2">Cómo citar</h2>
-      <div className="mt-3 flex flex-wrap gap-1 text-sm" role="tablist">
-        {formatos.map((f) => (
-          <button
-            key={f.id}
-            role="tab"
-            aria-selected={activo === f.id}
-            onClick={() => setActivo(f.id)}
-            className={cn(
-              "rounded-sm px-2.5 py-1",
-              activo === f.id ? "bg-accent font-medium" : "text-muted-foreground hover:text-foreground",
-            )}
-          >
-            {f.etiqueta}
-          </button>
-        ))}
-      </div>
-      <div className="relative mt-2 rounded-sm border bg-card">
-        <pre className="whitespace-pre-wrap break-words p-4 pr-12 font-mono text-[0.78rem] leading-relaxed">{actual.texto}</pre>
+      <h2 className="etiqueta border-b pb-2">Cómo citar · APA 7</h2>
+      <div className="relative mt-3 rounded-sm border bg-card">
+        <pre className="whitespace-pre-wrap break-words p-4 pr-12 font-mono text-[0.78rem] leading-relaxed">{texto}</pre>
         <button
           type="button"
           onClick={copiar}

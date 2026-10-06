@@ -12,7 +12,7 @@ function tituloCita(f: Foto) {
 export function citaAPA(f: Foto) {
   const autor = f.fotografo ? `${f.fotografo}.` : "[Autor desconocido]."
   const fecha = f.fecha ? fechaLegible(f) : "s. f."
-  return `${autor} (${fecha}). ${tituloCita(f)} [Fotografía]. ${config.archivo.nombre}, ${nombreCaja(f.caja)}, sobre ${f.sobre} (${f.id}). ${config.archivo.institucion}. ${urlPermanente(f)}`
+  return `${autor} (${fecha}). ${tituloCita(f)} [Fotografía]. ${config.archivo.nombre}, ${nombreCaja(f.caja)}, sobre ${f.sobre} (${f.id}).`
 }
 
 export function citaChicago(f: Foto) {

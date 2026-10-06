@@ -34,5 +34,6 @@ export const enlace = {
   sobre: (id: string) => `#/sobre/${id}`,
   caja: (id: string) => `#/caja/${id}`,
   cajas: () => `#/cajas`,
+  sobres: () => `#/sobres`,
   buscar: (qs = "") => `#/buscar${qs ? "?" + qs : ""}`,
 }

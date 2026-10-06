@@ -1,11 +1,12 @@
 import { useEffect, useMemo } from "react"
 import { useRuta } from "@/lib/ruta"
-import { config } from "@/lib/datos"
 import { consultaDesdeParams } from "@/lib/busqueda"
 import { Cabecera } from "@/components/Cabecera"
+import logo from "@/assets/logo.png"
+import nedim from "@/assets/nedim.png"
 import { Inicio } from "@/vistas/Inicio"
 import { Buscar } from "@/vistas/Buscar"
-import { Cajas, VistaCaja, VistaSobre, NoEncontrado } from "@/vistas/Cajas"
+import { Cajas, VistaCaja, VistaSobre, VistaSobres, NoEncontrado } from "@/vistas/Cajas"
 import { Indice } from "@/vistas/Indice"
 import { Ficha } from "@/vistas/Ficha"
 import { Acerca } from "@/vistas/Acerca"
@@ -27,8 +28,10 @@ export default function App() {
       vista = <Buscar consulta={consulta} />
       break
     case "cajas":
-    case "sobres":
       vista = <Cajas />
+      break
+    case "sobres":
+      vista = <VistaSobres />
       break
     case "caja":
       vista = <VistaCaja id={ruta.arg} />
@@ -55,13 +58,21 @@ export default function App() {
         Saltar al contenido
       </a>
       <Cabecera />
-      <main id="contenido" className="flex-1">
+      {/* En la portada el hero llega hasta arriba; en el resto se deja aire para los controles flotantes */}
+      <main id="contenido" className={ruta.vista === "" ? "flex-1" : "flex-1 pt-14"}>
         {vista}
       </main>
-      <footer className="mt-16 border-t">
-        <div className="mx-auto flex max-w-7xl flex-col gap-1 px-4 py-6 text-xs text-muted-foreground md:flex-row md:justify-between md:px-6">
-          <span>{config.archivo.institucion}</span>
-          <span>Prototipo de investigación · Proyecto SGCyT-UNNE</span>
+      <footer className={ruta.vista === "" ? "border-t" : "mt-16 border-t"}>
+        <div className="flex flex-wrap items-center justify-between gap-6 px-4 py-6 md:px-10">
+          <a href="#/" className="foco flex items-center gap-3 rounded-sm">
+            <img src={logo} alt="" className="h-10 w-auto dark:invert" />
+            <span className="text-sm text-muted-foreground">Fundación El Fogón de los Arrieros</span>
+          </a>
+          <img
+            src={nedim}
+            alt="NEDIM · Núcleo de Estudios y Documentación de la Imagen"
+            className="h-10 w-auto md:h-12 dark:invert dark:hue-rotate-180"
+          />
         </div>
       </footer>
     </div>

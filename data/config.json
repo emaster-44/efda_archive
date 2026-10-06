@@ -1,6 +1,6 @@
 {
   "archivo": {
-    "nombre": "Archivo Fotográfico de El Fogón de los Arrieros",
+    "nombre": "Archivo Fundación El Fogón de los Arrieros · Fondo Fotográfico",
     "sigla": "EFDA",
     "subtitulo": "Fondo de consulta · Prototipo",
     "institucion": "Fundación El Fogón de los Arrieros · Resistencia, Chaco",
@@ -54,10 +54,6 @@
     {
       "campo": "indice_titulo",
       "etiqueta": "Índice manuscrito (sobre)"
-    },
-    {
-      "campo": "estado_ficha",
-      "etiqueta": "Estado de la ficha"
     }
   ],
   "por_pagina": 48

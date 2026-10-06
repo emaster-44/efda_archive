@@ -26,11 +26,7 @@ export function TarjetaFoto({ foto, mostrarSobre = true }: { foto: Foto; mostrar
           {foto.sin_titulo ? (
             <span className="italic text-muted-foreground">Sin título</span>
           ) : (
-            <>
-              {foto.titulo_atribuido && <span className="text-muted-foreground">[</span>}
-              {foto.titulo}
-              {foto.titulo_atribuido && <span className="text-muted-foreground">]</span>}
-            </>
+            foto.titulo
           )}
         </p>
         {foto.titulo_fuente === "indice" && foto.leyenda_reverso && (

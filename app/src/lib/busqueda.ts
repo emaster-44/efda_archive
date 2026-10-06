@@ -32,7 +32,7 @@ const indice = new MiniSearch<Foto>({
 })
 indice.addAll(fotos)
 
-export type Orden = "relevancia" | "signatura" | "fecha"
+export type Orden = "relevancia" | "signatura" | "fecha" | "titulo"
 
 export interface Consulta {
   q: string
@@ -114,6 +114,18 @@ export function ejecutar(c: Consulta): Foto[] {
     return filtradas
       .slice()
       .sort((a, b) => (a.anio_desde ?? 9999) - (b.anio_desde ?? 9999) || a.id.localeCompare(b.id))
+  }
+  if (c.orden === "titulo") {
+    // A–Z por título, ignorando corchetes y comillas iniciales; las fotos sin título van al final
+    const clave = (t: string) => t.replace(/^[\s\[“"«¿(]+/, "")
+    return filtradas
+      .slice()
+      .sort(
+        (a, b) =>
+          Number(a.sin_titulo) - Number(b.sin_titulo) ||
+          clave(a.titulo).localeCompare(clave(b.titulo), "es", { sensitivity: "base", numeric: true }) ||
+          a.id.localeCompare(b.id),
+      )
   }
   return filtradas
 }
