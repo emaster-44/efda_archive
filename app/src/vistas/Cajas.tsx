@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import { cajaDeSobre, cajaPorId, cajas, fotoPorId, fotosPorSobre, sobresEnOrden } from "@/lib/datos"
+import { cajaDeSobre, cajaPorId, cajas, estadisticas, fotoPorId, fotosPorSobre, sobresEnOrden } from "@/lib/datos"
 import { enlace } from "@/lib/ruta"
 import { Imagen } from "@/components/Imagen"
 import { Grilla, TarjetaFoto } from "@/components/TarjetaFoto"
@@ -11,7 +11,10 @@ export function Cajas() {
       <p className="etiqueta">Ubicación física</p>
       <h1 className="mt-2 text-3xl font-semibold">Cajas y sobres</h1>
       <p className="mt-3 max-w-3xl text-sm leading-relaxed text-muted-foreground">
-        El fondo se conserva en {cajas.length} cajas y {sobresEnOrden.length} sobres. Cajas y sobres son
+        {estadisticas.seleccion
+          ? `La selección piloto reúne ${estadisticas.fotos} fotografías de ${sobresEnOrden.length} sobres, en ${cajas.length} cajas. `
+          : `El fondo se conserva en ${cajas.length} cajas y ${sobresEnOrden.length} sobres. `}
+        Cajas y sobres son
         unidades de resguardo: indican dónde se guarda cada fotografía, no qué representa. La unidad de
         archivo es la fotografía, identificada por su signatura (por ejemplo{" "}
         <span className="signatura">C01a20-S20-0004</span>: caja C01a20, sobre S20, fotografía 4).

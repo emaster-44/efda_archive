@@ -18,6 +18,10 @@
     "drive_id": "11u4hZu6P0aiuukPV4WYlq7kXzvc4wT8sjt8O_7KB_mw",
     "nota": "Planilla maestra de catalogación (Drive: EFDA_KB/03_fondo_fotografico). Exportar como CSV a data/fuentes/inventario_base.csv antes de empaquetar."
   },
+  "publicacion": {
+    "criterio": "con_datos",
+    "_criterios": "con_datos = solo fotografías con título catalogado, entrada del índice manuscrito o información del reverso (prioridad: índice); todas = todo el inventario"
+  },
   "facetas": [
     {
       "campo": "caja",

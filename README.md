@@ -46,6 +46,11 @@ El índice manuscrito describe **fotografías individuales**. El vínculo entre 
 - **Título:** si queda vacío, se atribuye (entre corchetes) en este orden: el título de la entrada del índice (`indice_n`) y, si no hay entrada, la leyenda del reverso (`leyenda_reverso`). La ficha indica de dónde se tomó. Sin ninguna de las dos, figura como *Sin título*.
 - **Reverso:** `leyenda_reverso` lleva la leyenda descriptiva normalizada, que puede servir de título. `inscripciones_reverso` lleva la transcripción completa: manuscritos, sellos, numeraciones y anotaciones. La ficha muestra siempre anverso y reverso; si el reverso no está digitalizado, lo indica.
 - **`publicable` = `no`:** la ficha no se publica.
+- **Selección piloto** (`data/config.json → publicacion.criterio`):
+  - `con_datos` (actual): se publican solo las fotografías con título catalogado, entrada del índice o información del reverso.
+  - `todas`: se publica el inventario completo.
+
+  El inventario y la planilla no cambian; el filtro se aplica al empaquetar.
 - **`estado_ficha`:** `pendiente`, `borrador` o `revisada`.
 
 ## Imágenes

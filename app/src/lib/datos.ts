@@ -2,6 +2,7 @@ import fotosJson from "../../../data/fotografias.json"
 import cajasJson from "../../../data/cajas.json"
 import indiceJson from "../../../data/indice.json"
 import configJson from "../../../data/config.json"
+import resumenJson from "../../../data/resumen.json"
 
 /** Fotografía: unidad de archivo. Caja y sobre son unidades de resguardo. */
 export interface Foto {
@@ -134,8 +135,13 @@ export function fechaLegible(f: Foto) {
   return `${calif}${base}${duda}`
 }
 
+/** Publicación: "con_datos" = selección piloto (título, índice o reverso); "todas" = inventario completo. */
+export const resumen = resumenJson as { criterio: "con_datos" | "todas"; inventario: number; publicadas: number; cajas_inventario: number }
+
 export const estadisticas = {
   fotos: fotos.length,
+  inventario: resumen.inventario,
+  seleccion: resumen.criterio === "con_datos",
   cajas: cajas.length,
   sobres: sobresEnOrden.length,
   reversos: fotos.filter((f) => f.reverso).length,
