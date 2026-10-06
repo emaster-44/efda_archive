@@ -1,23 +1,28 @@
 {
   "archivo": {
-    "nombre": "Archivo EFDA",
-    "subtitulo": "Archivo fotográfico y documental",
-    "institucion": "Institución responsable (completar)",
+    "nombre": "Archivo Fotográfico de El Fogón de los Arrieros",
+    "sigla": "EFDA",
+    "subtitulo": "Fondo de consulta · Prototipo",
+    "institucion": "Fundación El Fogón de los Arrieros · Resistencia, Chaco",
+    "proyecto": "El dispositivo expográfico de El Fogón de los Arrieros: colecciones, fotografías y boletín (SGCyT-UNNE)",
     "url_base": "https://emaster-44.github.io/efda_archive/",
-    "contacto": "",
-    "licencia_metadatos": "CC BY 4.0",
-    "descripcion": "Interfaz de consulta del fondo fotográfico, enriquecida con documentación de archivo que aporta contexto histórico a las imágenes. Los registros incluidos son DATOS DE EJEMPLO y deben reemplazarse por el inventario real."
+    "licencia_metadatos": "CC BY 4.0"
+  },
+  "imagenes": {
+    "modo": "drive",
+    "_modos": "drive = miniaturas servidas desde Google Drive (requiere que las carpetas estén compartidas 'cualquier persona con el enlace'); local = media/{tamaño}/{signatura}.jpg; ninguna = solo ficha",
+    "ancho_miniatura": 400,
+    "ancho_ficha": 1600
   },
   "facetas": [
-    { "campo": "tipo_registro", "etiqueta": "Tipo de registro" },
-    { "campo": "fondo", "etiqueta": "Fondo" },
-    { "campo": "serie", "etiqueta": "Serie" },
+    { "campo": "sobre", "etiqueta": "Sobre (índice original)" },
     { "campo": "decada", "etiqueta": "Década" },
-    { "campo": "autor", "etiqueta": "Autor / productor" },
-    { "campo": "lugar", "etiqueta": "Lugar" },
-    { "campo": "materias", "etiqueta": "Materias" },
     { "campo": "personas", "etiqueta": "Personas" },
-    { "campo": "tecnica", "etiqueta": "Técnica / tipo documental" }
+    { "campo": "lugar", "etiqueta": "Lugar" },
+    { "campo": "evento", "etiqueta": "Evento" },
+    { "campo": "materias", "etiqueta": "Materias" },
+    { "campo": "fotografo", "etiqueta": "Fotógrafo/a" },
+    { "campo": "estado_ficha", "etiqueta": "Estado de la ficha" }
   ],
-  "por_pagina": 24
+  "por_pagina": 48
 }
