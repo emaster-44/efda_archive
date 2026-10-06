@@ -1,0 +1,23 @@
+{
+  "archivo": {
+    "nombre": "Archivo EFDA",
+    "subtitulo": "Archivo fotográfico y documental",
+    "institucion": "Institución responsable (completar)",
+    "url_base": "https://emaster-44.github.io/efda_archive/",
+    "contacto": "",
+    "licencia_metadatos": "CC BY 4.0",
+    "descripcion": "Interfaz de consulta del fondo fotográfico, enriquecida con documentación de archivo que aporta contexto histórico a las imágenes. Los registros incluidos son DATOS DE EJEMPLO y deben reemplazarse por el inventario real."
+  },
+  "facetas": [
+    { "campo": "tipo_registro", "etiqueta": "Tipo de registro" },
+    { "campo": "fondo", "etiqueta": "Fondo" },
+    { "campo": "serie", "etiqueta": "Serie" },
+    { "campo": "decada", "etiqueta": "Década" },
+    { "campo": "autor", "etiqueta": "Autor / productor" },
+    { "campo": "lugar", "etiqueta": "Lugar" },
+    { "campo": "materias", "etiqueta": "Materias" },
+    { "campo": "personas", "etiqueta": "Personas" },
+    { "campo": "tecnica", "etiqueta": "Técnica / tipo documental" }
+  ],
+  "por_pagina": 24
+}
