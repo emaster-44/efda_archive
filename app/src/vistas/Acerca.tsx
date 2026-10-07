@@ -34,7 +34,7 @@ export function Acerca() {
         <li>
           <strong className="text-foreground">Índice manuscrito.</strong> Cada entrada del <em>Índice
           Fotografías</em> corresponde a un sobre: la entrada N describe el sobre SN. Las fotografías del sobre
-          toman de ella su título atribuido, entre corchetes. Si no hay entrada (sobres 120 a 149), el título
+          toman de ella su título atribuido. Si no hay entrada (sobres 120 a 149), el título
           atribuido se toma de la leyenda manuscrita del reverso, que la ficha muestra siempre.
         </li>
         <li>
@@ -49,6 +49,11 @@ export function Acerca() {
             personas, lugares y fechas. El resto del inventario se incorporará a medida que avance la catalogación.
           </li>
         )}
+        <li>
+          <strong className="text-foreground">Normalización provisoria.</strong> Los nombres de personas, lugares
+          y eventos están normalizados de forma provisoria para este piloto, a partir del índice manuscrito, los
+          reversos, los recortes periodísticos y las listas de autoridades del equipo de investigación.
+        </li>
         <li>
           <strong className="text-foreground">Enriquecimiento progresivo.</strong> La ficha prevé campos de
           contexto (notas históricas y biográficas, documentos relacionados, bibliografía) que se

@@ -102,14 +102,6 @@ export function Ficha({ id }: { id: string }) {
             {foto.lugar && ` · ${foto.lugar}`}
           </p>
 
-          {foto.estado_ficha === "borrador" && (
-            <div className="mt-5 border-l-2 border-primary bg-card px-4 py-3 text-sm leading-relaxed">
-              <strong className="font-medium">Ficha en borrador.</strong>{" "}
-              <span className="text-muted-foreground">
-                Los datos provienen de la transcripción del reverso y están pendientes de revisión.
-              </span>
-            </div>
-          )}
 
           {foto.descripcion && <p className="mt-6 font-serif text-lg leading-relaxed">{foto.descripcion}</p>}
 

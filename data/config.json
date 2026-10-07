@@ -44,16 +44,8 @@
       "etiqueta": "Evento"
     },
     {
-      "campo": "materias",
-      "etiqueta": "Materias"
-    },
-    {
       "campo": "fotografo",
-      "etiqueta": "Fotógrafo/a"
-    },
-    {
-      "campo": "indice_titulo",
-      "etiqueta": "Índice manuscrito (sobre)"
+      "etiqueta": "Fotógrafo/estudio"
     }
   ],
   "por_pagina": 48
