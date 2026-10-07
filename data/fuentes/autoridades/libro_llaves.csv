@@ -1,0 +1,524 @@
+n_llave,nombre_tal_cual,apellido,nombres,localidad,actividad,nota,origen,verificado
+1,Juan de Dios Mena,Mena,Juan de Dios,Resistencia,Escultor,sin coma en el original: apellido inferido,equipo,si
+2,"Mijaylides, Luis",Mijaylides,Luis,Corrientes,Comerciante,,equipo,si
+3,"Boglietti, Efraín",Boglietti,Efraín,Resistencia,Turismo,,equipo,si
+4,"Cáceres, Julián Reinaldo",Cáceres,Julián Reinaldo,Prov. Buenos Aires,,,equipo,si
+5,"González Tuñón, Raúl",González Tuñón,Raúl,Capital Federal,Escritor,,equipo,si
+6,"Carrero Salgado, Antonio",Carrero Salgado,Antonio,Prov. Buenos Aires,,,equipo,si
+7,"Suero, Dionisio",Suero,Dionisio,,Turismo,,equipo,si
+8,"Rojas Paz, Pablo",Rojas Paz,Pablo,,Escritor,,equipo,si
+9,"Zali, José",Zali,José,,Pintor,,equipo,si
+10,"Palacio Maglioli, Josefa",Palacio Maglioli,Josefa,Resistencia,Médico,,equipo,si
+11,"Boglietti, Aldo",Boglietti,Aldo,Resistencia,Turismo,,equipo,si
+12,"Elustondo, Horacio",Elustondo,Horacio,Capital Federal,Comerciante,,equipo,si
+13,"Torres Varela, Hilda",Torres Varela,Hilda,Resistencia,Director de Teatro,,equipo,si
+14,"Di Lázzaro, Santiago",Di Lázzaro,Santiago,,Comerciante,,equipo,si
+15,"Neyra, Joaquín",Neyra,Joaquín,Capital Federal,Periodista,,equipo,si
+16,"Boglietti, Delfor",Boglietti,Delfor,Prov. Santa Fe,Contador,,equipo,si
+17,"Arizaga, José",Arizaga,José,Resistencia,Empleado,,equipo,si
+18,"Finkelstein, Jacobo",Finkelstein,Jacobo,Resistencia,Visitador Médico,,equipo,si
+19,"Gabardini de Fetz, María Luisa",Gabardini de Fetz,María Luisa,Prov. Buenos Aires,,,equipo,si
+20,"Chaponick, Héctor",Chaponick,Héctor,Capital Federal,Periodista,,equipo,si
+21,"Boglietti, Alfredo",Boglietti,Alfredo,Rosario,Comerciante,,equipo,si
+22,"Díaz, José",Díaz,José,Prov. de Córdoba,Empleado,,equipo,si
+23,"Vernazza, Ángel",Vernazza,Ángel,Resistencia,Comerciante,,equipo,si
+24,"Álvarez Ibarra, Carmen",Álvarez Ibarra,Carmen,Capital Federal,Profesor,,equipo,si
+25,"Guitart, Reynaldo",Guitart,Reynaldo,Prov. Chaco,Comerciante,,equipo,si
+26,"Oliveira Cézar, Eduardo",Oliveira Cézar,Eduardo,Prov. Santa Fe,Aserraderos,,equipo,si
+27,"Carlen, Horacio N.",Carlen,Horacio N.,Resistencia,Abogado,,equipo,si
+28,"Najmías, Daniel",Najmías,Daniel,Capital Federal,Comerciante,,equipo,si
+29,"Marchese, Víctor",Marchese,Víctor,Capital Federal,Escultor,,equipo,si
+30,"Yurkevich, Antonio Sabelio",Yurkevich,Antonio Sabelio,Resistencia,Comerciante,,equipo,si
+31,"Ruis Pozze, Andrés",Ruis Pozze,Andrés,,,,equipo,si
+32,"Mazza de Aragón, Elsa",Mazza de Aragón,Elsa,Capital Federal,,,equipo,si
+33,"Lagerheim, Gustavo",Lagerheim,Gustavo,Resistencia,Hacendado,,equipo,si
+34,"Giangrande, Silvio",Giangrande,Silvio,Prov. Buenos Aires,,"Nº 34 repetido (también: Penchasky, Moisés)",equipo,si
+34,"Penchasky, Moisés",Penchasky,Moisés,Resistencia,Abogado,"Nº 34 repetido (también: Giangrande, Silvio)",equipo,si
+35,"Petraglia, Adolfo",Petraglia,Adolfo,Resistencia,Químico,,equipo,si
+36,"Lataza, M. Livio",Lataza,M. Livio,Resistencia,Médico,,equipo,si
+37,"Castrillo, Héctor José",Castrillo,Héctor José,Capital Federal,Comerciante,,equipo,si
+38,"Trouvé, Raúl",Trouvé,Raúl,,,,equipo,si
+39,"Moguillansky, Luis",Moguillansky,Luis,,,,equipo,si
+40,"Azzoni, Roberto",Azzoni,Roberto,Prov. Mendoza,Pintor,,equipo,si
+41,"Van Leyden, Elena de",Van Leyden,Elena de,Capital Federal,,,equipo,si
+42,"Torres, Jorge Ariel",Torres,Jorge Ariel,Prov. Santa Fe,Impresor,,equipo,si
+43,"Giménez, Manuel",Giménez,Manuel,Resistencia,Médico,,equipo,si
+44,"Garleri, Florentino",Garleri,Florentino,Capital Federal,Turismo,,equipo,si
+45,"Doglio, Faustino",Doglio,Faustino,África,Médico,,equipo,si
+46,"Balbi, Hugo",Balbi,Hugo,Capital Federal,Empleado,,equipo,si
+47,"Baggini, Juan Carlos",Baggini,Juan Carlos,Capital Federal,Industrial,,equipo,si
+48,"Cartosio, Emma",Cartosio,Emma,Capital Federal,Escritora,,equipo,si
+49,"Greffet, Philipe",Greffet,Philipe,Capital Federal,Diplomático,,equipo,si
+50,"Sassoli, Oscar R.",Sassoli,Oscar R.,Capital Federal,Ingeniero,,equipo,si
+51,"Domínguez, Lorenzo",Domínguez,Lorenzo,,Escultor,,equipo,si
+52,"Kern, Ernesto",Kern,Ernesto,Capital Federal,Hacendado,,equipo,si
+53,"Ballvé, Julieta",Ballvé,Julieta,Capital Federal,,,equipo,si
+54,"Pascuzzi, Raúl",Pascuzzi,Raúl,Capital Federal,,,equipo,si
+55,"Barré, André",Barré,André,Francia,,,equipo,si
+56,"Urruchúa, Demetrio de",Urruchúa,Demetrio de,Capital Federal,Pintor,,equipo,si
+57,"Govi, María de",Govi,María de,Capital Federal,,,equipo,si
+58,"Javier, Francisco",Javier,Francisco,Capital Federal,Director de Teatro,,equipo,si
+59,"Maderna, Nazario (Tato)",Maderna,Nazario (Tato),Resistencia,Médico,,equipo,si
+60,"Piccolini, Ángel Esteban",Piccolini,Ángel Esteban,Resistencia,Ingeniero,,equipo,si
+61,"Glombovsky de Landman, Susana",Glombovsky de Landman,Susana,,Ingeniero,,equipo,si
+62,"Larzábal, Antonio",Larzábal,Antonio,Prov. Misiones,Comerciante,,equipo,si
+63,"Palmieri de Piccinato, Norma",Palmieri de Piccinato,Norma,Resistencia,Cantante,,equipo,si
+64,"Waisman, Rita",Waisman,Rita,Resistencia,Químico,,equipo,si
+65,"Ramírez, Ariel",Ramírez,Ariel,Capital Federal,Músico,,equipo,si
+66,"Arribillaga, Juan José",Arribillaga,Juan José,Prov. Entre Ríos,Abogado,,equipo,si
+67,"Nealon, Jorge",Nealon,Jorge,Prov. Buenos Aires,,,equipo,si
+68,"Chiozzi, Ángel",Chiozzi,Ángel,Resistencia,Comerciante,,equipo,si
+69,"Serra, Héctor José",Serra,Héctor José,Resistencia,Escribano,,equipo,si
+70,"Rodríguez Guidi, Edgar",Rodríguez Guidi,Edgar,Resistencia,Empleado,,equipo,si
+71,"Cura, Wasfe",Cura,Wasfe,Resistencia,Industrial,,equipo,si
+72,"Freire, Ramón S.",Freire,Ramón S.,,Médico,,equipo,si
+73,"D’uva, Emilio",D’uva,Emilio,,Odontólogo,,equipo,si
+74,"Galíndez, Alfonso",Galíndez,Alfonso,,,,equipo,si
+75,"Novas, Emilio",Novas,Emilio,Prov. Buenos Aires,Periodista,,equipo,si
+76,"Córdova Alsina, Alcibíades",Córdova Alsina,Alcibíades,Capital Federal,Periodista,,equipo,si
+77,"Schurjin, Raúl",Schurjin,Raúl,Capital Federal,Pintor,,equipo,si
+78,"Mascheroni, Horacio",Mascheroni,Horacio,Resistencia,Arquitecto,,equipo,si
+79,"Simmons, Roberto",Simmons,Roberto,,Comerciante,,equipo,si
+80,"Pereno, Romildo",Pereno,Romildo,,Comisario,,equipo,si
+81,"Banti, José",Banti,José,Capital Federal,,,equipo,si
+82,"Kosice, Gyula",Kosice,Gyula,Capital Federal,Escultor,,equipo,si
+83,"Díaz, Elena",Díaz,Elena,,Profesor,,equipo,si
+84,"Clément, Léonce",Clément,Léonce,Francia,Funcionario,,equipo,si
+85,"Casey, Alfredo",Casey,Alfredo,Prov. Buenos Aires,Escritor,,equipo,si
+86,"Frers, Enrique",Frers,Enrique,,Hacendado,,equipo,si
+87,"Gayol, Ricardo",Gayol,Ricardo,Paraguay,Comerciante,,equipo,si
+88,"Boglietti, Juan",Boglietti,Juan,,Óptico,,equipo,si
+89,"Barea, Arturo",Barea,Arturo,,,,equipo,si
+,"Barea, Ilsa",Barea,Ilsa,Austria,,sin número en el original,equipo,si
+90,"Taboada, Carlo Alberto",Taboada,Carlo Alberto,,,,equipo,si
+,"Candiotti Risso de Taboada, Raquel",Candiotti Risso de Taboada,Raquel,Resistencia,,sin número en el original,equipo,si
+91,"Castells, Ramón",Castells,Ramón,Capital Federal,Abogado,,equipo,si
+92,"Schenone, Carlos",Schenone,Carlos,,,,equipo,si
+,"Schenone, Flora de",Schenone,Flora de,Resistencia,,sin número en el original,equipo,si
+93,"Tiempo, César",Tiempo,César,Capital Federal,Periodista,,equipo,si
+94,"García Pulido, José",García Pulido,José,Resistencia,Librero,,equipo,si
+95,"Cerrutti, Raúl",Cerrutti,Raúl,Resistencia,Músico,,equipo,si
+96,"Sánchez, Gaspar",Sánchez,Gaspar,Resistencia,Farmaceutico,,equipo,si
+97,"Ferreyra Fourcade, Carlos",Ferreyra Fourcade,Carlos,Prov. Buenos Aires,Ingeniero,,equipo,si
+98,"Borfitz, Alberto",Borfitz,Alberto,Resistencia,,,equipo,si
+99,"Silberstein, Ben",Silberstein,Ben,Capital Federal,Agrimensor,,equipo,si
+100,"González Ligier, Manuel",González Ligier,Manuel,,Turismo,,equipo,si
+101,"Obal, Carlos R.",Obal,Carlos R.,Prov. Buenos Aires,,,equipo,si
+102,"Cigersa, Nity de",Cigersa,Nity de,,Profesor,,equipo,si
+103,"Loustanau, Haydée",Loustanau,Haydée,Capital Federal,Músico,,equipo,si
+104,"Serra, Franco",Serra,Franco,Capital Federal,Turismo,,equipo,si
+105,"Donnet, Ricardo",Donnet,Ricardo,,Contador,,equipo,si
+106,"Mazza, Roberto Oscar",Mazza,Roberto Oscar,Capital Federal,Militar,,equipo,si
+107,"Del Negro, Luis",Del Negro,Luis,Capital Federal,Ingeniero,,equipo,si
+108,"Schwab, Marcos",Schwab,Marcos,,,,equipo,si
+109,"Chabrillón, Andrés",Chabrillón,Andrés,,Abogado,,equipo,si
+110,"Sergi, Sergio",Sergi,Sergio,Prov. Mendoza,Grabador,,equipo,si
+111,"Bierregaard, Alex",Bierregaard,Alex,,,,equipo,si
+112,"Sylvestre Begnis, Carlos",Sylvestre Begnis,Carlos,Prov. Santa Fe,Médico,,equipo,si
+113,"Castillo, Jacinto",Castillo,Jacinto,Prov. Santa Fe,Pintor,,equipo,si
+114,"Carranza, Ferrán Ignacio",Carranza,Ferrán Ignacio,Capital Federal,Ingeniero,,equipo,si
+115,"Garmón, Nicolas",Garmón,Nicolas,Prov. Santa Fe,Comerciante,,equipo,si
+116,"Hermida, Avelino Manuel",Hermida,Avelino Manuel,Prov. Santa Fe,Maderero,,equipo,si
+117,"Moreno, Orlando",Moreno,Orlando,Prov. Santa Fe,Luminotécnico,,equipo,si
+118,"Boglietti, Alfredo (h)",Boglietti,Alfredo (h),Prov. Santa Fe,Electrotécnico,,equipo,si
+119,"Cochet, Gustavo",Cochet,Gustavo,Prov. Santa Fe,Pintor,,equipo,si
+120,"Jaroslavsky, Abraham",Jaroslavsky,Abraham,Prov. Río Negro,,,equipo,si
+121,"Bullrich, Carlos",Bullrich,Carlos,,Hacendado,,equipo,si
+122,"Vanzo, Julio",Vanzo,Julio,Prov. Santa Fe,Pintor,,equipo,si
+123,"Benavento, Gaspar",Benavento,Gaspar,Capital Federal,,,equipo,si
+,"Benavento, Delfa de",Benavento,Delfa de,Capital Federal,,sin número en el original,equipo,si
+124,"Petraglia, Radamés",Petraglia,Radamés,Uruguay,,,equipo,si
+125,"Babini, José",Babini,José,Capital Federal,,,equipo,si
+126,"Lozano Muñoz, Miguel",Lozano Muñoz,Miguel,Prov. Jujuy,Pintor,,equipo,si
+127,"Bonome, Rodrigo",Bonome,Rodrigo,Capital Federal,Pintor,,equipo,si
+128,"Alonso, José",Alonso,José,Capital Federal,Escultor,,equipo,si
+129,"Espárrago, Antonio",Espárrago,Antonio,Capital Federal,,,equipo,si
+130,"Fernández Navarro, César",Fernández Navarro,César,Prov. Santa Fe,Pintor,,equipo,si
+131,"Schenone, César",Schenone,César,,Empleado,,equipo,si
+132,"Gadano, José Enrique",Gadano,José Enrique,Prov. Río Negro,Abogado,,equipo,si
+133,"Córdova Iturburu, Cayetano",Córdova Iturburu,Cayetano,Prov. Buenos Aires,Crítico de Arte,,equipo,si
+134,"Ávalos Alurraldo, Edmundo",Ávalos Alurraldo,Edmundo,Capital Federal,,,equipo,si
+,"Ávalos Alurraldo, Bety",Ávalos Alurraldo,Bety,Capital Federal,,sin número en el original,equipo,si
+135,"Acosta, Julio F.",Acosta,Julio F.,Resistencia,Escritor,,equipo,si
+136,"Bertini, Silvio",Bertini,Silvio,Resistencia,Comerciante,,equipo,si
+137,"Lataz, Jorge A.",Lataz,Jorge A.,Resistencia,Médico,,equipo,si
+138,"Garayzábal Patiño, José",Garayzábal Patiño,José,Prov. Córdoba,,,equipo,si
+139,"Ongay, Balbino",Ongay,Balbino,Capital Federal,Hacendado,,equipo,si
+140,"Varela, Manuel",Varela,Manuel,Resistencia,Ingeniero,,equipo,si
+141,"Torre, Guillermo de",Torre,Guillermo de,,Escritor,,equipo,si
+142,"Delovo de Sánz Lajara, María Elena",Delovo de Sánz Lajara,María Elena,Capital Federal,,,equipo,si
+143,"Andicoechea, Isidro",Andicoechea,Isidro,,Escritor,,equipo,si
+144,"Badi, Aquiles",Badi,Aquiles,Italia,Pintor,,equipo,si
+145,"Nudelman, Flora",Nudelman,Flora,Capital Federal,Músico,,equipo,si
+146,"Torres, Alberto",Torres,Alberto,,Médico,,equipo,si
+147,"Mariscotti, Carlos",Mariscotti,Carlos,Prov. Buenos Aires,,,equipo,si
+,"Miles de Mariscotti, Beatríz",Miles de Mariscotti,Beatríz,Prov. Buenos Aires,,sin número en el original,equipo,si
+148,"Raco, Antonio de",Raco,Antonio de,Capital Federal,Músico,,equipo,si
+149,"Ressino, Roberto",Ressino,Roberto,,Industrial,,equipo,si
+150,"Lataza de Wendel, Lida",Lataza de Wendel,Lida,Estados Unidos,Escritor,,equipo,si
+151,"Kédinger, Enrique",Kédinger,Enrique,Resistencia,Comerciante,,equipo,si
+152,"López Álvarez, José",López Álvarez,José,,Comerciante,,equipo,si
+153,"Guichón de Flores, Eliana",Guichón de Flores,Eliana,Prov. Córdoba,,,equipo,si
+154,"Guichón, Roberto G.",Guichón,Roberto G.,Prov. Córdoba,,,equipo,si
+,"Montiel de Guichón, Celia",Montiel de Guichón,Celia,Prov. Córdoba,,sin número en el original,equipo,si
+155,"Bouzón, Jesús",Bouzón,Jesús,Prov. Mendoza,Industrial,,equipo,si
+156,"Fraser, Arturo R. S.",Fraser,Arturo R. S.,Resistencia,Industrial,,equipo,si
+157,"Brusau, René",Brusau,René,Resistencia,Pintor,,equipo,si
+158,"Obal, Rafael",Obal,Rafael,Prov. Córdoba,Corredor de seguros,,equipo,si
+159,"Miranda, Guido",Miranda,Guido,Resistencia,Escritor,,equipo,si
+160,"Sanjurjo de Alba, Annick",Sanjurjo de Alba,Annick,Estados Unidos,,,equipo,si
+161,"Seggiaro, Oscar P.",Seggiaro,Oscar P.,Capital Federal,Ingeniero,,equipo,si
+162,"Verdevoye, Paul",Verdevoye,Paul,Francia,Escritor,,equipo,si
+163,"Paleo, Manuel",Paleo,Manuel,Capital Federal,Empleado,,equipo,si
+164,"Burbridge, Atilio",Burbridge,Atilio,Prov. Córdoba,Comerciante,,equipo,si
+165,"Ricca, Olga",Ricca,Olga,Capital Federal,Profesora,,equipo,si
+166,"Traube, Dolly",Traube,Dolly,Capital Federal,,,equipo,si
+167,"Barragán, Alfredo",Barragán,Alfredo,Capital Federal,Militar,,equipo,si
+168,"Kistenmacher de Lestorneau, M. L.",Kistenmacher de Lestorneau,M. L.,,,,equipo,si
+169,"Mozzati, Julio",Mozzati,Julio,Capital Federal,,,equipo,si
+170,"Lattman, Walter",Lattman,Walter,,,,equipo,si
+171,"Díaz de Vivar, Rodolfo R.",Díaz de Vivar,Rodolfo R.,Prov. Corrientes,Hacendado,,equipo,si
+172,"Palamedi, Benito",Palamedi,Benito,,,,equipo,si
+173,"Falco, Romero",Falco,Romero,Prov. Santa Fe,,,equipo,si
+174,"Rusconi, Carlos",Rusconi,Carlos,Rosario,Gerente de Banco,,equipo,si
+175,"Bentolila, José",Bentolila,José,Resistencia,Médico,,equipo,si
+176,"Gianneschi, Alberto",Gianneschi,Alberto,Resistencia,,,equipo,si
+177,"Cúneo, Dardo",Cúneo,Dardo,Prov. Buenos Aires,Escritor,,equipo,si
+178,"Romero Brest, Jorge",Romero Brest,Jorge,Capital Federal,Crítico de arte,,equipo,si
+179,"Singer, Gregorio",Singer,Gregorio,,,,equipo,si
+180,"Barletta, Leónidas",Barletta,Leónidas,Capital Federal,Escritor,,equipo,si
+181,"Canal Feijóo, Bernardo",Canal Feijóo,Bernardo,Capital Federal,Escritor,,equipo,si
+182,"Sevlever, David",Sevlever,David,Capital Federal,Médico,,equipo,si
+183,"Rodríguez Barro, Francisco",Rodríguez Barro,Francisco,,Comerciante,,equipo,si
+184,"Morales, Justo C.",Morales,Justo C.,,Profesor,,equipo,si
+185,"Bello, Luis Mario",Bello,Luis Mario,Francia,Periodista,,equipo,si
+186,"Venier, Bruno",Venier,Bruno,Capital Federal,Pintor,,equipo,si
+187,"Premoli, Rodolfo C.",Premoli,Rodolfo C.,,Ingeniero,,equipo,si
+188,"Gumma, Antonio",Gumma,Antonio,Prov. Buenos Aires,,,equipo,si
+189,"Fossati, Josué",Fossati,Josué,Resistencia,Abogado,,equipo,si
+190,"Núñez, Mauro",Núñez,Mauro,Bolivia,Escultor,,equipo,si
+191,"Garavito, Maximiliam",Garavito,Maximiliam,Estados Unidos,Turismo,,equipo,si
+192,"Pasquetti, Bruno",Pasquetti,Bruno,Prov. Buenos Aires,Pintor,,equipo,si
+193,"Ventura Cardoso, Euclides",Ventura Cardoso,Euclides,Capital Federal,Profesor,,equipo,si
+194,"Vignau, Marta",Vignau,Marta,Capital Federal,Profesor,,equipo,si
+195,"Weidmann, Alfredo",Weidmann,Alfredo,Capital Federal,Periodista,,equipo,si
+196,"Neal, Elizabeth",Neal,Elizabeth,Resistencia,Profesor,,equipo,si
+197,"Tesón, Miguel",Tesón,Miguel,Capital Federal,Contador,,equipo,si
+198,"Premoli, Marcelo",Premoli,Marcelo,Prov. Santa Fe,,,equipo,si
+199,"Celada, Alberto",Celada,Alberto,Resistencia,Publicista,,equipo,si
+200,"Sánchez Viamonte, Carlos",Sánchez Viamonte,Carlos,,Abogado,,equipo,si
+201,"Vargas Peña, Benjamín",Vargas Peña,Benjamín,Prov. Buenos Aires,Médico,,equipo,si
+202,"Curti, Emma",Curti,Emma,Capital Federal,Músico,,equipo,si
+203,"Dianda, Hilda",Dianda,Hilda,Capital Federal,Músico,,equipo,si
+204,"Vujevich, José",Vujevich,José,Resistencia,Industrial,,equipo,si
+205,"Mangiaterra, Mario",Mangiaterra,Mario,Resistencia,Ingeniero,,equipo,si
+206,"Bigatti, Alfredo",Bigatti,Alfredo,Capital Federal,,,equipo,si
+,"Forner, Raquel",Forner,Raquel,Capital Federal,,sin número en el original,equipo,si
+207,"Helguera, Haydée",Helguera,Haydée,Capital Federal,Músico,,equipo,si
+208,"Gómez Cornet, Ramón",Gómez Cornet,Ramón,,Pintor,,equipo,si
+209,"Stevanovich, Emilio",Stevanovich,Emilio,Capital Federal,Periodista,,equipo,si
+210,"Arán, Artemio",Arán,Artemio,Córdoba,Pintor,,equipo,si
+211,"Chavarría Macías, Antonio",Chavarría Macías,Antonio,Capital Federal,Maderero,,equipo,si
+212,Gerónimo Narizzano,Narizzano,Gerónimo,Prov. Buenos Aires,Profesor,sin coma en el original: apellido inferido,equipo,si
+213,"Brascó, Miguel",Brascó,Miguel,Capital Federal,Humorista,,equipo,si
+214,"Buttler, Horacio",Buttler,Horacio,Capital Federal,Pintor,,equipo,si
+215,"Sánchez Bustamante, Samuel",Sánchez Bustamante,Samuel,Mendoza,Arquitecto,,equipo,si
+216,"Ferrigno, Oscar",Ferrigno,Oscar,Prov. Buenos Aires,Actor,,equipo,si
+217,"Guasti de Rodríguez, Lidia",Guasti de Rodríguez,Lidia,,Profesor,,equipo,si
+218,"Martínez, Ubaldo",Martínez,Ubaldo,Capital Federal,Actor,,equipo,si
+219,"Birri, Fernando",Birri,Fernando,Italia,Director de Cine,,equipo,si
+220,"Fux, María",Fux,María,Capital Federal,Bailarina,,equipo,si
+221,"Bullaude, José",Bullaude,José,Capital Federal,Audiovisuales,,equipo,si
+222,"Morgan de Schanton, Lucrecia",Morgan de Schanton,Lucrecia,Resistencia,Escribano,,equipo,si
+223,"Caraciolo, Rodolfo",Caraciolo,Rodolfo,Capital Federal,Músico,,equipo,si
+224,"Yuntoni, Adolfo",Yuntoni,Adolfo,Prov. Buenos Aires,Titiritero,,equipo,si
+225,"Raggio, José María",Raggio,José María,Prov. Buenos Aires,,,equipo,si
+226,"Pinasco, Emigdio",Pinasco,Emigdio,,,,equipo,si
+227,"Arranz, Fernando",Arranz,Fernando,,Ceramista,,equipo,si
+228,"Pampín, Martín",Pampín,Martín,,,,equipo,si
+229,"Acosta, Wladimiro",Acosta,Wladimiro,,Arquitecto,,equipo,si
+230,"Giannesci, Juan Carlos",Giannesci,Juan Carlos,,Bibliotecario,,equipo,si
+231,"Stern, Grete",Stern,Grete,Prov. Buenos Aires,Fotógrafo,,equipo,si
+232,"Jonquières, Eduardo",Jonquières,Eduardo,Francia,Pintor,,equipo,si
+233,"Pedroso, Odair",Pedroso,Odair,Brasil,Médico,,equipo,si
+234,"Portnoy, Leopoldo",Portnoy,Leopoldo,Capital Federal,Economista,,equipo,si
+235,"Veiravé, Alfredo",Veiravé,Alfredo,Resistencia,Escritor,,equipo,si
+236,"Spivak, Raúl",Spivak,Raúl,,Músico,,equipo,si
+237,"Seward, Eric",Seward,Eric,Inglaterra,,,equipo,si
+238,"Nanty, Pedro V.",Nanty,Pedro V.,Inglaterra,Industrial,,equipo,si
+239,"Mondelos, Roberto",Mondelos,Roberto,Prov. Buenos Aires,Mago,,equipo,si
+240,"de San Luis, Nicolás Antonio",de San Luis,Nicolás Antonio,,Escultor,,equipo,si
+241,"Pettoruti, Emilio",Pettoruti,Emilio,,Pintor,,equipo,si
+242,"Muñoz, José",Muñoz,José,Capital Federal,Economista,,equipo,si
+243,"Libendinsky, Luis Felipe",Libendinsky,Luis Felipe,Resistencia,Industrial,,equipo,si
+244,"Moncada, Marco Aurelio",Moncada,Marco Aurelio,Prov. Corrientes,Hacendado,,equipo,si
+245,"Cristaldo, Adolfo",Cristaldo,Adolfo,Prov. Chubut,Periodista,,equipo,si
+246,"Panizza, Andrés",Panizza,Andrés,,,,equipo,si
+247,"Mari, Jaime",Mari,Jaime,Capital Federal,Industrial,,equipo,si
+248,"Caletti, Oberdam",Caletti,Oberdam,Capital Federal,Profesor,,equipo,si
+249,"Asti Vera, Armando",Asti Vera,Armando,,Profesor,,equipo,si
+250,"Grela, Juan",Grela,Juan,Prov. Santa Fe,Pintor,,equipo,si
+251,"D'Angelo, Hugo",D'Angelo,Hugo,Capital Federal,Ingeniero,,equipo,si
+252,"Arcidiácono, José",Arcidiácono,José,Capital Federal,Pintor,,equipo,si
+253,"Pagani, Roberto",Pagani,Roberto,Resistencia,Comerciante,,equipo,si
+254,"Orensanz, José María",Orensanz,José María,,Director de Teatro,,equipo,si
+255,"Grimaux, Oscar",Grimaux,Oscar,Capital Federal,Ingeniero,,equipo,si
+256,"Monsegur, Raúl",Monsegur,Raúl,Capital Federal,Pintor,,equipo,si
+,"de la Torre de Monsegur, Elvira",de la Torre de Monsegur,Elvira,Prov. Buenos Aires,,sin número en el original,equipo,si
+257,"Zacur, Alberto",Zacur,Alberto,Paraguay,Ingeniero,,equipo,si
+258,"Rolón, Rubén",Rolón,Rubén,,,,equipo,si
+259,"Sánchez, Idalecio",Sánchez,Idalecio,Resistencia,Escribano,,equipo,si
+260,"Udry, Gustavo Adolfo",Udry,Gustavo Adolfo,Prov. Buenos Aires,,,equipo,si
+261,"Ribeiros, Efraín",Ribeiros,Efraín,Estados Unidos,Ingeniero,,equipo,si
+262,"Testoni, Héctor",Testoni,Héctor,Capital Federal,,,equipo,si
+263,"Ladizesky, Gregorio",Ladizesky,Gregorio,Inglaterra,Arquitecto,,equipo,si
+264,"Garbers, Nelly",Garbers,Nelly,Francia,Profesor,,equipo,si
+265,"Petit, André",Petit,André,Arabia Saudita,Diplomático,,equipo,si
+266,"Marangunic, Marcos",Marangunic,Marcos,Resistencia,Profesor,,equipo,si
+267,"Fuentes, Horacio",Fuentes,Horacio,Resistencia,Ingeniero,,equipo,si
+268,"Urtizberea, Oscar",Urtizberea,Oscar,Capital Federal,,,equipo,si
+269,"Paesky, Efraín",Paesky,Efraín,Prov. Santa Fe,Médico,,equipo,si
+270,"Bayón, Damián Carlos",Bayón,Damián Carlos,Francia,Profesor,,equipo,si
+271,"Wapnir, Salomón",Wapnir,Salomón,,Periodista,,equipo,si
+272,"Irigoyen, José Miguel",Irigoyen,José Miguel,Prov. Corrientes,,,equipo,si
+273,"Pouchulu, Pedro",Pouchulu,Pedro,Capital Federal,Periodista,,equipo,si
+274,"Abeledo, Benito",Abeledo,Benito,Capital Federal,Industrial,,equipo,si
+275,"García Olano, Ernesto",García Olano,Ernesto,Capital Federal,Ingeniero,,equipo,si
+276,"Alrreguy, Carlos",Alrreguy,Carlos,Capital Federal,Ingeniero,,equipo,si
+277,"Gómez Cou, Santiago",Gómez Cou,Santiago,Capital Federal,Actor,,equipo,si
+278,"Moragues, Miguel",Moragues,Miguel,Prov. Buenos Aires,,,equipo,si
+279,"Seguí, Eduardo",Seguí,Eduardo,Resistencia,Comisario,,equipo,si
+280,"Rizzotti, Luis David",Rizzotti,Luis David,Resistencia,,,equipo,si
+281,"Mantovani, Juan",Mantovani,Juan,,,,equipo,si
+,"Schutlz de Mantovani, Fryda",Schutlz de Mantovani,Fryda,Capital Federal,,sin número en el original,equipo,si
+282,"Giusti, Roberto",Giusti,Roberto,Prov. Buenos Aires,Profesor,,equipo,si
+283,"Carcavallo, Francisco",Carcavallo,Francisco,Capital Federal,,,equipo,si
+284,"Di Mauro, Hector y Eduardo",Di Mauro,Hector y Eduardo,Prov. Córdoba,Titiritero,,equipo,si
+285,"Gorrochategui, Claudio L.",Gorrochategui,Claudio L.,Capital Federal,Pintor,,equipo,si
+286,"Vázquez, Antonio",Vázquez,Antonio,Prov. Santa Fe,Pintor,,equipo,si
+287,"Guillamet-Charguet, Carlos",Guillamet-Charguet,Carlos,Capital Federal,Industrial,,equipo,si
+288,"Ortiz, Mecha",Ortiz,Mecha,Capital Federal,Actor,,equipo,si
+289,"Vega de Parera, Carmen",Vega de Parera,Carmen,Resistencia,,,equipo,si
+290,"Rosas de Jouliá, María Tilia",Rosas de Jouliá,María Tilia,Prov. Buenos Aires,Profesor,,equipo,si
+291,"Otero, Juan",Otero,Juan,Capital Federal,Pintor,,equipo,si
+292,"Hardy de Massafero, Isabel",Hardy de Massafero,Isabel,Capital Federal,Profesor,,equipo,si
+293,"de Peper, María Teresa",de Peper,María Teresa,Prov. Buenos Aires,,,equipo,si
+294,"Manrique, Miguel Mom",Manrique,Miguel Mom,Capital Federal,Militar,,equipo,si
+295,"Bustos, Edgar",Bustos,Edgar,Prov. Buenos Aires,,,equipo,si
+296,"Ceccarelli, Fernando",Ceccarelli,Fernando,Resistencia,Ingeniero,,equipo,si
+297,"Eulmessekian, Artín",Eulmessekian,Artín,,Ingeniero,,equipo,si
+298,"Pinedo, Juan",Pinedo,Juan,Resistencia,Bancario,,equipo,si
+299,"de Raedemaeker, Juan",de Raedemaeker,Juan,Prov. Córdoba,Ingeniero,,equipo,si
+300,"Viola, Luis",Viola,Luis,,Periodista,,equipo,si
+301,"Zabalza, Fernando",Zabalza,Fernando,Resistencia,Constructor,,equipo,si
+302,"Fantín, Gianni",Fantín,Gianni,Prov. Buenos Aires,Ingeniero,,equipo,si
+303,"Esquivel, Oscar Adolfo",Esquivel,Oscar Adolfo,Resistencia,Odontólogo,,equipo,si
+304,"Stanicio de Zamorano, Teresita",Stanicio de Zamorano,Teresita,Resistencia,Empleado,,equipo,si
+305,"Burnichón, Alberto",Burnichón,Alberto,Prov. Buenos Aires,,,equipo,si
+306,"Zerda, Angel",Zerda,Angel,Prov. Salta,,,equipo,si
+307,"Ramallo, Ernesto Ignacio",Ramallo,Ernesto Ignacio,Capital Federal,Crítico de Arte,,equipo,si
+308,"Tacca, Oscar",Tacca,Oscar,Resistencia,Profesor,,equipo,si
+309,"Censi de Del Mónico, Lilí",Censi de Del Mónico,Lilí,Paraguay,Industrial,,equipo,si
+310,"Badíi, Líbero",Badíi,Líbero,Prov. Buenos Aires,Escultor,,equipo,si
+311,"Giangrande, Silvio",Giangrande,Silvio,Prov. Buenos Aires,Escultor,,equipo,si
+312,"Sábato, Ernesto",Sábato,Ernesto,Prov. Buenos Aires,Escritor,,equipo,si
+313,"Osácar de Musicante, Alba",Osácar de Musicante,Alba,Prov. Córdoba,Profesor,,equipo,si
+314,"Klimovsky, Gregorio",Klimovsky,Gregorio,Prov. Buenos Aires,,,equipo,si
+315,"Garrido, Miguel Angel",Garrido,Miguel Angel,Prov. Buenos Aires,Ingeniero,,equipo,si
+316,"Delbue, Carlos",Delbue,Carlos,Capital Federal,Médico,,equipo,si
+317,"Romero, José Luis",Romero,José Luis,Prov. Buenos Aires,Escritor,,equipo,si
+318,"Gollán, Alberto C.",Gollán,Alberto C.,Prov. Santa Fe,Comerciante,,equipo,si
+319,"Lublin, Lea",Lublin,Lea,,Pintor,,equipo,si
+320,"Savelli, Frank",Savelli,Frank,Capital Federal,Ingeniero,,equipo,si
+321,"Bolognesi, Arnoldo",Bolognesi,Arnoldo,Capital Federal,,,equipo,si
+322,"Pailles, Elíades Félix",Pailles,Elíades Félix,Capital Federal,,,equipo,si
+323,"Dolberg, Mauricio",Dolberg,Mauricio,Capital Federal,Comerciante,,equipo,si
+324,"Maestre, Héctor Alberto",Maestre,Héctor Alberto,Prov. Buenos Aires,Abogado,,equipo,si
+325,"Carrillo, Antonio",Carrillo,Antonio,Rosario,Fotógrafo,,equipo,si
+326,"Figuero Román, Miguel",Figuero Román,Miguel,,Abogado,,equipo,si
+327,"Rivero Sosa, Horacio",Rivero Sosa,Horacio,Resistencia,Veterinario,,equipo,si
+328,"Rondanina, Esteban",Rondanina,Esteban,Capital Federal,Profesor,,equipo,si
+329,"Miró, Dario",Miró,Dario,Resistencia,Abogado,,equipo,si
+330,"Braumüller, Manfredo",Braumüller,Manfredo,Prov. Buenos Aires,Aviador,,equipo,si
+331,"Valdéz, Olegario",Valdéz,Olegario,Resistencia,,,equipo,si
+,"Valdéz, Carlos",Valdéz,Carlos,Resistencia,,sin número en el original,equipo,si
+332,"Verdaguer, Alberto",Verdaguer,Alberto,Capital Federal,Industrial,,equipo,si
+333,"Elizondo, Yolanda",Elizondo,Yolanda,Resistencia,Profesor,,equipo,si
+334,"Capponi, Mari",Capponi,Mari,Capital Federal,Psicólogo,,equipo,si
+335,"Schanton, Hugo",Schanton,Hugo,Resistencia,Médico,,equipo,si
+336,"Camino Schanton, José",Camino Schanton,José,Resistencia,Abogado,,equipo,si
+337,"Mac Sweeney, Juan",Mac Sweeney,Juan,Prov. Misiones,Comerciante,,equipo,si
+338,"Hernández Larguía, Hilarión",Hernández Larguía,Hilarión,Rosario,Arquitecto,,equipo,si
+339,"González, Héctor Blas",González,Héctor Blas,Capital Federal,,,equipo,si
+340,"Presas, Leopoldo",Presas,Leopoldo,Capital Federal,Pintor,,equipo,si
+341,"Forte, Vicente",Forte,Vicente,Capital Federal,Pintor,,equipo,si
+342,"Gómez Bas, Joaquín",Gómez Bas,Joaquín,Capital Federal,Escritor,,equipo,si
+343,"Noetinger, Enrique",Noetinger,Enrique,Capital Federal,,,equipo,si
+344,"Tálice, Roberto",Tálice,Roberto,Capital Federal,Dramaturgo,,equipo,si
+345,"Pettoruti, Carolita",Pettoruti,Carolita,Capital Federal,,,equipo,si
+346,"Bosco, María Angélica",Bosco,María Angélica,Capital Federal,Escritor,,equipo,si
+347,"Capristo, Oscar",Capristo,Oscar,Capital Federal,Pintor,,equipo,si
+348,"Unertl, Eduardo",Unertl,Eduardo,Prov. Buenos Aires,,,equipo,si
+349,"Zini, Arturo",Zini,Arturo,Rosario,Pintor,,equipo,si
+350,"Ríos, Miguel",Ríos,Miguel,Prov. Chaco,Ingeniero,,equipo,si
+351,"Martínez, Carlos",Martínez,Carlos,Resistencia,,,equipo,si
+352,"Valtier, Oscar",Valtier,Oscar,Capital Federal,Aviador,,equipo,si
+353,"Guaraní, Horacio",Guaraní,Horacio,Capital Federal,,,equipo,si
+354,"Lynch, Marta",Lynch,Marta,Prov. Buenos Aires,Escritor,,equipo,si
+355,"Mora y Araujo, Lila",Mora y Araujo,Lila,Capital Federal,Crítico de Arte,,equipo,si
+356,"Mettini, Ítalo",Mettini,Ítalo,Resistencia,Bibliotecario,,equipo,si
+357,"Celestino, Basilio",Celestino,Basilio,Prov. Buenos Aires,Pintor,,equipo,si
+358,"Scheines, Gregorio",Scheines,Gregorio,Prov. Buenos Aires,Abogado,,equipo,si
+359,"Sugasti, Juan Alberto",Sugasti,Juan Alberto,Rosario,Médico,,equipo,si
+360,"de Bardín, Perla",de Bardín,Perla,Prov. Buenos Aires,,,equipo,si
+361,"Sola, Marcela",Sola,Marcela,Capital Federal,Actor,,equipo,si
+,"Espinosa, Eduardo",Espinosa,Eduardo,Capital Federal,Actor,sin número en el original,equipo,si
+,"Helba, Tina",Helba,Tina,,Actor,sin número en el original,equipo,si
+362,"Tomasella, Federico",Tomasella,Federico,Prov. Corrientes,Industrial,,equipo,si
+363,"Revol, Eduardo",Revol,Eduardo,Prov. Misiones,Ingeniero,,equipo,si
+364,"de Acha, Raúl",de Acha,Raúl,,,,equipo,si
+365,"Petit de Murat, Ulyses",Petit de Murat,Ulyses,Capital Federal,Escritor,,equipo,si
+366,"Valenzuela, Luisa",Valenzuela,Luisa,Capital Federal,Escritor,,equipo,si
+367,"Codina, Inverna",Codina,Inverna,Capital Federal,Escritor,,equipo,si
+368,"Pardal, Carlos",Pardal,Carlos,Prov. Buenos Aires,Ingeniero,,equipo,si
+369,"Weinberg, Gregorio",Weinberg,Gregorio,Capital Federal,Profesor,,equipo,si
+370,"García Saraví, Gustavo",García Saraví,Gustavo,Prov. Buenos Aires,Escritor,,equipo,si
+371,"Torre, Eddie",Torre,Eddie,Resistencia,Pintor,,equipo,si
+372,"Mosquera, Marta",Mosquera,Marta,Venezuela,Escritor,,equipo,si
+373,"Maidagán, Ramón",Maidagán,Ramón,Rosario,Abogado,,equipo,si
+374,"Maidagán, José María",Maidagán,José María,Rosario,Abogado,,equipo,si
+375,"Crotto Posse, Jacinto",Crotto Posse,Jacinto,Capital Federal,,,equipo,si
+376,"Lagos, Ricardo",Lagos,Ricardo,Rosario,,,equipo,si
+,"Sugasti, Ciro",Sugasti,Ciro,,,sin número en el original,equipo,si
+,"Colombo, Juan Carlos",Colombo,Juan Carlos,Formosa,Militar,sin número en el original,equipo,si
+,"Helbling, Hector",Helbling,Hector,Formosa,,sin número en el original,equipo,si
+,"Richardson, Reynaldo",Richardson,Reynaldo,Rosario,Ingeniero,sin número en el original,equipo,si
+,"Soto, Carlos",Soto,Carlos,Rosario,,sin número en el original,equipo,si
+,"Baravalle, Norberto",Baravalle,Norberto,Rosario,,sin número en el original,equipo,si
+,"Batallan, Eduardo",Batallan,Eduardo,Rosario,,sin número en el original,equipo,si
+,"Cames, Oscar",Cames,Oscar,Rosario,,sin número en el original,equipo,si
+377,"Semino, Esteban",Semino,Esteban,Capital Federal,Pintor,,equipo,si
+378,"Lahitte, Ana Emilia",Lahitte,Ana Emilia,Prov. Buenos Aires,Escritor,,equipo,si
+379,"Cowes, Hugo",Cowes,Hugo,Estados Unidos,Científico,,equipo,si
+380,"Montaño, Salvador Dana",Montaño,Salvador Dana,Prov. Chubut,Abogado,,equipo,si
+381,"David, Pedro",David,Pedro,Capital Federal,Sociólogo,,equipo,si
+382,"Rossi, Edgardo",Rossi,Edgardo,Resistencia,Abogado,,equipo,si
+383,"Papávero Elizate, José",Papávero Elizate,José,,Comodoro,,equipo,si
+384,"Mc Cloud, James",Mc Cloud,James,Estados Unidos,Ingeniero,,equipo,si
+385,"Riú, Raúl",Riú,Raúl,Prov. Córdoba,Ingeniero,,equipo,si
+386,"Fernandez, René",Fernandez,René,Prov. Buenos Aires,,,equipo,si
+387,"Bechereau, Paul",Bechereau,Paul,Francia,Científico,,equipo,si
+388,"Solari, Juan Antonio",Solari,Juan Antonio,Capital Federal,Escritor,,equipo,si
+389,"Jofre Barroso, Haydée",Jofre Barroso,Haydée,Capital Federal,Escritor,,equipo,si
+390,"Gutiérrez, Fermín Estrella",Gutiérrez,Fermín Estrella,Capital Federal,Escritor,,equipo,si
+391,"Poletti, Syria",Poletti,Syria,Capital Federal,Escritor,,equipo,si
+392,"Bancalari, Nicolás",Bancalari,Nicolás,Resistencia,Arquitecto,,equipo,si
+393,"Peltzer, Federico",Peltzer,Federico,Prov. Buenos Aires,Abogado,,equipo,si
+394,"Castagnino, Raúl H.",Castagnino,Raúl H.,Capital Federal,Pintor,,equipo,si
+395,"Ghioldi, Américo",Ghioldi,Américo,Capital Federal,Profesor,,equipo,si
+396,"Lagmanovich, David",Lagmanovich,David,Estados Unidos,Profesor,,equipo,si
+397,"Tamburini, Juan",Tamburini,Juan,Capital Federal,Profesor,,equipo,si
+398,"Clemente, José Edmundo",Clemente,José Edmundo,Prov. Buenos Aires,Profesor,,equipo,si
+399,"Campobassi, José Salvador",Campobassi,José Salvador,Capital Federal,Profesor,,equipo,si
+400,"Mereles, Artemio D.",Mereles,Artemio D.,Prov. Chaco,Abogado,,equipo,si
+401,"Franco, Ángel",Franco,Ángel,Prov. Córdoba,Actor,,equipo,si
+402,"Gómez, Rodolfo",Gómez,Rodolfo,Prov. Córdoba,Actor,,equipo,si
+403,"Conti, Haroldo",Conti,Haroldo,Capital Federal,Escritor,,equipo,si
+404,"de Biasi, Orlando",de Biasi,Orlando,Prov. Corrientes,Profesor,,equipo,si
+405,"Borges, Jorge Luis",Borges,Jorge Luis,Capital Federal,Escritor,,equipo,si
+406,"Plá, Roger",Plá,Roger,Prov. Buenos Aires,Escritor,,equipo,si
+407,"Barletta, Alejandro",Barletta,Alejandro,Prov. Buenos Aires,,,equipo,si
+408,"Ottolenghi, Carlos",Ottolenghi,Carlos,Capital Federal,,,equipo,si
+409,"de Miguel, María Esther",de Miguel,María Esther,Capital Federal,Escritor,,equipo,si
+410,"Geraldi, Seferino",Geraldi,Seferino,Resistencia,Escritor,,equipo,si
+411,"Chapo Bortagay, Mario",Chapo Bortagay,Mario,Resistencia,Médico,,equipo,si
+412,"Justo, Juan R.",Justo,Juan R.,Prov. Chubut,Médico,,equipo,si
+413,"Lori, Roberto",Lori,Roberto,Capital Federal,Médico,,equipo,si
+414,"Zolezzi, Emilio",Zolezzi,Emilio,Prov. Buenos Aires,Abogado,,equipo,si
+415,"de Alvarez, Armanda",de Alvarez,Armanda,Resistencia,Comerciante,,equipo,si
+416,"Palmer, Margarita",Palmer,Margarita,Capital Federal,,,equipo,si
+417,"de Bechara, Elsa",de Bechara,Elsa,Capital Federal,,,equipo,si
+418,"Maire, Stella Maris",Maire,Stella Maris,Resistencia,Bibliotecario,,equipo,si
+419,"Chavez, Yaya",Chavez,Yaya,Resistencia,Bibliotecario,,equipo,si
+420,"Veloso, Rolando",Veloso,Rolando,Resistencia,Publicista,,equipo,si
+421,"Laluf, Julio",Laluf,Julio,Resistencia,Médico,,equipo,si
+422,"Corbo, Juan Carlos",Corbo,Juan Carlos,Rosario,Abogado,,equipo,si
+423,"Vindel Espeche, Enrique",Vindel Espeche,Enrique,Resistencia,Arquitecto,,equipo,si
+424,"Carranza Torres, José",Carranza Torres,José,Resistencia,Ingeniero,,equipo,si
+425,"Moneo Sanz, Cándido",Moneo Sanz,Cándido,Prov. Buenos Aires,,,equipo,si
+426,"Mac Kay, Neil",Mac Kay,Neil,Capital Federal,Diplomático,,equipo,si
+427,"Barrenechea, Ana María",Barrenechea,Ana María,Capital Federal,Profesor,,equipo,si
+428,"Bentolila, Moisés",Bentolila,Moisés,,Médico,,equipo,si
+429,"Gudiño Kieffer, Eduardo",Gudiño Kieffer,Eduardo,Capital Federal,Escritor,,equipo,si
+430,"Sebastiani, Pía",Sebastiani,Pía,Capital Federal,Músico,,equipo,si
+431,"Feldman Josín, Luis",Feldman Josín,Luis,,Escritor,,equipo,si
+432,"Verbitsky, Bernardo",Verbitsky,Bernardo,Prov. Buenos Aires,Escritor,,equipo,si
+433,"Guibourg, Eduardo",Guibourg,Eduardo,Capital Federal,,,equipo,si
+434,"Carlino, Carlos",Carlino,Carlos,Capital Federal,,,equipo,si
+435,"Salgueiro, Fernando",Salgueiro,Fernando,Prov. Buenos Aires,,,equipo,si
+436,"Castillo, Cátulo",Castillo,Cátulo,Prov. Buenos Aires,,,equipo,si
+437,"Varela, Fernando Manuel",Varela,Fernando Manuel,Resistencia,Profesor,,equipo,si
+438,"Pachelli, Antonio",Pachelli,Antonio,Resistencia,Bibliotecario,,equipo,si
+439,"Espina, Roberto",Espina,Roberto,Capital Federal,Actor,,equipo,si
+440,"Riccio, Robert",Riccio,Robert,Capital Federal,Diplomático,,equipo,si
+441,"Plá, Armando",Plá,Armando,Capital Federal,Industrial,,equipo,si
+442,"Sábato, Jorge A.",Sábato,Jorge A.,Capital Federal,Físico,,equipo,si
+443,"Reyes, Francisco",Reyes,Francisco,Capital Federal,Escultor,,equipo,si
+444,"Gaimari, Enrique",Gaimari,Enrique,Capital Federal,Escultor,,equipo,si
+445,"Schreiner, Hugo",Schreiner,Hugo,Resistencia,,,equipo,si
+446,"Di Domenico, Vicente",Di Domenico,Vicente,Capital Federal,Fotógrafo,,equipo,si
+447,"Basterra, Aristóbulo",Basterra,Aristóbulo,Resistencia,Ingeniero,,equipo,si
+448,"Iris Marga (Pauré, Iris)",Iris Marga (Pauré,Iris),Capital Federal,Actor,,equipo,si
+449,"Lanús, Adolfo",Lanús,Adolfo,Capital Federal,Periodista,,equipo,si
+450,"Stanley, Ricardo",Stanley,Ricardo,Resistencia,Bancario,,equipo,si
+451,"Parravicini, Viviano",Parravicini,Viviano,Capital Federal,,,equipo,si
+452,"Vargas Gómez, Carlos María",Vargas Gómez,Carlos María,Corrientes,Abogado,,equipo,si
+453,"Blum, Francisco",Blum,Francisco,Prov. Buenos Aires,,,equipo,si
+454,"Thomson, Brian",Thomson,Brian,Brasil,Arquitecto,,equipo,si
+455,"Zamudio, Justo",Zamudio,Justo,Resistencia,,,equipo,si
+456,"Milani, Eugenio",Milani,Eugenio,Resistencia,Publicista,,equipo,si
+457,"Wieczorek, Marian",Wieczorek,Marian,Capital Federal,Diplomático,,equipo,si
+458,"Ditieri, Cristina",Ditieri,Cristina,Capital Federal,Modelo,,equipo,si
+,"Chwojnik, Luis",Chwojnik,Luis,,,sin número en el original,equipo,si
+459,"Alemán, Oscar",Alemán,Oscar,,Músico,,equipo,si
+460,"Calvetti, Jorge",Calvetti,Jorge,Capital Federal,.,,equipo,si
+461,"Requeni, Antonio",Requeni,Antonio,Capital Federal,.,,equipo,si
+462,"Meloni, Aledo Luis",Meloni,Aledo Luis,Resistencua,Escritor,,equipo,si
+463,"Villalba Welsh, Emilio",Villalba Welsh,Emilio,Capital Federal,,,equipo,si
+464,"León, Luis Osvaldo",León,Luis Osvaldo,Capital Federal,Político,,equipo,si
+465,"Guerrero, Dante",Guerrero,Dante,Capital Federal,Ingeniero,,equipo,si
+466,"Chiapello de Frangioli, Mónica",Chiapello de Frangioli,Mónica,Resistencia,,,equipo,si
+467,"Galvarini, María del Cármen",Galvarini,María del Cármen,Resistencia,,,equipo,si
+468,"Cordeiro Ramos, Alcira",Cordeiro Ramos,Alcira,Capital Federal,Turismo,,equipo,si
+469,"Ignazzeti, Graciela",Ignazzeti,Graciela,Resistencia,Turismo,,equipo,si
+470,"Cis, Leandro",Cis,Leandro,Capital Federal,Industrial,,equipo,si
+471,"Moro, Juan Aldo",Moro,Juan Aldo,Resistencia,Impresor,,equipo,si
+,"Acuña de Moro, Dora",Acuña de Moro,Dora,,,sin número en el original,equipo,si
+472,"Palotzky, José",Palotzky,José,Capital Federal,,,equipo,si
+473,"Ávalos: Napoleón, Roberto, Víctor, Marce-lo, Adolfo",Ávalos: Napoleón,"Roberto, Víctor, Marce-lo, Adolfo",Capital Federal,,,equipo,si
+474,"López Chuhura, Osvaldo",López Chuhura,Osvaldo,Capital Federal,,,equipo,si
+475,"de Vicenzo, Roberto",de Vicenzo,Roberto,Capital Federal,Golfista,,equipo,si
+476,"Galvarini, Susana",Galvarini,Susana,Resistencia,Profesor,,equipo,si
+477,"Cassara, Eduardo",Cassara,Eduardo,Capital Federal,Industrial,,equipo,si
+478,"de Bruno, Emma",de Bruno,Emma,Resistencia,,,equipo,si
+479,"Grande, Enrique",Grande,Enrique,Capital Federal,,,equipo,si
+480,"Marval, Carlota",Marval,Carlota,España,Escritor,,equipo,si
+481,"Solitro de Brenta, Mimí",Solitro de Brenta,Mimí,Capital Federal,,,equipo,si
+482,"Carosonte, María Leticia",Carosonte,María Leticia,Prov. Buenos Aires,Ingeniero,,equipo,si
+483,"Dickman, Max",Dickman,Max,Francia,Escritor,,equipo,si
+484,"Klees, Alva",Klees,Alva,Resistencia,,,equipo,si
+485,"Castagna, Carlos y Marita",Castagna,Carlos y Marita,Resistencia,,,equipo,si
+486,"Barnetche, Carlos",Barnetche,Carlos,Resistencia,,,equipo,si
+487,"Coccatto, Iván Carlos",Coccatto,Iván Carlos,Resistencia,Arquitecto,,equipo,si
+488,"Martínez Philippon, Laura",Martínez Philippon,Laura,Resistencia,Profesor,,equipo,si
+489,"Menghi, José Luis",Menghi,José Luis,Capital Federal,,,equipo,si
+490,"de Robertis, Pablo",de Robertis,Pablo,Prov. Buenos Aires,Escultor,,equipo,si
+491,"Ingro, Diana",Ingro,Diana,Capital Federal,Actor,,equipo,si
+492,"Gómez, Fabriciano",Gómez,Fabriciano,Resistencia,Escultor,,equipo,si
+493,"Gómez Lollo, Humberto",Gómez Lollo,Humberto,Resistencia,Escultor,,equipo,si
+494,"Benchetrit Medina, Jorge",Benchetrit Medina,Jorge,Corrientes,Abogado,,equipo,si
+495,"Bonastre, Gaspar",Bonastre,Gaspar,Corrientes,,,equipo,si
+496,"Koremblit, Bernardo",Koremblit,Bernardo,Capital Federal,Escritor,,equipo,si
+497,"Peña, José María",Peña,José María,Capital Federal,Arquitecto,,equipo,si
+498,"Molina Gowland de Posse, Marta",Molina Gowland de Posse,Marta,Capital Federal,,,equipo,si
+499,"Gorodischer, Angélica",Gorodischer,Angélica,,,,equipo,si

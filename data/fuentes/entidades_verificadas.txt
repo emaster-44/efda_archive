@@ -1,0 +1,1969 @@
+
+### Nº 2. ÍNDICE A: “ORDEN DE LA LLAVE” (NOMBRE, DOMICILIO, PROFESIÓN)
+
+| **Nº** | **NOMBRE** | **LOCALIDAD** | **ACTIVIDAD** |
+| ---: | --- | --- | --- |
+| 1 | Juan de Dios Mena | Resistencia | Escultor |
+| 2 | Mijaylides, Luis | Corrientes | Comerciante |
+| 3 | Boglietti, Efraín | Resistencia | Turismo |
+| 4 | Cáceres, Julián Reinaldo | Prov. Buenos Aires | - |
+| 5 | González Tuñón, Raúl | Capital Federal | Escritor |
+| 6 | Carrero Salgado, Antonio | Prov. Buenos Aires | - |
+| 7 | Suero, Dionisio | - | Turismo |
+| 8 | Rojas Paz, Pablo | - | Escritor |
+| 9 | Zali, José | - | Pintor |
+| 10 | Palacio Maglioli, Josefa | Resistencia | Médico |
+| 11 | Boglietti, Aldo | Resistencia | Turismo |
+| 12 | Elustondo, Horacio | Capital Federal | Comerciante |
+| 13 | Torres Varela, Hilda | Resistencia | Director de Teatro |
+| 14 | Di Lázzaro, Santiago | - | Comerciante |
+| 15 | Neyra, Joaquín | Capital Federal | Periodista |
+| 16 | Boglietti, Delfor | Prov. Santa Fe | Contador |
+| 17 | Arizaga, José | Resistencia | Empleado |
+| 18 | Finkelstein, Jacobo | Resistencia | Visitador Médico |
+| 19 | Gabardini de Fetz, María Luisa | Prov. Buenos Aires | - |
+| 20 | Chaponick, Héctor | Capital Federal | Periodista |
+| 21 | Boglietti, Alfredo | Rosario | Comerciante |
+| 22 | Díaz, José | Prov. de Córdoba | Empleado |
+| 23 | Vernazza, Ángel | Resistencia | Comerciante |
+| 24 | Álvarez Ibarra, Carmen | Capital Federal | Profesor |
+| 25 | Guitart, Reynaldo | Prov. Chaco | Comerciante |
+| 26 | Oliveira Cézar, Eduardo | Prov. Santa Fe | Aserraderos |
+| 27 | Carlen, Horacio N. | Resistencia | Abogado |
+| 28 | Najmías, Daniel | Capital Federal | Comerciante |
+| 29 | Marchese, Víctor | Capital Federal | Escultor |
+| 30 | Yurkevich, Antonio Sabelio | Resistencia | Comerciante |
+| 31 | Ruis Pozze, Andrés | - | - |
+| 32 | Mazza de Aragón, Elsa | Capital Federal | - |
+| 33 | Lagerheim, Gustavo | Resistencia | Hacendado |
+| 34 | Giangrande, Silvio | Prov. Buenos Aires | - |
+| 34 | Penchasky, Moisés | Resistencia | Abogado |
+
+| 35 | Petraglia, Adolfo | Resistencia | Químico |
+| ---: | --- | --- | --- |
+| 36 | Lataza, M. Livio | Resistencia | Médico |
+| 37 | Castrillo, Héctor José | Capital Federal | Comerciante |
+| 38 | Trouvé, Raúl | - | - |
+| 39 | Moguillansky, Luis | - | - |
+| 40 | Azzoni, Roberto | Prov. Mendoza | Pintor |
+| 41 | Van Leyden, Elena de | Capital Federal | - |
+| 42 | Torres, Jorge Ariel | Prov. Santa Fe | Impresor |
+| 43 | Giménez, Manuel | Resistencia | Médico |
+| 44 | Garleri, Florentino | Capital Federal | Turismo |
+| 45 | Doglio, Faustino | África | Médico |
+| 46 | Balbi, Hugo | Capital Federal | Empleado |
+| 47 | Baggini, Juan Carlos | Capital Federal | Industrial |
+| 48 | Cartosio, Emma | Capital Federal | Escritora |
+| 49 | Greffet, Philipe | Capital Federal | Diplomático |
+| 50 | Sassoli, Oscar R. | Capital Federal | Ingeniero |
+| 51 | Domínguez, Lorenzo | - | Escultor |
+| 52 | Kern, Ernesto | Capital Federal | Hacendado |
+| 53 | Ballvé, Julieta | Capital Federal | - |
+| 54 | Pascuzzi, Raúl | Capital Federal | - |
+| 55 | Barré, André | Francia | - |
+| 56 | Urruchúa, Demetrio de | Capital Federal | Pintor |
+| 57 | Govi, María de | Capital Federal | - |
+| 58 | Javier, Francisco | Capital Federal | Director de Teatro |
+| 59 | Maderna, Nazario (Tato) | Resistencia | Médico |
+| 60 | Piccolini, Ángel Esteban | Resistencia | Ingeniero |
+| 61 | Glombovsky de Landman, Susana | - | Ingeniero |
+| 62 | Larzábal, Antonio | Prov. Misiones | Comerciante |
+| 63 | Palmieri de Piccinato, Norma | Resistencia | Cantante |
+| 64 | Waisman, Rita | Resistencia | Químico |
+| 65 | Ramírez, Ariel | Capital Federal | Músico |
+| 66 | Arribillaga, Juan José | Prov. Entre Ríos | Abogado |
+| 67 | Nealon, Jorge | Prov. Buenos Aires | - |
+| 68 | Chiozzi, Ángel | Resistencia | Comerciante |
+| 69 | Serra, Héctor José | Resistencia | Escribano |
+| 70 | Rodríguez Guidi, Edgar | Resistencia | Empleado |
+| 71 | Cura, Wasfe | Resistencia | Industrial |
+| 72 | Freire, Ramón S. | - | Médico |
+| 73 | D’uva, Emilio | - | Odontólogo |
+
+| 74 | Galíndez, Alfonso | - | - |
+| ---: | --- | --- | --- |
+| 75 | Novas, Emilio | Prov. Buenos Aires | Periodista |
+| 76 | Córdova Alsina, Alcibíades | Capital Federal | Periodista |
+| 77 | Schurjin, Raúl | Capital Federal | Pintor |
+| 78 | Mascheroni, Horacio | Resistencia | Arquitecto |
+| 79 | Simmons, Roberto | - | Comerciante |
+| 80 | Pereno, Romildo | - | Comisario |
+| 81 | Banti, José | Capital Federal | - |
+| 82 | Kosice, Gyula | Capital Federal | Escultor |
+| 83 | Díaz, Elena | - | Profesor |
+| 84 | Clément, Léonce | Francia | Funcionario |
+| 85 | Casey, Alfredo | Prov. Buenos Aires | Escritor |
+| 86 | Frers, Enrique | - | Hacendado |
+| 87 | Gayol, Ricardo | Paraguay | Comerciante |
+| 88 | Boglietti, Juan | - | Óptico |
+| 89 | Barea, Arturo | - | - |
+|  | Barea, Ilsa | Austria | - |
+| 90 | Taboada, Carlo Alberto | - | - |
+|  | Candiotti Risso de Taboada, Raquel | Resistencia | - |
+| 91 | Castells, Ramón | Capital Federal | Abogado |
+| 92 | Schenone, Carlos | - | - |
+|  | Schenone, Flora de | Resistencia | - |
+| 93 | Tiempo, César | Capital Federal | Periodista |
+| 94 | García Pulido, José | Resistencia | Librero |
+| 95 | Cerrutti, Raúl | Resistencia | Músico |
+| 96 | Sánchez, Gaspar | Resistencia | Farmaceutico |
+| 97 | Ferreyra Fourcade, Carlos | Prov. Buenos Aires | Ingeniero |
+| 98 | Borfitz, Alberto | Resistencia | - |
+| 99 | Silberstein, Ben | Capital Federal | Agrimensor |
+| 100 | González Ligier, Manuel | - | Turismo |
+| 101 | Obal, Carlos R. | Prov. Buenos Aires | - |
+| 102 | Cigersa, Nity de | - | Profesor |
+| 103 | Loustanau, Haydée | Capital Federal | Músico |
+| 104 | Serra, Franco | Capital Federal | Turismo |
+| 105 | Donnet, Ricardo | - | Contador |
+| 106 | Mazza, Roberto Oscar | Capital Federal | Militar |
+| 107 | Del Negro, Luis | Capital Federal | Ingeniero |
+| 108 | Schwab, Marcos | - | - |
+| 109 | Chabrillón, Andrés | - | Abogado |
+
+| 110 | Sergi, Sergio | Prov. Mendoza | Grabador |
+| ---: | --- | --- | --- |
+| 111 | Bierregaard, Alex | - | - |
+| 112 | Sylvestre Begnis, Carlos | Prov. Santa Fe | Médico |
+| 113 | Castillo, Jacinto | Prov. Santa Fe | Pintor |
+| 114 | Carranza, Ferrán Ignacio | Capital Federal | Ingeniero |
+| 115 | Garmón, Nicolas | Prov. Santa Fe | Comerciante |
+| 116 | Hermida, Avelino Manuel | Prov. Santa Fe | Maderero |
+| 117 | Moreno, Orlando | Prov. Santa Fe | Luminotécnico |
+| 118 | Boglietti, Alfredo (h) | Prov. Santa Fe | Electrotécnico |
+| 119 | Cochet, Gustavo | Prov. Santa Fe | Pintor |
+| 120 | Jaroslavsky, Abraham | Prov. Río Negro | - |
+| 121 | Bullrich, Carlos | - | Hacendado |
+| 122 | Vanzo, Julio | Prov. Santa Fe | Pintor |
+| 123 | Benavento, Gaspar | Capital Federal | - |
+|  | Benavento, Delfa de | Capital Federal | - |
+| 124 | Petraglia, Radamés | Uruguay | - |
+| 125 | Babini, José | Capital Federal | - |
+| 126 | Lozano Muñoz, Miguel | Prov. Jujuy | Pintor |
+| 127 | Bonome, Rodrigo | Capital Federal | Pintor |
+| 128 | Alonso, José | Capital Federal | Escultor |
+| 129 | Espárrago, Antonio | Capital Federal | - |
+| 130 | Fernández Navarro, César | Prov. Santa Fe | Pintor |
+| 131 | Schenone, César | - | Empleado |
+| 132 | Gadano, José Enrique | Prov. Río Negro | Abogado |
+| 133 | Córdova Iturburu, Cayetano | Prov. Buenos Aires | Crítico de Arte |
+| 134 | Ávalos Alurraldo, Edmundo | Capital Federal | - |
+|  | Ávalos Alurraldo, Bety | Capital Federal | - |
+| 135 | Acosta, Julio F. | Resistencia | Escritor |
+| 136 | Bertini, Silvio | Resistencia | Comerciante |
+| 137 | Lataz, Jorge A. | Resistencia | Médico |
+| 138 | Garayzábal Patiño, José | Prov. Córdoba | - |
+| 139 | Ongay, Balbino | Capital Federal | Hacendado |
+| 140 | Varela, Manuel | Resistencia | Ingeniero |
+| 141 | Torre, Guillermo de | - | Escritor |
+| 142 | Delovo de Sánz Lajara, María Elena | Capital Federal | - |
+| 143 | Andicoechea, Isidro | - | Escritor |
+| 144 | Badi, Aquiles | Italia | Pintor |
+| 145 | Nudelman, Flora | Capital Federal | Músico |
+| 146 | Torres, Alberto | - | Médico |
+
+| 147 | Mariscotti, Carlos | Prov. Buenos Aires | - |
+| ---: | --- | --- | --- |
+|  | Miles de Mariscotti, Beatríz | Prov. Buenos Aires | - |
+| 148 | Raco, Antonio de | Capital Federal | Músico |
+| 149 | Ressino, Roberto | - | Industrial |
+| 150 | Lataza de Wendel, Lida | Estados Unidos | Escritor |
+| 151 | Kédinger, Enrique | Resistencia | Comerciante |
+| 152 | López Álvarez, José | - | Comerciante |
+| 153 | Guichón de Flores, Eliana | Prov. Córdoba | - |
+| 154 | Guichón, Roberto G. | Prov. Córdoba | - |
+|  | Montiel de Guichón, Celia | Prov. Córdoba | - |
+| 155 | Bouzón, Jesús | Prov. Mendoza | Industrial |
+| 156 | Fraser, Arturo R. S. | Resistencia | Industrial |
+| 157 | Brusau, René | Resistencia | Pintor |
+| 158 | Obal, Rafael | Prov. Córdoba | Corredor de seguros |
+| 159 | Miranda, Guido | Resistencia | Escritor |
+| 160 | Sanjurjo de Alba, Annick | Estados Unidos | - |
+| 161 | Seggiaro, Oscar P. | Capital Federal | Ingeniero |
+|  | **SEP** | **. 55** |  |
+| 162 | Verdevoye, Paul | Francia | Escritor |
+| 163 | Paleo, Manuel | Capital Federal | Empleado |
+| 164 | Burbridge, Atilio | Prov. Córdoba | Comerciante |
+| 165 | Ricca, Olga | Capital Federal | Profesora |
+| 166 | Traube, Dolly | Capital Federal | - |
+| 167 | Barragán, Alfredo | Capital Federal | Militar |
+| 168 | Kistenmacher de Lestorneau, M. L. | - | - |
+| 169 | Mozzati, Julio | Capital Federal | - |
+| 170 | Lattman, Walter | - | - |
+| 171 | Díaz de Vivar, Rodolfo R. | Prov. Corrientes | Hacendado |
+| 172 | Palamedi, Benito | - | - |
+| 173 | Falco, Romero | Prov. Santa Fe | - |
+| 174 | Rusconi, Carlos | Rosario | Gerente de Banco |
+| 175 | Bentolila, José | Resistencia | Médico |
+| 176 | Gianneschi, Alberto | Resistencia | - |
+| 177 | Cúneo, Dardo | Prov. Buenos Aires | Escritor |
+| 178 | Romero Brest, Jorge | Capital Federal | Crítico de arte |
+| 179 | Singer, Gregorio | - | - |
+| 180 | Barletta, Leónidas | Capital Federal | Escritor |
+| 181 | Canal Feijóo, Bernardo | Capital Federal | Escritor |
+| 182 | Sevlever, David | Capital Federal | Médico |
+
+| 183 | Rodríguez Barro, Francisco | - | Comerciante |
+| ---: | --- | --- | --- |
+| 184 | Morales, Justo C. | - | Profesor |
+| 185 | Bello, Luis Mario | Francia | Periodista |
+| 186 | Venier, Bruno | Capital Federal | Pintor |
+| 187 | Premoli, Rodolfo C. | - | Ingeniero |
+| 188 | Gumma, Antonio | Prov. Buenos Aires | - |
+| 189 | Fossati, Josué | Resistencia | Abogado |
+| 190 | Núñez, Mauro | Bolivia | Escultor |
+| 191 | Garavito, Maximiliam | Estados Unidos | Turismo |
+| 192 | Pasquetti, Bruno | Prov. Buenos Aires | Pintor |
+| 193 | Ventura Cardoso, Euclides | Capital Federal | Profesor |
+| 194 | Vignau, Marta | Capital Federal | Profesor |
+| 195 | Weidmann, Alfredo | Capital Federal | Periodista |
+| 196 | Neal, Elizabeth | Resistencia | Profesor |
+| 197 | Tesón, Miguel | Capital Federal | Contador |
+| 198 | Premoli, Marcelo | Prov. Santa Fe | - |
+| 199 | Celada, Alberto | Resistencia | Publicista |
+| 200 | Sánchez Viamonte, Carlos | - | Abogado |
+| 201 | Vargas Peña, Benjamín | Prov. Buenos Aires | Médico |
+| 202 | Curti, Emma | Capital Federal | Músico |
+| 203 | Dianda, Hilda | Capital Federal | Músico |
+| 204 | Vujevich, José | Resistencia | Industrial |
+| 205 | Mangiaterra, Mario | Resistencia | Ingeniero |
+| 206 | Bigatti, Alfredo | Capital Federal | - |
+|  | Forner, Raquel | Capital Federal | - |
+| 207 | Helguera, Haydée | Capital Federal | Músico |
+| 208 | Gómez Cornet, Ramón | - | Pintor |
+| 209 | Stevanovich, Emilio | Capital Federal | Periodista |
+| 210 | Arán, Artemio | Córdoba | Pintor |
+| 211 | Chavarría Macías, Antonio | Capital Federal | Maderero |
+| 212 | Gerónimo Narizzano | Prov. Buenos Aires | Profesor |
+| 213 | Brascó, Miguel | Capital Federal | Humorista |
+| 214 | Buttler, Horacio | Capital Federal | Pintor |
+| 215 | Sánchez Bustamante, Samuel | Mendoza | Arquitecto |
+| 216 | Ferrigno, Oscar | Prov. Buenos Aires | Actor |
+| 217 | Guasti de Rodríguez, Lidia | - | Profesor |
+| 218 | Martínez, Ubaldo | Capital Federal | Actor |
+| 219 | Birri, Fernando | Italia | Director de Cine |
+| 220 | Fux, María | Capital Federal | Bailarina |
+
+| 221 | Bullaude, José | Capital Federal | Audiovisuales |
+| ---: | --- | --- | --- |
+| 222 | Morgan de Schanton, Lucrecia | Resistencia | Escribano |
+| 223 | Caraciolo, Rodolfo | Capital Federal | Músico |
+| 224 | Yuntoni, Adolfo | Prov. Buenos Aires | Titiritero |
+| 225 | Raggio, José María | Prov. Buenos Aires | - |
+| 226 | Pinasco, Emigdio | - | - |
+| 227 | Arranz, Fernando | - | Ceramista |
+| 228 | Pampín, Martín | - | - |
+| 229 | Acosta, Wladimiro | - | Arquitecto |
+| 230 | Giannesci, Juan Carlos | - | Bibliotecario |
+| 231 | Stern, Grete | Prov. Buenos Aires | Fotógrafo |
+| 232 | Jonquières, Eduardo | Francia | Pintor |
+| 233 | Pedroso, Odair | Brasil | Médico |
+| 234 | Portnoy, Leopoldo | Capital Federal | Economista |
+| 235 | Veiravé, Alfredo | Resistencia | Escritor |
+| 236 | Spivak, Raúl | - | Músico |
+| 237 | Seward, Eric | Inglaterra | - |
+| 238 | Nanty, Pedro V. | Inglaterra | Industrial |
+| 239 | Mondelos, Roberto | Prov. Buenos Aires | Mago |
+| 240 | de San Luis, Nicolás Antonio | - | Escultor |
+| 241 | Pettoruti, Emilio | - | Pintor |
+| 242 | Muñoz, José | Capital Federal | Economista |
+| 243 | Libendinsky, Luis Felipe | Resistencia | Industrial |
+| 244 | Moncada, Marco Aurelio | Prov. Corrientes | Hacendado |
+| 245 | Cristaldo, Adolfo | Prov. Chubut | Periodista |
+| 246 | Panizza, Andrés | - | - |
+| 247 | Mari, Jaime | Capital Federal | Industrial |
+| 248 | Caletti, Oberdam | Capital Federal | Profesor |
+| 249 | Asti Vera, Armando | - | Profesor |
+| 250 | Grela, Juan | Prov. Santa Fe | Pintor |
+| 251 | D'Angelo, Hugo | Capital Federal | Ingeniero |
+| 252 | Arcidiácono, José | Capital Federal | Pintor |
+| 253 | Pagani, Roberto | Resistencia | Comerciante |
+| 254 |  Orensanz, José María | - | Director de Teatro |
+| 255 | Grimaux, Oscar | Capital Federal | Ingeniero |
+| 256 | Monsegur, Raúl | Capital Federal | Pintor |
+|  | de la Torre de Monsegur, Elvira | Prov. Buenos Aires | - |
+| 257 | Zacur, Alberto | Paraguay | Ingeniero |
+| 258 | Rolón, Rubén | - | - |
+
+| 259 | Sánchez, Idalecio | Resistencia | Escribano |
+| ---: | --- | --- | --- |
+| 260 | Udry, Gustavo Adolfo | Prov. Buenos Aires | - |
+| 261 | Ribeiros, Efraín | Estados Unidos | Ingeniero |
+| 262 | Testoni, Héctor | Capital Federal | - |
+| 263 | Ladizesky, Gregorio | Inglaterra | Arquitecto |
+| 264 | Garbers, Nelly | Francia | Profesor |
+| 265 | Petit, André | Arabia Saudita | Diplomático |
+| 266 | Marangunic, Marcos | Resistencia | Profesor |
+| 267 | Fuentes, Horacio | Resistencia | Ingeniero |
+| 268 | Urtizberea, Oscar | Capital Federal | - |
+| 269 | Paesky, Efraín | Prov. Santa Fe | Médico |
+| 270 | Bayón, Damián Carlos | Francia | Profesor |
+| 271 | Wapnir, Salomón | - | Periodista |
+| 272 | Irigoyen, José Miguel | Prov. Corrientes | - |
+|  | **MAR** | **. 61** |  |
+| 273 | Pouchulu, Pedro | Capital Federal | Periodista |
+| 274 | Abeledo, Benito | Capital Federal | Industrial |
+| 275 | García Olano, Ernesto | Capital Federal | Ingeniero |
+| 276 | Alrreguy, Carlos | Capital Federal | Ingeniero |
+| 277 | Gómez Cou, Santiago | Capital Federal | Actor |
+| 278 | Moragues, Miguel | Prov. Buenos Aires | - |
+| 279 | Seguí, Eduardo | Resistencia | Comisario |
+| 280 | Rizzotti, Luis David | Resistencia | - |
+| 281 | Mantovani, Juan | - | - |
+|  | Schutlz de Mantovani, Fryda | Capital Federal | - |
+| 282 | Giusti, Roberto | Prov. Buenos Aires | Profesor |
+| 283 | Carcavallo, Francisco | Capital Federal | - |
+| 284 | Di Mauro, Hector y Eduardo | Prov. Córdoba | Titiritero |
+| 285 | Gorrochategui, Claudio L. | Capital Federal | Pintor |
+| 286 | Vázquez, Antonio | Prov. Santa Fe | Pintor |
+| 287 | Guillamet-Charguet, Carlos | Capital Federal | Industrial |
+| 288 | Ortiz, Mecha | Capital Federal | Actor |
+| 289 | Vega de Parera, Carmen | Resistencia | - |
+| 290 | Rosas de Jouliá, María Tilia | Prov. Buenos Aires | Profesor |
+| 291 | Otero, Juan | Capital Federal | Pintor |
+| 292 | Hardy de Massafero, Isabel | Capital Federal | Profesor |
+| 293 | de Peper, María Teresa | Prov. Buenos Aires | - |
+| 294 | Manrique, Miguel Mom | Capital Federal | Militar |
+| 295 | Bustos, Edgar | Prov. Buenos Aires | - |
+
+| 296 | Ceccarelli, Fernando | Resistencia | Ingeniero |
+| ---: | --- | --- | --- |
+| 297 | Eulmessekian, Artín | - | Ingeniero |
+| 298 | Pinedo, Juan | Resistencia | Bancario |
+| 299 | de Raedemaeker, Juan | Prov. Córdoba | Ingeniero |
+| 300 | Viola, Luis | - | Periodista |
+| 301 | Zabalza, Fernando | Resistencia | Constructor |
+| 302 | Fantín, Gianni | Prov. Buenos Aires | Ingeniero |
+| 303 | Esquivel, Oscar Adolfo | Resistencia | Odontólogo |
+| 304 | Stanicio de Zamorano, Teresita | Resistencia | Empleado |
+| 305 | Burnichón, Alberto | Prov. Buenos Aires | - |
+| 306 | Zerda, Angel | Prov. Salta | - |
+| 307 | Ramallo, Ernesto Ignacio | Capital Federal | Crítico de Arte |
+| 308 | Tacca, Oscar | Resistencia | Profesor |
+| 309 | Censi de Del Mónico, Lilí | Paraguay | Industrial |
+| 310 | Badíi, Líbero | Prov. Buenos Aires | Escultor |
+| 311 | Giangrande, Silvio | Prov. Buenos Aires | Escultor |
+| 312 | Sábato, Ernesto | Prov. Buenos Aires | Escritor |
+| 313 | Osácar de Musicante, Alba | Prov. Córdoba | Profesor |
+| 314 | Klimovsky, Gregorio | Prov. Buenos Aires | - |
+| 315 | Garrido, Miguel Angel | Prov. Buenos Aires | Ingeniero |
+| 316 | Delbue, Carlos | Capital Federal | Médico |
+| 317 | Romero, José Luis | Prov. Buenos Aires | Escritor |
+| 318 | Gollán, Alberto C. | Prov. Santa Fe | Comerciante |
+| 319 | Lublin, Lea | - | Pintor |
+| 320 | Savelli, Frank | Capital Federal | Ingeniero |
+| 321 | Bolognesi, Arnoldo | Capital Federal | - |
+| 322 | Pailles, Elíades Félix | Capital Federal | - |
+| 323 | Dolberg, Mauricio | Capital Federal | Comerciante |
+| 324 | Maestre, Héctor Alberto | Prov. Buenos Aires | Abogado |
+| 325 | Carrillo, Antonio | Rosario | Fotógrafo |
+| 326 | Figuero Román, Miguel | - | Abogado |
+| 327 | Rivero Sosa, Horacio | Resistencia | Veterinario |
+| 328 | Rondanina, Esteban | Capital Federal | Profesor |
+| 329 | Miró, Dario | Resistencia | Abogado |
+| 330 | Braumüller, Manfredo | Prov. Buenos Aires | Aviador |
+| 331 | Valdéz, Olegario | Resistencia | - |
+|  | Valdéz, Carlos | Resistencia | - |
+| 332 | Verdaguer, Alberto | Capital Federal | Industrial |
+| 333 | Elizondo, Yolanda | Resistencia | Profesor |
+
+| 334 | Capponi, Mari | Capital Federal | Psicólogo |
+| ---: | --- | --- | --- |
+| 335 | Schanton, Hugo | Resistencia | Médico |
+| 336 | Camino Schanton, José | Resistencia | Abogado |
+| 337 | Mac Sweeney, Juan | Prov. Misiones | Comerciante |
+| 338 | Hernández Larguía, Hilarión | Rosario | Arquitecto |
+| 339 | González, Héctor Blas | Capital Federal | - |
+| 340 | Presas, Leopoldo | Capital Federal | Pintor |
+| 341 | Forte, Vicente | Capital Federal | Pintor |
+| 342 | Gómez Bas, Joaquín | Capital Federal | Escritor |
+| 343 | Noetinger, Enrique | Capital Federal | - |
+| 344 | Tálice, Roberto | Capital Federal | Dramaturgo |
+| 345 | Pettoruti, Carolita | Capital Federal | - |
+| 346 | Bosco, María Angélica | Capital Federal | Escritor |
+| 347 | Capristo, Oscar | Capital Federal | Pintor |
+| 348 | Unertl, Eduardo | Prov. Buenos Aires | - |
+| 349 | Zini, Arturo | Rosario | Pintor |
+| 350 | Ríos, Miguel | Prov. Chaco | Ingeniero |
+| 351 | Martínez, Carlos | Resistencia | - |
+| 352 | Valtier, Oscar | Capital Federal | Aviador |
+| 353 | Guaraní, Horacio | Capital Federal | - |
+| 354 | Lynch, Marta | Prov. Buenos Aires | Escritor |
+| 355 | Mora y Araujo, Lila | Capital Federal | Crítico de Arte |
+| 356 | Mettini, Ítalo | Resistencia | Bibliotecario |
+| 357 | Celestino, Basilio | Prov. Buenos Aires | Pintor |
+| 358 | Scheines, Gregorio | Prov. Buenos Aires | Abogado |
+| 359 | Sugasti, Juan Alberto | Rosario | Médico |
+| 360 | de Bardín, Perla | Prov. Buenos Aires | - |
+| 361 | Sola, Marcela | Capital Federal | Actor |
+|  | Espinosa, Eduardo | Capital Federal | Actor |
+|  | Helba, Tina | - | Actor |
+| 362 | Tomasella, Federico | Prov. Corrientes | Industrial |
+| 363 | Revol, Eduardo | Prov. Misiones | Ingeniero |
+| 364 | de Acha, Raúl | - | - |
+| 365 | Petit de Murat, Ulyses | Capital Federal | Escritor |
+| 366 | Valenzuela, Luisa | Capital Federal | Escritor |
+| 367 | Codina, Inverna | Capital Federal | Escritor |
+| 368 | Pardal, Carlos | Prov. Buenos Aires | Ingeniero |
+| 369 | Weinberg, Gregorio | Capital Federal | Profesor |
+| 370 | García Saraví, Gustavo | Prov. Buenos Aires | Escritor |
+
+| 371 | Torre, Eddie | Resistencia | Pintor |
+| ---: | --- | --- | --- |
+| 372 | Mosquera, Marta | Venezuela | Escritor |
+| 373 | Maidagán, Ramón | Rosario | Abogado |
+| 374 | Maidagán, José María | Rosario | Abogado |
+| 375 | Crotto Posse, Jacinto | Capital Federal | - |
+| 376 | Lagos, Ricardo | Rosario | - |
+|  | Sugasti, Ciro | - | - |
+|  | Colombo, Juan Carlos | Formosa | Militar |
+|  | Helbling, Hector | Formosa | - |
+|  | Richardson, Reynaldo | Rosario | Ingeniero |
+|  | Soto, Carlos | Rosario | - |
+|  | Baravalle, Norberto | Rosario | - |
+|  | Batallan, Eduardo | Rosario | - |
+|  | Cames, Oscar | Rosario | - |
+| 377 | Semino, Esteban | Capital Federal | Pintor |
+| 378 | Lahitte, Ana Emilia | Prov. Buenos Aires | Escritor |
+| 379 | Cowes, Hugo | Estados Unidos | Científico |
+| 380 | Montaño, Salvador Dana | Prov. Chubut | Abogado |
+| 381 | David, Pedro | Capital Federal | Sociólogo |
+| 382 | Rossi, Edgardo | Resistencia | Abogado |
+| 383 | Papávero Elizate, José | - | Comodoro |
+| 384 | Mc Cloud, James | Estados Unidos | Ingeniero |
+| 385 | Riú, Raúl | Prov. Córdoba | Ingeniero |
+| 386 | Fernandez, René | Prov. Buenos Aires | - |
+| 387 | Bechereau, Paul | Francia | Científico |
+| 388 | Solari, Juan Antonio | Capital Federal | Escritor |
+| 389 | Jofre Barroso, Haydée | Capital Federal | Escritor |
+| 390 | Gutiérrez, Fermín Estrella | Capital Federal | Escritor |
+| 391 | Poletti, Syria | Capital Federal | Escritor |
+| 392 | Bancalari, Nicolás | Resistencia | Arquitecto |
+| 393 | Peltzer, Federico | Prov. Buenos Aires | Abogado |
+| 394 | Castagnino, Raúl H.  | Capital Federal | Pintor |
+| 395 | Ghioldi, Américo | Capital Federal | Profesor |
+| 396 | Lagmanovich, David | Estados Unidos | Profesor |
+| 397 | Tamburini, Juan | Capital Federal | Profesor |
+| 398 | Clemente, José Edmundo | Prov. Buenos Aires | Profesor |
+| 399 | Campobassi, José Salvador | Capital Federal | Profesor |
+| 400 | Mereles, Artemio D. | Prov. Chaco | Abogado |
+| 401 | Franco, Ángel | Prov. Córdoba | Actor |
+
+| 402 | Gómez, Rodolfo | Prov. Córdoba | Actor |
+| ---: | --- | --- | --- |
+| 403 | Conti, Haroldo | Capital Federal | Escritor |
+| 404 | de Biasi, Orlando | Prov. Corrientes | Profesor |
+|  | **ABR** | **. 68** |  |
+| 405 | Borges, Jorge Luis | Capital Federal | Escritor |
+| 406 | Plá, Roger | Prov. Buenos Aires | Escritor |
+| 407 | Barletta, Alejandro | Prov. Buenos Aires | - |
+| 408 | Ottolenghi, Carlos | Capital Federal | - |
+| 409 | de Miguel, María Esther | Capital Federal | Escritor |
+| 410 | Geraldi, Seferino | Resistencia | Escritor |
+| 411 | Chapo Bortagay, Mario | Resistencia | Médico |
+| 412 | Justo, Juan R. | Prov. Chubut | Médico |
+| 413 | Lori, Roberto | Capital Federal | Médico |
+| 414 | Zolezzi, Emilio | Prov. Buenos Aires | Abogado |
+| 415 | de Alvarez, Armanda | Resistencia | Comerciante |
+| 416 | Palmer, Margarita | Capital Federal | - |
+| 417 | de Bechara, Elsa | Capital Federal | - |
+| 418 | Maire, Stella Maris | Resistencia | Bibliotecario |
+| 419 | Chavez, Yaya | Resistencia | Bibliotecario |
+| 420 | Veloso, Rolando | Resistencia | Publicista |
+| 421 | Laluf, Julio | Resistencia | Médico |
+| 422 | Corbo, Juan Carlos | Rosario | Abogado |
+| 423 | Vindel Espeche, Enrique | Resistencia | Arquitecto |
+| 424 | Carranza Torres, José | Resistencia | Ingeniero |
+| 425 | Moneo Sanz, Cándido | Prov. Buenos Aires | - |
+| 426 | Mac Kay, Neil | Capital Federal | Diplomático |
+| 427 | Barrenechea, Ana María | Capital Federal | Profesor |
+| 428 | Bentolila, Moisés | - | Médico |
+| 429 | Gudiño Kieffer, Eduardo | Capital Federal | Escritor |
+| 430 | Sebastiani, Pía | Capital Federal | Músico |
+| 431 | Feldman Josín, Luis | - | Escritor |
+| 432 | Verbitsky, Bernardo | Prov. Buenos Aires | Escritor |
+| 433 | Guibourg, Eduardo | Capital Federal | - |
+| 434 | Carlino, Carlos | Capital Federal | - |
+| 435 | Salgueiro, Fernando | Prov. Buenos Aires | - |
+| 436 | Castillo, Cátulo | Prov. Buenos Aires | - |
+| 437 | Varela, Fernando Manuel | Resistencia | Profesor |
+| 438 | Pachelli, Antonio | Resistencia | Bibliotecario |
+| 439 | Espina, Roberto | Capital Federal | Actor |
+
+| 440 | Riccio, Robert | Capital Federal | Diplomático |
+| ---: | --- | --- | --- |
+| 441 | Plá, Armando | Capital Federal | Industrial |
+| 442 | Sábato, Jorge A. | Capital Federal | Físico |
+| 443 | Reyes, Francisco | Capital Federal | Escultor |
+| 444 | Gaimari, Enrique | Capital Federal | Escultor |
+| 445 | Schreiner, Hugo | Resistencia | - |
+| 446 | Di Domenico, Vicente | Capital Federal | Fotógrafo |
+| 447 | Basterra, Aristóbulo | Resistencia | Ingeniero |
+| 448 | Iris Marga (Pauré, Iris) | Capital Federal | Actor |
+| 449 | Lanús, Adolfo | Capital Federal | Periodista |
+| 450 | Stanley, Ricardo | Resistencia | Bancario |
+| 451 | Parravicini, Viviano | Capital Federal | - |
+| 452 | Vargas Gómez, Carlos María | Corrientes | Abogado |
+| 453 | Blum, Francisco | Prov. Buenos Aires | - |
+| 454 | Thomson, Brian | Brasil | Arquitecto |
+| 455 | Zamudio, Justo | Resistencia | - |
+| 456 | Milani, Eugenio | Resistencia | Publicista |
+| 457 | Wieczorek, Marian | Capital Federal | Diplomático |
+|  | **OCT** | **. 72** |  |
+| 458 | Ditieri, Cristina | Capital Federal | Modelo |
+|  | Chwojnik, Luis | - | - |
+| 459 | Alemán, Oscar | - | Músico |
+| 460 | Calvetti, Jorge | Capital Federal | . |
+| 461 | Requeni, Antonio | Capital Federal | . |
+| 462 | Meloni, Aledo Luis | Resistencua | Escritor |
+| 463 | Villalba Welsh, Emilio | Capital Federal | - |
+| 464 | León, Luis Osvaldo | Capital Federal | Político |
+| 465 | Guerrero, Dante | Capital Federal | Ingeniero |
+| 466 | Chiapello de Frangioli, Mónica | Resistencia | - |
+| 467 | Galvarini, María del Cármen | Resistencia | - |
+| 468 | Cordeiro Ramos, Alcira | Capital Federal | Turismo |
+| 469 | Ignazzeti, Graciela | Resistencia | Turismo |
+| 470 | Cis, Leandro | Capital Federal | Industrial |
+| 471 | Moro, Juan Aldo | Resistencia | Impresor |
+|  | Acuña de Moro, Dora | - | - |
+| 472 | Palotzky, José | Capital Federal | - |
+| 473 | Ávalos: Napoleón, Roberto, Víctor, Marce-lo, Adolfo | Capital Federal | - |
+| 474 | López Chuhura, Osvaldo | Capital Federal | - |
+| 475 | de Vicenzo, Roberto | Capital Federal | Golfista |
+
+| 476 | Galvarini, Susana | Resistencia | Profesor |
+| ---: | --- | --- | --- |
+| 477 | Cassara, Eduardo | Capital Federal | Industrial |
+| 478 | de Bruno, Emma | Resistencia | - |
+| 479 | Grande, Enrique | Capital Federal | - |
+| 480 | Marval, Carlota | España | Escritor |
+| 481 | Solitro de Brenta, Mimí | Capital Federal | - |
+| 482 | Carosonte, María Leticia | Prov. Buenos Aires | Ingeniero |
+| 483 | Dickman, Max | Francia | Escritor |
+| 484 | Klees, Alva | Resistencia | - |
+| 485 | Castagna, Carlos y Marita | Resistencia | - |
+| 486 | Barnetche, Carlos | Resistencia | - |
+| 487 | Coccatto, Iván Carlos | Resistencia | Arquitecto |
+| 488 | Martínez Philippon, Laura | Resistencia | Profesor |
+| 489 | Menghi, José Luis | Capital Federal | - |
+| 490 | de Robertis, Pablo | Prov. Buenos Aires | Escultor |
+| 491 | Ingro, Diana | Capital Federal | Actor |
+| 492 | Gómez, Fabriciano | Resistencia | Escultor |
+| 493 | Gómez Lollo, Humberto | Resistencia | Escultor |
+| 494 | Benchetrit Medina, Jorge | Corrientes | Abogado |
+| 495 | Bonastre, Gaspar | Corrientes | - |
+| 496 | Koremblit, Bernardo | Capital Federal | Escritor |
+| 497 | Peña, José María | Capital Federal | Arquitecto |
+| 498 | Molina Gowland de Posse, Marta | Capital Federal | - |
+| 499 | Gorodischer, Angélica | - | - |
+
+
+
+
+Forma normalizada (la más completa)
+Variantes encontradas
+Rol / Vínculo
+Período o fechas
+Fuentes (Autor, Año) y Ubicación [Caja Rnnn]
+Juan de Dios Mena
+Capataz, "el gaucho Mena", Mena, Juan D. Dios
+Escultor, poeta, cofundador y "Capataz" del Fogón de los Arrieros
+1897-1954 (residente en EFDA desde 1944)
+Giordano (1999, 2005, 2012); Cantero & Giordano (2015)
+ [Caja R015, Caja R016, Caja R089, Caja R090, Caja R091, Caja R092, Caja R093]
+Aldo Boglietti
+Peón, Aldo Rulito Boglietti, Peón Aldo, Bacan
+Comerciante rosarino, fundador principal, animador cultural y "Peón" de EFDA
+1908-1979 (funda EFDA en 1943/1944)
+Arqueros (2015); Cantero & Giordano (2015); Cantero (2016)
+ [Caja R015, Caja R016, Caja R020, Caja R134, Caja R140]
+Efraín Boglietti
+Efraín, Efraín Boglietti
+Cofundador, gestor y Presidente del Consejo Directivo de la Fundación EFDA
+Vinculado desde 1943/1944; Presidente institucional (fallecido en 1991)
+Reyero (2013); Cantero (2016)
+ [Caja R015, Caja R016, Caja R018, Caja R134, Caja R144]
+Hilda Torres Varela
+Hilda, B. Torres Varela, Hilda.
+Escritora, Directora de Teatro, Presidenta y Consejera del Consejo Directivo de EFDA (Llave 13)
+Vinculada desde la década de 1950 (fallecida en 2002)
+Torres Varela (1979); Arqueros (2015); Cantero (2016)
+ [Caja R016, Caja R030, Caja R134, Caja R138]
+René Brusau
+René Brusau, Brusau
+Pintor vanguardista, diseñador del solado e intervenciones pictóricas sobre soportes funcionales (Llave 157)
+1923-1956
+Catálogo EFDA (2018); Cantero & Giordano (2015)
+ [Caja R016, Caja R066, Caja R134]
+Humberto Horacio Mascheroni
+Arq. Horacio Mascheroni, Humberto Mascheroni
+Arquitecto proyectista del edificio definitivo de EFDA (Brown 350) y Tesorero de la institución (Llave 78)
+Proyectó el edificio en 1952-1955; Tesorero hasta 1995
+Bernardi (2000, 2002); Catálogo EFDA (2018, 2022)
+ [Caja R015, Caja R016, Caja R030, Caja R134]
+Julio Vanzo
+Vanzo, J. Vanzo
+Pintor rosarino, autor del mural del frente ("Mano abierta") y retratos en EFDA
+Frecuentó EFDA entre las décadas de 1940 y 1970
+Catálogo EFDA (2018, 2022); Cantero (2016)
+ [Caja R015, Caja R072, Caja R134]
+Rodrigo Bonome
+Don Rodrigo Bonome, "El Cid Hablador", Bonome
+Pintor, ensayista, gestor-facilitador en Buenos Aires y autor de columnas/puertas pintadas en EFDA
+1906-1990
+Cantero & Giordano (2015); Catálogo EFDA (2018, 2022)
+ [Caja R016, Caja R021, Caja R134]
+Víctor Marchese
+Marchese, V. Marchese
+Escultor, gestor-facilitador en Buenos Aires, autor de terracotas en la estufa de EFDA (Llave 29)
+Vinculado desde la década de 1940
+Reyero (2013); Cantero, Reyero & Giordano (2025)
+ [Caja R016, Caja R074, Caja R134]
+Avelino M. Hermida
+Hermida, A. M. Hermida
+Empresario maderero, gestor-facilitador de EFDA en Rosario (Llave 116)
+Décadas de 1950 y 1960
+Cantero, Reyero & Giordano (2025)
+ [Caja R016, Caja R027, Caja R134]
+Carlos Schenone
+Schenone, C. Schenone
+Pintor, fotógrafo e integrante del núcleo pionero del Ateneo del Chaco y EFDA (Llave 92)
+Décadas de 1940 y 1950
+Reyero (2013); Catálogo EFDA (2022)
+ [Caja R016, Caja R020, Caja R134]
+José Zali
+Zali, Zaci José
+Pintor, integrante del círculo inicial y retratista de Schenone (Llave 9)
+Décadas de 1940 y 1950
+Reyero (2013); Catálogo EFDA (2022)
+ [Caja R016, Caja R072, Caja R134]
+Grete Stern
+Stern, Grete
+Fotógrafa alemana, realizadora de la primera serie fotográfica documental de EFDA
+Década de 1950
+Catálogo EFDA (2018)
+ [Caja R015, Caja R134]
+Fernando Arranz López
+F. Arranz, Fernando Arranz
+Ceramista y pintor español, creador de piezas cerámicas y columnas decoradas en EFDA
+1906-1967 (intervención en EFDA en 1958)
+Cantero & Giordano (2015); Catálogo EFDA (2022)
+ [Caja R082, Caja R134]
+Gyula Kosice
+Kosice, Kósice
+Escultor hidráulico, cofundador del Movimiento MADÍ y colaborador del Boletín (Llave 82)
+Décadas de 1950 y 1960
+Cantero (2016)
+ [Caja R016, Caja R028, Caja R134]
+Raúl González Tuñón
+González Tuñón, Tuñón
+Poeta y escritor, visitante ilustre y colaborador de EFDA (Llave 5)
+Décadas de 1940 a 1960
+Giordano (2012); Cantero (2016)
+ [Caja R015, Caja R016, Caja R134]
+Alfredo Veiravé
+Veiravé, Alfredo
+Poeta, profesor universitario en la UNNE y difusor cultural de EFDA
+Vinculado desde 1958
+Giordano (2012)
+ [Caja R015, Caja R037, Caja R134]
+Jacobo Finkelstein
+Dr. Finkelstein, Finkelstein
+Médico, integrante del grupo fundador pionero y colaborador del Boletín (Llave 18)
+Décadas de 1940 a 1970
+Cantero (2016)
+ [Caja R015, Caja R016, Caja R134]
+Adolfo Petraglia
+Petraglia, Dr. Petraglia
+Químico, actor del Teatro Experimental de EFDA y Presidente del Ateneo del Chaco (Llave 35)
+Décadas de 1940 a 1970
+Maluf de Masramón (1980); Cantero (2016)
+ [Caja R016, Caja R134, Caja R160]
+Moisés L. Penchansky
+Dr. Penchansky, Penchausky, Moises
+Abogado, vocal del Consejo Directivo de la Fundación EFDA (Llave 34)
+Décadas de 1950 a 1990
+Cantero (2016)
+ [Caja R015, Caja R016, Caja R134, Caja R209]
+Carlos Alberto Celada
+Coco Celada, Alberto Carlos Celada
+Consejero del Consejo Directivo de la Fundación EFDA
+Décadas de 1970 a 1990
+Cantero (2016)
+ [Caja R015, Caja R035, Caja R160, Caja R209]
+Josué Fossati
+Fossati, Josué
+Vocal y consejero del Consejo Directivo de la Fundación EFDA
+Décadas de 1970 a 1990
+Cantero (2016)
+ [Caja R015, Caja R160, Caja R209]
+Crisanto Domínguez
+Crisanto Domínguez, Domínguez
+Escultor chaqueño, autor de la escultura "El Lanzazo" y cabezas retratos en EFDA
+Décadas de 1940 y 1950
+Giordano (2000)
+ [Caja R015, Caja R082, Caja R134]
+Demetrio de Urruchúa
+Demetrio de Urruchúa, Urruchúa
+Pintor y muralista, autor del fresco "Tirruchúa" (3,40 x 2,30 m) en EFDA (Llave 56)
+Década de 1950
+Catálogo EFDA (2018)
+ [Caja R015, Caja R016, Caja R134]
+Oscar Capristo
+Capristo, O. Capristo
+Pintor y dibujante, autor de la columna pintada en tinta en EFDA
+1921-2006 (intervención en EFDA en 1977)
+Cantero & Giordano (2015); Catálogo EFDA (2022)
+ [Caja R065, Caja R134]
+Juan Grela
+Grela, J. Grela
+Pintor y grabador del Grupo Litoral, autor de intervenciones murales en EFDA (Llave 250)
+1914-1992 (frecuentó EFDA desde la década de 1950)
+Cantero & Giordano (2015)
+ [Caja R016, Caja R067, Caja R134]
+Marcelo Gustin
+Marcelo Gustin, Gustin
+Vicepresidente e integrante del Consejo Directivo de la Fundación EFDA
+Décadas de 1990 a 2020
+Catálogo EFDA (2022)
+ [Caja R132, Caja R134]
+Daniel Moscatelli
+Moscatelli, Daniel
+Presidente del Consejo Directivo de la Fundación EFDA
+Década de 2000
+Cantero (2016)
+ [Caja R027, Caja R132, Caja R134]
+Patricia A. Cowper-Coles
+Patricia Cowper Coles, Cowper-Coles
+Secretaria y consejera del Consejo Directivo de la Fundación EFDA
+Décadas de 2000 a 2020
+Catálogo EFDA (2022)
+ [Caja R132, Caja R134]
+Continuá la tabla desde la fila 30, mismo formato, con las personas que faltan en todas las fuentes (incluidas las mencionadas solo por apellido o apodo). Si ya no quedan, decilo explícitamente.
+
+
+Thoughts
+N°
+Forma normalizada (la más completa)
+Variantes encontradas
+Rol / Vínculo
+Período o fechas
+Fuentes (Autor, Año) y Ubicación [Caja Rnnn]
+30
+Jorge Luis Borges
+Borges, J. L. Borges
+Escritor, conferencista y visitante ilustre de EFDA (Llave N° 498)
+Décadas de 1950 a 1980
+Giordano (2012); Cantero (2016) [Caja R016, Caja R134]
+31
+Rafael Alberti
+Alberti
+Poeta español, visitante ilustre y colaborador de EFDA
+Décadas de 1950 y 1960
+Giordano (2012); Cantero & Giordano (2015) [Caja R015, Caja R134]
+32
+Eduardo Jonquières
+Jonquières, E. Jonquières
+Poeta, pintor abstracto y diplomático; intervino la puerta del baño en EFDA (Llave N° 232)
+1918-2000 (intervenciones en EFDA desde 1958)
+Catálogo EFDA (2022); Cantero (2016) [Caja R016, Caja R066, Caja R134]
+33
+Lino Enea Spilimbergo
+Lino Spilimbergo, Spilimbergo
+Pintor y grabador, donante de obras y referente del círculo artístico de EFDA
+Décadas de 1940 a 1960
+Catálogo EFDA (2018, 2022); Cantero & Giordano (2015) [Caja R015, Caja R070, Caja R134]
+34
+Emilio Pettoruti
+Pettorutti, Petorutti, Perto
+Pintor vanguardista, consejero y donante de litografías a EFDA (Llave N° 241)
+Décadas de 1950 y 1960
+Giordano (2007, 2012); Catálogo EFDA (2018) [Caja R016, Caja R078, Caja R134]
+35
+Lucio Fontana
+Fontana, L. Fontana
+Escultor y ceramista vanguardista, autor del yeso "El sueño de Leti" donado a EFDA
+Décadas de 1950 a 1960
+Reyero (2013); Catálogo EFDA (2018) [Caja R015, Caja R082, Caja R134]
+36
+Líbero Badíi
+Badíi, Libero Badí, A. Badii
+Escultor y grabador, autor de "El Alma" emplazada en Resistencia por EFDA
+Décadas de 1950 a 1970
+Catálogo EFDA (2018, 2022); Cantero & Giordano (2015) [Caja R082, Caja R084, Caja R134]
+37
+Raúl Monsegur
+R. Monsegur, Monsegur
+Pintor y muralista, creador de los murales de la Plaza 25 de Mayo e intervenciones en EFDA
+Década de 1950 (murales en 1959-1961)
+Giordano (1998); Catálogo EFDA (2022) [Caja R015, Caja R068, Caja R134]
+38
+César Fernández Navarro
+Fernández Navarro, C. Fernández Navarro
+Pintor, muralista ("Recolección de cereales") y retratista de los fundadores de EFDA (Llave N° 130)
+Décadas de 1940 a 1990
+Catálogo EFDA (2018, 2022); Cantero (2016) [Caja R016, Caja R066, Caja R134]
+39
+Fabriciano Gómez
+Fabriciano, Fabriciano Gómez
+Escultor chaqueño, cofundador de la Fundación Urunday y colaborador de EFDA (Llave N° 492)
+Vinculado desde la década de 1970 (fallecido en 2021)
+Romagnoli (1989); Giordano (2007); Cantero (2016) [Caja R016, Caja R082, Caja R134]
+40
+Humberto Gómez Lollo
+Gómez Lollo, H. Gómez Lollo
+Escultor chaqueño, cofundador de la Fundación Urunday y activo participante de EFDA (Llave N° 493)
+Vinculado desde la década de 1970
+Romagnoli (1989); Giordano (2007); Cantero (2016) [Caja R016, Caja R082, Caja R134]
+41
+Raúl Cerrutti
+Raúl "Gordo" Cerrutti, Cerrutti
+Músico, investigador del folclore chaqueño y figura central del entorno inicial de EFDA
+Décadas de 1940 a 1980
+Cantero & Giordano (2015); Cantero (2016) [Caja R015, Caja R088, Caja R134]
+42
+Estela Quattrochio
+Quatrocchio, Estela Quatrocchio
+Profesora, ensayista y conferencista en el viejo Fogón
+Décadas de 1940 y 1950
+Cantero (2016) [Caja R015, Caja R155, Caja R163]
+43
+Oberdán Caletti
+Caletti, Prof. Caletti
+Rector organizador de la Universidad Nacional del Nordeste (UNNE) y colaborador de EFDA
+1958 - década de 1960
+Giordano (2012); Catálogo EFDA (2018) [Caja R015, Caja R019, Caja R134]
+44
+Noemí Gerstein
+N. Gerstein, Gerstein
+Escultora, autora de "Ronda" (en el jardín de EFDA) y obras urbanas en Resistencia
+Décadas de 1950 a 1970
+Romagnoli (1989); Catálogo EFDA (2018, 2022) [Caja R080, Caja R082, Caja R134]
+45
+Naum Knop
+Knopp, N. Knopp, Naún Knop
+Escultor, autor del altorrelieve "Los de arriba y los de abajo" en la rotonda de EFDA
+Décadas de 1950 a 1980
+Romagnoli (1989); Catálogo EFDA (2018) [Caja R082, Caja R084, Caja R134]
+46
+Raúl Soldi
+Soldi, R. Soldi
+Pintor argentino, donante de obras y visitante ilustre de EFDA
+Décadas de 1950 a 1980
+Catálogo EFDA (2018, 2022); Cantero (2016) [Caja R015, Caja R070, Caja R134]
+47
+Juan Carlos Castagnino
+Castagnino, J. C. Castagnino
+Pintor y dibujante, donante de obras y de la firma mural en EFDA
+Décadas de 1950 a 1970
+Catálogo EFDA (2018, 2022); Cantero & Giordano (2015) [Caja R015, Caja R065, Caja R134]
+48
+Raúl Gustavo Aguirre
+Aguirre, R. G. Aguirre
+Poeta del movimiento Poesía Buenos Aires, visitante e integrador de la red de amigos
+Década de 1950
+Cantero (2016) [Caja R016, Caja R081, Caja R134]
+49
+Enrique Molina
+Molina, E. Molina
+Poeta surrealista y marino, habitante y visitante frecuente de EFDA
+Décadas de 1950 y 1960
+Cantero (2016) [Caja R015, Caja R081, Caja R134]
+50
+Haroldo Conti
+Conti, H. Conti
+Escritor, docente y visitante del Fogón
+Décadas de 1960 y 1970
+Giordano (2012); Cantero (2016) [Caja R015, Caja R081, Caja R134]
+51
+Aledo Luis Meloni
+Aledo Meloni, Meloni
+Poeta y coplero chaqueño, frecuente disertante y agasajado en EFDA
+Décadas de 1950 a 2010
+Giordano (2012) [Caja R015, Caja R081, Caja R095]
+52
+Gaspar Benavento
+Benavento, G. Benavento
+Poeta e intelectual entrerriano/chaqueño, retratado en bronce por Crisanto Domínguez (Llave N° 123)
+Décadas de 1940 a 1970
+Cantero (2016) [Caja R016, Caja R081, Caja R082]
+53
+Cayetano Córdova Iturburu
+Córdova Iturburu, Policho
+Crítico de arte y ensayista; curador/asesor del Plan de Embellecimiento de Resistencia (Llave N° 1978/Honoraria)
+Décadas de 1950 a 1970
+Gutiérrez Viñuales & Giordano (1992); Cantero & Giordano (2015) [Caja R016, Caja R032, Caja R134]
+54
+Jorge Romero Brest
+Romero Brest, Prof. Romero Brest
+Crítico de arte, director del MNBA y del Instituto Di Tella, asesor de compras y donante de esculturas
+Décadas de 1950 a 1970
+Reyero (2013); Catálogo EFDA (2018) [Caja R015, Caja R019, Caja R134]
+55
+Carlos Monzón
+Monzón, El Campeón
+Boxeador campeón mundial; donó sus guantes de combate del triunfo ante Benvenuti al acervo de EFDA
+1970 (donación de objetos)
+Cantero & Giordano (2015); Cantero (2016) [Caja R015, Caja R086, Caja R165]
+56
+Ariel Ramírez
+Ramírez, A. Ramírez
+Músico y compositor; donó sus medias agujereadas y moño de smoking enmarcado a EFDA
+Décadas de 1960 y 1970
+Cantero & Giordano (2015); Catálogo EFDA (2022) [Caja R015, Caja R088, Caja R134]
+57
+Roberto De Vicenzo
+De Vicenzo
+Golfista profesional; donó un palo de golf utilizado en sus torneos a la colección de objetos de EFDA
+Década de 1960
+Cantero & Giordano (2015); Cantero (2016) [Caja R015, Caja R134, Caja R166]
+58
+Jean Mermoz
+Mermoz
+Aviador francés de la Latécoère/Aeropostale; su hélice de avión Laté 28 se conserva como reliquia en EFDA
+Presencia objetual (hélice integrada en la década de 1950)
+Cantero & Giordano (2015); Cantero (2016) [Caja R015, Caja R134, Caja R166]
+59
+Lorenzo Domínguez
+L. Domínguez, Domínguez
+Escultor hispano-chileno; realizó bajorrelieves en mármol y piedra en la pileta y fachadas de EFDA
+Décadas de 1940 y 1950
+Catálogo EFDA (2018, 2022); Cantero (2016) [Caja R015, Caja R082, Caja R134]
+60
+Nicasio Fernández Mar
+Fernández Mar, N. Fernández Mar
+Escultor, autor del bajorrelieve en piedra roja y la escultura "Espera" en las inmediaciones de EFDA
+Décadas de 1950 y 1960
+Romagnoli (1989); Catálogo EFDA (2018) [Caja R079, Caja R082, Caja R134]
+61
+Franco Di Segni
+Di Segni, F. Di Segni
+Escultor, autor del bajorrelieve en cemento blanco "Abstracción" en el porche de EFDA
+Décadas de 1950 y 1960
+Catálogo EFDA (2018, 2022) [Caja R080, Caja R082, Caja R134]
+62
+Mario Rosso
+M. Rosso, Rosso
+Escultor, autor de la escultura en piedra "Maternidad" ubicada en el ingreso de EFDA
+Décadas de 1950 y 1960
+Catálogo EFDA (2018); Cantero & Giordano (2015) [Caja R015, Caja R082, Caja R194]
+63
+Perrito Fernando
+Fernando, el perro Fernando
+Can popular de Resistencia y concurrente asiduo a las tertulias de EFDA; homenajeado con una escultura de bronce por Víctor Marchese
+Década de 1950 y 1963 (fallecimiento)
+Cantero (2016); Catálogo EFDA (2018) [Caja R015, Caja R079, Caja R165]
+64
+Atilio Micheluzzi
+Don Atilio, Micheluzzi
+Albañil y constructor principal del edificio definitivo de EFDA (Brown 350)
+1952-1955 (fallecido en 1959)
+Catálogo EFDA (2022) [Caja R015, Caja R144]
+Continuá la tabla desde la fila 63, mismo formato, con citas a las fuentes. Si ya no quedan personas, decilo explícitamente.
+
+
+Thoughts
+N°
+Forma normalizada (la más completa)
+Variantes encontradas
+Rol / Vínculo
+Período o fechas
+Fuentes (Autor, Año) y Ubicación [Caja Rnnn]
+65
+Miguel Brascó
+Brascó, M. Brascó
+Escritor, dibujante y humorista; intervino con pintura y poemas la puerta del baño en EFDA
+Décadas de 1950 a 1980
+Catálogo EFDA (2018, 2022); Cantero (2016) [Caja R016, Caja R081, Caja R134]
+66
+Antonio Berni
+Berni, A. Berni
+Pintor y grabador vanguardista, donante de obras y visitante ilustre de EFDA
+Décadas de 1950 a 1970
+Reyero (2013); Catálogo EFDA (2018) [Caja R015, Caja R064, Caja R134]
+67
+Guido Miranda
+Guido Miranda, Miranda
+Ensayista, historiador chaqueño, conferencista y consejero intelectual de EFDA (Llave N° 159)
+Décadas de 1950 a 1990
+Giordano (2012); Cantero (2016) [Caja R016, Caja R081, Caja R134]
+68
+Nicolás Guillén
+Guillén, N. Guillén
+Poeta cubano, visitante ilustre de EFDA y disertante en sus temporadas culturales
+Década de 1950
+Giordano (2012); Cantero (2016) [Caja R015, Caja R081, Caja R134]
+69
+León Felipe
+León Felipe
+Poeta español exiliado, visitante ilustre y amigo de la casa
+Década de 1950
+Giordano (2012); Cantero (2016) [Caja R015, Caja R081, Caja R134]
+70
+Ernesto Sabato
+Sábato, E. Sabato
+Escritor, conferencista y visitante ilustre de EFDA
+Décadas de 1950 a 1980
+Giordano (2012); Cantero (2016) [Caja R016, Caja R081, Caja R134]
+71
+Marta Lynch
+Marta Lynch
+Escritora, participante de las actividades culturales e invitada ilustre
+Décadas de 1960 y 1970
+Giordano (2012); Cantero (2016) [Caja R016, Caja R030, Caja R134]
+72
+Pía Sebastiani
+Pía Sebastiani, Sebastiani
+Pianista argentina, ofreció conciertos en el piano del salón de EFDA
+Décadas de 1950 y 1960
+Catálogo EFDA (2018) [Caja R015, Caja R088, Caja R134]
+73
+Witold Małcużyński
+Malcuzynsky, Malcuzinsky
+Pianista polaco, ofreció recitales históricos en el auditorio de EFDA
+Década de 1950
+Giordano (2012); Catálogo EFDA (2018) [Caja R015, Caja R088, Caja R134]
+74
+Andrés Segovia
+Segovia, A. Segovia
+Guitarrista clásico español, visitante ilustre y concertista invitado
+Década de 1950
+Giordano (2012); Cantero (2016) [Caja R015, Caja R088, Caja R134]
+75
+Nicanor Zabaleta
+Zabaleta
+Arpista español, brindó recitales de arpa en el marco de las actividades fogoneras
+Décadas de 1950 y 1960
+Giordano (2012) [Caja R015, Caja R088, Caja R134]
+76
+Paco Aguilar
+Aguilar, P. Aguilar
+Músico, luthier y amigo entrañable del círculo inicial de EFDA
+Décadas de 1940 y 1950
+Cantero & Giordano (2015) [Caja R015, Caja R088, Caja R134]
+77
+Emilio Novas
+Novas, E. Novas
+Escritor, gestor cultural, organizador y "Llave N° 75", activo difusor de EFDA
+Décadas de 1950 a 1980
+Cantero, Reyero & Giordano (2025) [Caja R016, Caja R031, Caja R134]
+78
+Arturo Barea
+Barea, A. Barea
+Escritor español, colaborador del Boletín y difusor internacional de EFDA
+Décadas de 1950 y 1960
+Cantero, Reyero & Giordano (2025) [Caja R015, Caja R016, Caja R134]
+79
+Leónidas Barletta
+Barletta, L. Barletta
+Director teatral del Teatro del Pueblo y escritor, estrecho colaborador de EFDA
+Décadas de 1950 y 1960
+Cantero, Reyero & Giordano (2025) [Caja R016, Caja R081, Caja R134]
+80
+María Fux
+Fux, M. Fux
+Bailarina y coreógrafa, visitante e inspiradora de obras en EFDA (escultura por L. Badíi)
+Décadas de 1950 a 1970
+Catálogo EFDA (2018); Cantero, Reyero & Giordano (2025) [Caja R016, Caja R082, Caja R134]
+81
+Raúl Schurjin
+Schurjin, R. Schurjin
+Pintor, habitual concurrente y donante de obras a la colección plástica de EFDA
+Décadas de 1950 a 1970
+Catálogo EFDA (2018) [Caja R015, Caja R070, Caja R134]
+82
+Horacio Butler
+Butler, H. Butler
+Pintor e ilustrador, donante de obras expuestas en el acervo permanente
+Décadas de 1950 y 1960
+Catálogo EFDA (2018) [Caja R015, Caja R064, Caja R134]
+83
+Gustavo Cochet
+Cochet, G. Cochet
+Pintor y grabador rosarino, donante de obras a la colección de EFDA
+Décadas de 1940 a 1960
+Catálogo EFDA (2018) [Caja R015, Caja R065, Caja R134]
+84
+Víctor Delhez
+Delhez, V. Delhez
+Grabador belga-argentino, donante de xilografías a la colección de EFDA
+Décadas de 1950 y 1960
+Catálogo EFDA (2018) [Caja R015, Caja R066, Caja R134]
+85
+Pompeyo Audivert
+Audivert, P. Audivert
+Grabador y pintor, donante de grabados a la colección artística de EFDA
+Décadas de 1950 y 1960
+Catálogo EFDA (2018) [Caja R015, Caja R063, Caja R134]
+86
+Ramón Gómez Cornet
+Gómez Cornet, R. Gómez Cornet
+Pintor santiagueño, donante de dibujos e integrante del catálogo de EFDA
+Décadas de 1950 y 1960
+Catálogo EFDA (2018) [Caja R015, Caja R067, Caja R134]
+87
+Luis Seoane
+Seoane, L. Seoane
+Pintor y grabador gallego-argentino, donante de xilografías a EFDA
+Décadas de 1950 y 1960
+Catálogo EFDA (2018) [Caja R015, Caja R070, Caja R134]
+88
+Sergio Sergi
+Sergi, S. Sergi
+Grabador y pintor, donante de xilografías a la colección de EFDA
+Décadas de 1950 y 1960
+Catálogo EFDA (2018) [Caja R015, Caja R070, Caja R134]
+89
+Raquel Forner
+Forner, R. Forner
+Pintora expresionista, visitante de EFDA (Llave N° 206) y donante del óleo "Pájaro azul"
+1957 - década de 1970
+Catálogo EFDA (2018) [Caja R016, Caja R066, Caja R134]
+90
+Alfredo Bigatti
+Bigatti, A. Bigatti
+Escultor, visitante de EFDA junto a Raquel Forner y donante de esculturas
+Década de 1950
+Catálogo EFDA (2018) [Caja R015, Caja R082, Caja R134]
+91
+José Alonso
+Alonso, J. Alonso
+Escultor, autor del yeso "Cabeza de Mujer" preservado en la biblioteca de EFDA
+Décadas de 1950 y 1960
+Catálogo EFDA (2018) [Caja R082, Caja R084, Caja R134]
+92
+Ferruccio Polacco
+Polacco, F. Polacco
+Escultor abstracto, autor de piezas escultóricas en la colección de EFDA
+Décadas de 1960 y 1970
+Catálogo EFDA (2018) [Caja R082, Caja R084, Caja R134]
+93
+Carlos de la Cárcova
+C. de la Cárcova, De la Cárcova
+Escultor, autor de la obra urbana "El niño y el pez" emplazada por EFDA
+Décadas de 1960 y 1970
+Romagnoli (1989); Catálogo EFDA (2018) [Caja R079, Caja R082, Caja R134]
+94
+Enrique Gaimari
+Gaimari, E. Gaimari
+Escultor, autor de "Pareja" y "Figura" emplazadas en el espacio público por EFDA
+Décadas de 1960 a 1980
+Romagnoli (1989); Catálogo EFDA (2018) [Caja R080, Caja R082, Caja R134]
+95
+Juan Carlos Labourdette
+Labourdette, J. C. Labourdette
+Escultor, autor de esculturas urbanas en Resistencia en el plan de EFDA
+Décadas de 1960 y 1970
+Romagnoli (1989); Catálogo EFDA (2018) [Caja R080, Caja R082, Caja R134]
+96
+Mariano Pagés
+Pagés, M. Pagés
+Escultor, autor de obras emplazadas en las calles de Resistencia a través de EFDA
+Décadas de 1960 a 1980
+Romagnoli (1989); Catálogo EFDA (2018) [Caja R080, Caja R082, Caja R134]
+97
+Amado Puyau
+Puyau, A. Puyau
+Escultor santafesino, autor de la escultura "Las Pavas" emplazada por EFDA
+Décadas de 1960 y 1970
+Romagnoli (1989); Catálogo EFDA (2018) [Caja R080, Caja R082, Caja R134]
+98
+Pedro Zonza Briano
+Zonza Briano, P. Zonza Briano
+Escultor, autor de bronces integrados a la estatuaria urbana de Resistencia
+Décadas de 1960 y 1970
+Romagnoli (1989); Catálogo EFDA (2018) [Caja R080, Caja R084, Caja R134]
+99
+Enrique Souilhé
+Souilhé, Dr. Souilhé
+Médico, astrónomo aficionado y miembro fundador del núcleo inicial de EFDA
+Décadas de 1940 a 1960
+Cantero & Giordano (2015); Cantero (2016) [Caja R015, Caja R134, Caja R163]
+100
+Luis Govi
+Dr. Govi, Govi
+Médico, integrante del grupo fundador pionero en la casa de la calle Brown 188
+Décadas de 1940 a 1960
+Cantero & Giordano (2015); Cantero (2016) [Caja R015, Caja R016, Caja R134]
+R207 - Correspondencias bonos fogon
+Bono - Manga Pro - terminación Edificio (GIENNEO, Celia - BOGLIETTI, Aldo) [Not in source]
+Bono - Manga Pro - terminación Edificio (ARMANDO) [02/04/54]
+Bono - Manga Pro - terminación Edificio (MENA, Juan de Dios y BOGLIETTI, Aldo) [17/02/56]
+Bono - Manga Pro - terminación Edificio (MENA, Juan de Dios y BOGLIETTI, Aldo) [17/02/56]
+Bono - Manga Pro - terminación Edificio (TERENCE y NEAL, Elizabeth) [18/02/56]
+Bono - Manga Pro - terminación Edificio (MENA, Juan D. Dios y BOGLIETTI, Aldo) [18/02/56]
+Bono - Manga Pro - terminación Edificio (MENA, Juan D. Dios y BOGLIETTI, Aldo) [20/02/56]
+Bono - Manga Pro - terminación Edificio (MENA, Juan D. Dios y BOGLIETTI, Aldo) [20/02/56]
+Bono - Manga Pro - terminación Edificio (NELDA, Adriana) [20/02/56]
+Bono - Manga Pro - terminación Edificio (MARTINEZ, Ricardo) [20/02/56]
+Bono - Manga Pro - terminación Edificio (MONFERRAR, Enrique) [20/02/56]
+Bono - Manga Pro - terminación Edificio (Fogón de los Arrieros) [22/02/56]
+Bono - Manga Pro - terminación Edificio (Fogón de los Arrieros) [22/02/56]
+Bono - Manga Pro - terminación Edificio (Fogón de los Arrieros) [22/02/56]
+Bono - Manga Pro - terminación Edificio (LABORDE, Alfredo) [22/02/56]
+Bono - Manga Pro - terminación Edificio (TROWÉ, Raúl) [22/02/56]
+Bono - Manga Pro - terminación Edificio (MAURI, Fortunato) [23/02/56]
+Bono - Manga Pro - terminación Edificio (ASCHEROW, Jaime) [23/02/56]
+Bono - Manga Pro - terminación Edificio (CERRO AVELLANEDA, Juan Carlos del) [23/02/56]
+Bono - Manga Pro - terminación Edificio (LESGART, Rogelio) [23/02/56]
+Bono - Manga Pro - terminación Edificio (MENDEL, Roberto) [23/02/56]
+Bono - Manga Pro - terminación Edificio (SALVAREZZA, Rodolfo y Sra.) [23/02/56]
+Bono - Manga Pro - terminación Edificio (Silvio) [24/02/56]
+Bono - Manga Pro - terminación Edificio (MARISCOTTI, Carlos) [24/02/56]
+Bono - Manga Pro - terminación Edificio (VOOGD, Lilia Claret de) [25/02/56]
+Bono - Manga Pro - terminación Edificio (PUNCEL, Carlos Ramón) [25/02/56]
+Bono - Manga Pro - terminación Edificio (Eiffel (Chafonier)) [25/02/56]
+Bono - Manga Pro - terminación Edificio (TOLEZZI, Emilio) [25/02/56]
+Bono - Manga Pro - terminación Edificio (FRANCIONI, Manuel J.) [26/02/56]
+Bono - Manga Pro - terminación Edificio (DIAZ, Francis R.) [27/02/56]
+Bono - Manga Pro - terminación Edificio (BAGGINI, Juan Carlos L.) [27/02/56]
+Bono - Manga Pro - terminación Edificio (TARNOPOLSKY, Samuel Dr.) [27/02/56]
+Bono - Manga Pro - terminación Edificio (RONDIONI) [27/02/56]
+Bono - Manga Pro - terminación Edificio (FRABER C.) [27/02/56]
+Bono - Manga Pro - terminación Edificio (GOLLAR, Alberto C.) [27/02/56]
+Bono - Manga Pro - terminación Edificio (NESTI, Raúl José) [27/02/56]
+Bono - Manga Pro - terminación Edificio (FERNÁNDEZ, Jacinto) [27/02/56]
+Bono - Manga Pro - terminación Edificio (MORA, Tomás) [27/02/56]
+Bono - Manga Pro - terminación Edificio (SEYMAN, David) [27/02/56]
+Bono - Manga Pro - terminación Edificio (LIBEDINSKY, Jorge Alberto) [27/02/56]
+Bono - Manga Pro - terminación Edificio (CARTUSIO, Emma) [27/02/56]
+Bono - Manga Pro - terminación Edificio (Bono (muestra)) [28/02/56]
+Bono - Manga Pro - terminación Edificio (BATEMAN, Harris) [28/02/56]
+Bono - Manga Pro - terminación Edificio (MENA, Juan de Dios BOGLIETTI, Aldo) [28/02/56]
+Bono - Manga Pro - terminación Edificio (GOVI, Luis Dr.) [28/02/56]
+Bono - Manga Pro - terminación Edificio (HERRERA CAMPOS, Marina) [29/02/56]
+Bono - Manga Pro - terminación Edificio (Not in source) [29/02/56]
+Bono - Manga Pro - terminación Edificio (Pcpc) [29/02/56]
+Bono - Manga Pro - terminación Edificio (SINGER, Gregorio) [29/02/56]
+Bono - Manga Pro - terminación Edificio (RODRÍGUEZ, J. Santo) [01/03/56]
+Bono - Manga Pro - terminación Edificio (Hector) [01/03/56]
+Bono - Manga Pro - terminación Edificio (FERNÁNDEZ, René F.) [01/03/56]
+Bono - Manga Pro - terminación Edificio (GONZÁLEZ, Raúl Alfredo) [01/03/56]
+Bono - Manga Pro - terminación Edificio (GUINZBOURG, Rubén Rodolfo) [01/03/56]
+Bono - Manga Pro - terminación Edificio (Fogón de los Arrieros) [01/03/56]
+Bono - Manga Pro - terminación Edificio (FIGINI ALVAREZ, Félix O.) [01/03/56]
+Bono - Manga Pro - terminación Edificio (GÓMEZ, Miguel Angel) [01/03/56]
+Bono - Manga Pro - terminación Edificio (SPERONI, R. Gerardo) [01/03/56]
+Bono - Manga Pro - terminación Edificio (ARIAS, Flavio René) [02/03/56]
+Bono - Manga Pro - terminación Edificio (URIBURU, J.E.) [02/03/56]
+Bono - Manga Pro - terminación Edificio (ROMERO, José N. Tte. Cnel.) [02/03/56]
+Bono - Manga Pro - terminación Edificio (DOLMAN, Luis L.) [02/03/56]
+Bono - Manga Pro - terminación Edificio (MARA, Julio) [02/03/56]
+Bono - Manga Pro - terminación Edificio (Francisco y Betti) [02/03/56]
+Bono - Manga Pro - terminación Edificio (PAIRÓ, José F.) [02/03/56]
+Bono - Manga Pro - terminación Edificio (VALLE, José) [03/03/56]
+Bono - Manga Pro - terminación Edificio (SERDONDINI, Vicente) [03/03/56]
+Bono - Manga Pro - terminación Edificio (FILIPPELLI, E.) [04/03/56]
+Bono - Manga Pro - terminación Edificio (Perchcro) [04/03/56]
+Bono - Manga Pro - terminación Edificio (GARCÍA, Eduardo L.) [05/03/56]
+Bono - Manga Pro - terminación Edificio (STREET, Elba López Dominguez de) [05/03/56]
+Bono - Manga Pro - terminación Edificio (Raúl Anibal) [05/03/56]
+Bono - Manga Pro - terminación Edificio (GASTALDI, Armando J.) [05/03/56]
+Bono - Manga Pro - terminación Edificio (La Llave 41) [05/03/56]
+Bono - Manga Pro - terminación Edificio (AUREOS, Elsa Teresa) [05/03/56]
+Bono - Manga Pro - terminación Edificio (GOMEZ, Raúl) [05/03/56]
+Bono - Manga Pro - terminación Edificio (Onfor) [05/03/56]
+Bono - Manga Pro - terminación Edificio (PICENA, Juan P.) [06/03/56]
+Bono - Manga Pro - terminación Edificio (RIOS, Negra) [06/03/56]
+Bono - Manga Pro - terminación Edificio (NOETINGER, Enrique) [06/03/56]
+Bono - Manga Pro - terminación Edificio (LUPPI, Federico R.) [06/03/56]
+Bono - Manga Pro - terminación Edificio (GOVI, Luis Dr.) [06/03/56]
+Bono - Manga Pro - terminación Edificio (FERNÁNDEZ RIERA, DINA Briohni de) [06/03/56]
+Bono - Manga Pro - terminación Edificio (MARZORATI, Mario) [06/03/56]
+Bono - Manga Pro - terminación Edificio (GHIANO, O.) [07/03/56]
+Bono - Manga Pro - terminación Edificio (VEDANI, César F.) [08/03/56]
+Bono - Manga Pro - terminación Edificio (BURBRIDGE, Atilio A.) [08/03/56]
+Bono - Manga Pro - terminación Edificio (CHABRILLÓN, Andrés) [08/03/56]
+Bono - Manga Pro - terminación Edificio (PATERNOSTRO, Carlos H.) [09/03/56]
+Bono - Manga Pro - terminación Edificio (CANET, Jorge Eduardo) [09/03/56]
+Bono - Manga Pro - terminación Edificio (BLUM, Francisco J. Dr.) [09/03/56]
+Bono - Manga Pro - terminación Edificio (GABRIELE, Héctor) [09/03/56]
+Bono - Manga Pro - terminación Edificio (LESGART, R.) [09/03/56]
+Bono - Manga Pro - terminación Edificio (COTTER, Juan José) [12/03/56]
+Bono - Manga Pro - terminación Edificio (NUDEHLMAN, Flora) [12/03/56]
+Bono - Manga Pro - terminación Edificio (MANN, Isaac) [12/03/56]
+Bono - Manga Pro - terminación Edificio (GARCÍA CERRO, Jorge) [12/03/56]
+Bono - Manga Pro - terminación Edificio (CANΝΕΡΑ, P. Julio - VAZQUEZ, Vicente R.) [13/03/56]
+Bono - Manga Pro - terminación Edificio (MASCORÓ, Miguel A.) [14/03/56]
+Bono - Manga Pro - terminación Edificio (CORDOVA ITURBURÚ) [14/03/56]
+Bono - Manga Pro - terminación Edificio (SOUZA, Delia Martinez de) [15/03/56]
+Bono - Manga Pro - terminación Edificio (GUIBERT Y CIA) [15/03/56]
+Bono - Manga Pro - terminación Edificio (ALONSO, Roman) [15/03/56]
+Bono - Manga Pro - terminación Edificio (DI FONZO, Nicolás René) [15/03/56]
+Bono - Manga Pro - terminación Edificio (Fogón de los Arrieros) [16/03/56]
+Bono - Manga Pro - terminación Edificio (FRERS, Enrique G.) [16/03/56]
+Bono - Manga Pro - terminación Edificio (MUÑOZ, Antonio) [16/03/56]
+Bono - Manga Pro - terminación Edificio (DOLLY) [16/03/56]
+Bono - Manga Pro - terminación Edificio (PORFILIO, J.C.) [18/03/56]
+Bono - Manga Pro - terminación Edificio (MORALES, Ofelia P. De) [20/03/56]
+Bono - Manga Pro - terminación Edificio (Fogón de los Arrieros) [20/03/56]
+Bono - Manga Pro - terminación Edificio (LEDESMA, Rinaldo L. (Municipalidad de Córdoba)) [20/03/56]
+Bono - Manga Pro - terminación Edificio (SECCHIORALI, Aldo) [20/03/56]
+Bono - Manga Pro - terminación Edificio (RUDERMAN, José) [20/03/56]
+Bono - Manga Pro - terminación Edificio (MANNI, Arturo) [21/03/56]
+Bono - Manga Pro - terminación Edificio (GRAVENHORST, Arnoldo) [21/03/56]
+Bono - Manga Pro - terminación Edificio (Fogón de los Arrieros) [22/03/56]
+Bono - Manga Pro - terminación Edificio (BOGLIETTI, Marcelo Anibal) [22/03/56]
+Bono - Manga Pro - terminación Edificio (SAEM, Justo V.) [22/03/56]
+Bono - Manga Pro - terminación Edificio (COLMAN, Benito M. Pérez) [22/03/56]
+Bono - Manga Pro - terminación Edificio (AFANASENKO, Boris) [22/03/56]
+Bono - Manga Pro - terminación Edificio (BRODERMAN, Lucía K. De) [22/03/56]
+Bono - Manga Pro - terminación Edificio (ELHIDH, John Asociación Rosarina de Cultura Inglesa) [23/03/56]
+Bono - Manga Pro - terminación Edificio (QUARANTA, Luis F.) [23/03/56]
+Bono - Manga Pro - terminación Edificio (Beba) [23/03/56]
+Bono - Manga Pro - terminación Edificio (PACE, Ismael C.) [24/03/56]
+Bono - Manga Pro - terminación Edificio (PASCUZZI, Raúl F.) [24/03/56]
+Bono - Manga Pro - terminación Edificio (KOHON, David J.) [24/03/56]
+Bono - Manga Pro - terminación Edificio (SHAMAN, Alfredo) [24/03/56]
+Bono - Manga Pro - terminación Edificio (VIGIL PARDO, José B.) [24/03/56]
+Bono - Manga Pro - terminación Edificio (GISCAFRE, José) [25/03/56]
+Bono - Manga Pro - terminación Edificio (AURA, Elsa Teresa) [26/03/56]
+Bono - Manga Pro - terminación Edificio (GIAMEO, Luis) [26/03/56]
+Bono - Manga Pro - terminación Edificio (SÁNCHEZ, Orencio) [26/03/56]
+Bono - Manga Pro - terminación Edificio (BOERO, L.O.) [26/03/56]
+Bono - Manga Pro - terminación Edificio (BLANCHARD, Ligia Nydia) [26/03/56]
+Bono - Manga Pro - terminación Edificio (FERNÁNDEZ GARRIDO, Rafael) [26/03/56]
+Bono - Manga Pro - terminación Edificio (REQUENA, Anibal D.) [26/03/56]
+Bono - Manga Pro - terminación Edificio (PHILIPS ARGENTINA S.A) [26/03/56]
+Bono - Manga Pro - terminación Edificio (SIRIGRO, Luis) [26/03/56]
+Bono - Manga Pro - terminación Edificio (PINASCO, José Luis E.) [27/03/56]
+Bono - Manga Pro - terminación Edificio (HAMUNIE, Joseph) [27/03/56]
+Bono - Manga Pro - terminación Edificio (CRESPI, Jorge A.) [27/03/56]
+Bono - Manga Pro - terminación Edificio (CLARIS, César E.) [27/03/56]
+Bono - Manga Pro - terminación Edificio (MARZORATI, Mario) [27/03/56]
+Bono - Manga Pro - terminación Edificio (PERONCINI, Horacio) [27/03/56]
+Bono - Manga Pro - terminación Edificio (CANET, Jorge Eduardo) [27/03/56]
+Bono - Manga Pro - terminación Edificio (FERN, Jorge Luis) [27/03/56]
+Bono - Manga Pro - terminación Edificio (LLORET SELLES, Emilio) [27/03/56]
+Bono - Manga Pro - terminación Edificio (PÉREZ TURNER, Miguel) [28/03/56]
+Bono - Manga Pro - terminación Edificio (FARMY, Brena) [28/03/56]
+Bono - Manga Pro - terminación Edificio (RODRIGUEZ, Manuel) [28/03/56]
+Bono - Manga Pro - terminación Edificio (BROSCOLO, S.) [28/03/56]
+Bono - Manga Pro - terminación Edificio (ADELA) [28/03/56]
+Bono - Manga Pro - terminación Edificio (ROVE, Raúl H. Horacio G.) [28/03/56]
+Bono - Manga Pro - terminación Edificio (SARBERIS, Miguel L.) [29/03/56]
+Bono - Manga Pro - terminación Edificio (Ch. Débora) [30/03/56]
+Bono - Manga Pro - terminación Edificio (INELBA) [31/03/56]
+Bono - Manga Pro - terminación Edificio (GORLEN, Florentino) [31/03/56]
+Bono - Manga Pro - terminación Edificio (BOGRÉ) [31/03/56]
+Bono - Manga Pro - terminación Edificio (ROSSANI, M.B.) [31/03/56]
+Bono - Manga Pro - terminación Edificio (FERREIRA FOURCADA, Carlos) [31/03/56]
+Bono - Manga Pro - terminación Edificio (ARRATIBEL, H.) [01/04/56]
+Bono - Manga Pro - terminación Edificio (SAGARRA, Horacio T.) [02/04/56]
+Bono - Manga Pro - terminación Edificio (CIERLO, R. Alberto Dr.) [02/04/56]
+Bono - Manga Pro - terminación Edificio (ΑNGRIMEN, Héctor) [02/04/56]
+Bono - Manga Pro - terminación Edificio (CHASELON, Miguel O. L.) [02/04/56]
+Bono - Manga Pro - terminación Edificio (Ν. Mac Donnell) [03/04/56]
+Bono - Manga Pro - terminación Edificio (Creaciones Moguillonsky S.R.L.) [03/04/56]
+Bono - Manga Pro - terminación Edificio (ARAGÓN, Manuel) [04/04/56]
+Bono - Manga Pro - terminación Edificio (IMAS, José M.) [05/04/56]
+Bono - Manga Pro - terminación Edificio (Fogón de los Arnieros) [05/04/56]
+Bono - Manga Pro - terminación Edificio (BATTIONI, Eduardo R. Dr.) [05/04/56]
+Bono - Manga Pro - terminación Edificio (RETE, Irene Adela) [05/04/56]
+Bono - Manga Pro - terminación Edificio (BOERO) [05/04/56]
+Bono - Manga Pro - terminación Edificio (BILBAO, M. Mc. Cormick de) [05/04/56]
+Bono - Manga Pro - terminación Edificio (PADILLA, Guillermo) [05/04/56]
+Bono - Manga Pro - terminación Edificio (CIS, Leandro) [06/04/56]
+Bono - Manga Pro - terminación Edificio (AREMENDI, Pedro Juan) [07/04/56]
+Bono - Manga Pro - terminación Edificio (RUIZ, José A.) [08/04/56]
+Bono - Manga Pro - terminación Edificio (CERTAD, Aquiles) [09/04/56]
+Bono - Manga Pro - terminación Edificio (BODEGAS Y VIÑEDOS GIOL) [09/04/56]
+Bono - Manga Pro - terminación Edificio (PODESTA, Mario Guillermo) [09/04/56]
+Bono - Manga Pro - terminación Edificio (LUKY) [10/04/56]
+Bono - Manga Pro - terminación Edificio (COLLAZO, Alberto) [10/04/56]
+Bono - Manga Pro - terminación Edificio (MANPELY, R.J.) [10/04/56]
+Bono - Manga Pro - terminación Edificio (MIRANDA, Joaquín E. Dr.) [11/04/56]
+Bono - Manga Pro - terminación Edificio (CASTIGLIONI, Lucio) [11/04/56]
+Bono - Manga Pro - terminación Edificio (SOTO, Máximo Carlos Dr.) [11/04/56]
+Bono - Manga Pro - terminación Edificio (PAQUET, Jorge Néstor) [11/04/56]
+Bono - Manga Pro - terminación Edificio (ARIAS, Flavio René) [12/04/56]
+Bono - Manga Pro - terminación Edificio (SCHENA, Francisco) [12/04/56]
+Bono - Manga Pro - terminación Edificio (YRIBARREN, Helena M.) [12/04/56]
+Bono - Manga Pro - terminación Edificio (ELKIN, Rubén) [12/04/56]
+Bono - Manga Pro - terminación Edificio (ALIANZA FRANCESA) [12/04/56]
+Bono - Manga Pro - terminación Edificio (TORRE, Guillermo de) [12/04/56]
+Bono - Manga Pro - terminación Edificio (MORENO, O) [12/04/56]
+Bono - Manga Pro - terminación Edificio (SEMEDINI, Fernando) [12/04/56]
+Bono - Manga Pro - terminación Edificio (BENITEZ MEDINA, Juan) [12/04/56]
+Bono - Manga Pro - terminación Edificio (GARDEL, Manuel Horacio) [13/04/56]
+Bono - Manga Pro - terminación Edificio (WILLIANS, Mario) [13/04/56]
+Bono - Manga Pro - terminación Edificio (CERVECERÍA San Carlos S.A.) [13/04/56]
+Bono - Manga Pro - terminación Edificio (ROTANDELLI, Jorge A.) [13/04/56]
+Bono - Manga Pro - terminación Edificio (BRAGA, E.) [13/04/56]
+Bono - Manga Pro - terminación Edificio (CASE, A) [13/04/56]
+Bono - Manga Pro - terminación Edificio (RODRIGUEZ AYBAR, Luis) [13/04/56]
+Bono - Manga Pro - terminación Edificio (BLUM, Francisco J.) [14/04/56]
+Bono - Manga Pro - terminación Edificio (BENEDINI, Fernando) [14/04/56]
+Bono - Manga Pro - terminación Edificio (DIAZ, Helena F.) [14/04/56]
+Bono - Manga Pro - terminación Edificio (RIZZOTTI, Gloria) [16/04/56]
+Bono - Manga Pro - terminación Edificio (Perchero) [17/04/56]
+Bono - Manga Pro - terminación Edificio (FIGUEROA, Roman) [19/04/56]
+Bono - Manga Pro - terminación Edificio (MAZZA, Roberto Oscar) [19/04/56]
+Bono - Manga Pro - terminación Edificio (ZIMBARO, M.) [20/04/56]
+Bono - Manga Pro - terminación Edificio (ELIZALDE, César de) [20/04/56]
+Bono - Manga Pro - terminación Edificio (LANSEYER, Alcides) [20/04/56]
+Bono - Manga Pro - terminación Edificio (ENVEDJIAN) [20/04/56]
+Bono - Manga Pro - terminación Edificio (SCHURJIN, Raúl) [20/04/56]
+Bono - Manga Pro - terminación Edificio (LASALLE, Gerardo M.) [20/04/56]
+Bono - Manga Pro - terminación Edificio (MENÉNDEZ, Argentino Manuel) [24/04/56]
+Bono - Manga Pro - terminación Edificio (PRO, Diego F.) [08/08/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (ACEVEDO, Benito) [03/05/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [21/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [21/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [21/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [21/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [21/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [21/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [21/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [24/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [24/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [25/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [25/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [26/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [27/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [29/09/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [01/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [01/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [01/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [01/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [06/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [06/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [09/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [09/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [09/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [10/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [10/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [10/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [10/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [10/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [10/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [10/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [10/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [10/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [15/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (SALAS, Noemí) [20/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (ROSENFELD, Isidro) [20/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (GUGLIELMENE, H.) [24/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (MARTINEZ DÍAZ, A. CIA. TAHITÍ) [29/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (GUZZETTI, César A.) [31/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (ARAGÓN, Manuel) [31/10/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (PEDRONI, Ricardo) [02/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (INDUSTRIA VASCO) [05/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (ARTES GRÁFICAS - BARTOLOMÉ CHIESINO S.A.) [05/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (SCHWAB, Marcos) [06/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (FERNÁNDEZ, Benito Dr.) [07/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (COMPAÑÍA URUGUAYA DE TRANS- NAVEGACIÓN Y PORTE AÉREO S.A.) [09/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (PICENA, Juan P. Dr.) [13/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (TARSA - FIDALGO) [13/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (Fogón de los Arrieros) [13/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (NOETINGER-LEPETIT S.A.) [17/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (FORNELLS, Eugenio) [18/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (DI FONZO, Nicolás René) [20/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (BARLLETA, Leonidas) [20/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (WELBERS, René M.) [20/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (MINISTERIO DE EDUCACIÓN NACIÓN MUSEO BELLAS ARTES DE LA BOCA) [20/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (PEDRONI, Ricardo) [21/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (DIRECTOR DE "CLARÍN") [22/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (FRERS, Enrique G.) [28/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (BOGLIETTI, Aldo y CIA BELLA) [28/11/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (FORNELLS, Eugenio) [03/12/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (MARCÓN, Feliciano R.) [03/12/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (REQUENA, Anibal D.) [06/12/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (SLIVALETES (and Terence)) [12/12/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (REQUENA, Anibal D.) [18/12/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (LARZÁBAL, José Antonio) [18/12/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (PINTOR DE AMÉRICA) [20/12/56]
+BONO-MANGA-PRO-TERMINACIÓN EDIFICIO (MINISTERIO DE GOBIERNO- DCCIÓN.GRAL.INTERIOR) [21/12/56]
+Pintura
+R072 - Pintura V – Z
+Vanzo, Julio
+Van Riel
+Vasarely
+Vasileff, Ivan
+Vázquez, Antonio
+Venier, Bruno
+Vera
+Verón, Mary
+Vega, Jorge de la
+Viana
+Victorica
+Videla
+Vigo
+Viladrich
+Villar
+Vittoria, Juana
+Vlaninck
+Von Artens, Peter
+Waissman
+Yannis
+Zaci, José
+Zogbe, Bibi
+Zorrilla, Manuel
+Zuanich, Aída
+R067 - Pintura G – H – I – J – K
+Gaeta, Pedro
+Galán Nuñez, Luis
+Galicer, Roberto
+Gallet, Daniel
+Garate, Cecilia
+García Carrera, Francisco
+García Uriburu, Nicolás
+García Videla, Antonio
+Garegnani, Ricardo
+Gargiulo, Antonio
+Gastaldi, A.
+Gatto, Domingo
+Gavensky, Martha
+Gavito, José
+Gauguin, Paul
+Geraldi, Susana
+Gerest, Sara
+Gervasio
+Giacaglia, Pedro
+Giandante
+Giangrande, Alicia
+Gianzone, Pedro
+Giménez, Manuel
+Giusano, Eduardo
+Glombosky, Susana
+Gómez Cornet, Ramón
+González, Angélica
+Gorrochategui, Claudio
+Grandi, Mario
+Greco, Alberto
+Grela, Juan
+Grillo, Mario
+Gris, Juan
+Gronda, Laura
+Grupo Diálogo
+Grupo Sur
+Guastavino, Norma
+Guerisoli, José
+Guido, Berta
+Guitelzon, Rebeca
+Guttuso
+Guzmán Loza, Estanislao
+Herbin
+Heredia, Mario
+Herrera, Aid
+Herrero Miranda, Oscar
+Horst
+Iglesias, Cristina
+Inos Corradini
+Jonescu, Gina
+Johns, Jasper
+Jesiot, Bernardo
+Jonquieres, Eduardo
+Kantor
+Klee, Paul
+Knop, Naum
+R069 - Pintura P – Q – R
+Páez Vilaró, Carlos
+Paeski, Juana
+Pailles, Elíades Félix
+Pagano, Julio
+Pagano, Norberto
+Paganini, Ludovico
+Paladio, Andrea
+Pastor, Sigfredo
+Pastorello, Dignora
+Payró, Anita
+Pedroni, Ricardo
+Pellegrini, Luis
+Peralta, Ramón Prudencio
+Pérez Celis
+Perotti, Ismael A. Calvo
+Pertile, Alfredo
+Pettoruti, Emilio
+Pieri de Puyan, Julia
+Pierri, Orlando
+Pierrefort, Nivoullies de
+Pietrafaccia, Raúl
+Pissarro, Víctor
+Pinacoteca Banco Chaco
+Pizarro, Ana María
+Prada, C.
+Presas, Leopoldo
+Prilidiano Pueyrredón
+Planas Casas, José
+Pont Verges
+Pougny
+Puccinelli, Francisco
+Puzzovio, Delia
+Ramoneda
+Rebuffel, Yanine
+Regoyos, Darío
+Reinoso, Cristóbal
+Rembrandt
+Renoir, Auguste
+Rey, Flora
+Riggio, Eduardo
+Ripodas, Guillermo
+Riviera-Marco
+Rocchi, María
+Roges, Yeannine
+Rojas, Francisco
+Rojo Oliver, Ana María
+Román, Jorge Hugo
+Rossi, Roberto
+Rouault, Georges
+Rousseau, Henri
+Roux, Guillermo
+Rozanes, Monique
+Rubio, Nicolás
+Russo, Raúl
+R066 - Pintura E – F
+Egea, Antonio Justo
+Alcalde Elmasa
+Esgrelli, Mario A.
+Ernst, Max
+Espinosa, Manuel
+Estrada, Bello Enrique
+Faggioli, Juan Carlos
+Fara, Tersio José
+Farina, Ernesto
+Fernández Navarro, César
+Ferrari, Léon
+Ferraro, Sergio
+Foldes, Susana
+Forte, Vicente
+Forner, Raquel
+Fisman, Ofelia
+Franco, Lucia
+Fuente, Héctor
+R078 - Documentos Emilio Pettoruti
+Mural El Empuje: Fotografías y documentos sobre la obra de Pettoruti en la Casa de Gobierno
+R070 - Pintura S – T – U
+Sabay
+Sagarduy, Iván
+Sánchez, Juan Manuel
+Sánchez, Oscar
+Sassone, Antonio
+Saúl, Víctor
+Saunier, Héctor
+Schaeffer, Frank
+Schenone, Rodolfo
+Schiaffino, Eduardo
+Schurjin, Raúl
+Schwitters, Kurt
+Seguí, Sergio
+Semino, Esteban
+Sergi, Sergio
+Seoane, Luis
+Severini, Gino
+Silva, Carlos
+Sol, Juan
+Solar, Xul
+Soldi, Raúl
+Soler, Mónica
+Solla, José
+Spapinato, Alfredo
+Speroni, Clelia
+Spilimbergo, Lino E.
+Squirru, R. F.
+Supisiche, Ricardo
+Szalay, Lagos
+Tapia, Jorge
+Telles, Sergio
+Tere, Néstor
+Testa, Clorindo
+Thompson, Helga
+Tiglio
+Tollardona, Carlos
+Tomasello
+Torre, Eddie
+Torre García, Joaquín
+Toulouse-Lautrec, Henri
+Trejo Lema
+Uriarte, Carlos E.
+Uria
+Urruchúa, Demetrio
+Utrillo, Maurice
+Sorrentino, Adrián
+Stegmayer, Juan José
+R063 - Pintura A
+Abal, Tomás
+Abreu Bastos, Antonio
+Agola, Horacio
+Aguirre, Susana
+Aizemberg, Roberto
+Albers, Josef
+Alanis, Florencia
+Albornoz, Rubén
+Alonso, Carlos
+Alonso, Raúl
+Alvarez, Nelly
+Alvarez, Manuel
+Anderson, Yanet
+Anselmi, Beatriz
+Anzamizzi, Mario
+Aran, Artemio
+Arcidiacono, José
+Arp, Jean
+Arrigoni, Enrique
+Armagni, Alda María
+Arrieta, Manuela
+R064 - Pintura B
+Badii, Libero
+Badi, Aquiles
+Balietti, Alberto
+Ballester, Raúl
+Ballesteros, Miguel
+Barbé, Victor René
+Barilari, Mariano
+Barradas, Rafael
+Barragán, Luis
+Basaldúa, Héctor
+Batlle Planas, Juan
+R068 - Pintura L – M – N – O
+Lacoste
+Laddaga, Ángel
+Lahitte, Carlos
+Lameiro, Pablo
+Lamartyn
+Langlois, Juan Carlos
+Larco, Jorge
+Lartigue, María Raquel
+Lautrec
+Lawrence, Miguel
+Laxeiro
+Lazzari, Alfredo
+Leger, Fernando
+Le Parc, Julio
+Levaggi, Oscar
+Lezama, Jorge
+Liberti
+Lincenziato, Nelia
+Lococo, Clemente
+Longo, Roberto
+López Claro, C.
+López, Cándido
+López Lois, Arturo
+López Anaya, Jorge
+Loza, Mario
+Lozza, Raúl
+Lozano Muñoz, Miguel
+Lublin, Lea
+Luaje, Velarmina
+Lockett, Milo
+Mac Entyre, Eduardo
+Maccio
+Maciver, Loren
+Macdonell, Polly
+Maffei, Alicia
+Maltz
+Manet, Edouard
+Marcon, Osvaldo
+Marini, Mario
+Quinquela Martín
+Ramseyer Martínez
+Marquet, Albert
+Martorell, María
+Markarian, Eduardo
+Matisse, Henri
+Menghi, José Luis
+Merellano, Isabel
+Michelon, Luis
+Minnucci, Esther
+Miró, Joan
+Misdraji, José
+Misiti, Alfredo
+Mondrian
+Monet, Claude
+Monferran, Eugenio
+Monsegur, R.
+Montanarini
+Montenegro, Luis
+Moraña, José Manuel
+Morilla, Elsa
+Moreton, María Rosa
+Moreiro, Beatriz
+Moreno Villafuerte, Ricardo
+Mulhall, Laura
+Museos Bellas Artes (Cba/Nac/Prov)
+Narizzano, B. Gerónimo
+Noé, Luis Felipe
+Oliva, Ana María
+Onofrio, Domingo
+Opazo, Rodolfo
+Oropeza, Amaru
+Orta, Beatriz
+Oteiza, Jorge
+Otero, Juan
+Ottmann, L. Hugo
+R065 - Pintura C – D
+Calabresse, Andrés
+Calzeta, Pedro
+Campanello, Vito
+Candia, Domingo
+Caños, Carlos
+Caporaso, Angélica
+Capristo, Oscar
+Careaga, Enrique
+Caride (óleos)
+Carnelli López, Roberto
+Carmona, Rodrigo
+Casal, Helia
+Casal, Mecha
+Castagnino, Juan Carlos
+Casullo, Analía
+Castillo, Jacinto
+Castrocane
+Cavalcabo
+Celestino, Basilio
+Centurión, Luis
+Cezanne, Paul
+Cochet, Gustavo
+Cogorno, Santiago
+Converso, Elena
+Corotto, Carlos
+Corral, Néstor
+Cuquejo, Diego
+Chagall, Marc
+Daneri, Eugenio
+Danilo, Susana
+Davidovich, Jaime
+Dávila, Miguel
+Deboirosmoura
+De Donato, Pablo
+De Ferrari, Marta
+Degas, Edgar
+Degas, Lautrel
+De Kolin
+De La Mota
+De La Torre, Dora V.
+Del Monico, Lili
+Del Monte, Alberto
+Del Pino
+Del Prete
+Del Solar, Dorrego
+Dellepiane, Jorge Luis
+De Marco, Luis Bautista
+Deza, Oscar
+Díaz De Vivar, Rodolfo
+Diccionario Ilustrado
+Diomede
+Distefano
+Domenichini, José
+Duclos, Arturo
+Dufy, Roul
+Duran
+Escultura
+R086 - Esculturas - Mangas
+Juan de Dios Mena: Capataz
+Aldo Boglietti: Peón
+Arquitecto Horacio Mascheroni: Diseño edilicio
+Fundación El Fogón de los Arrieros: Brown 350
+Murales: Urruchúa, Marchese, Monsegur
+Originales: Soldi, Castagnino, Pettoruti, Lucio Fontana
+Colección Mena: Tallas de Juan de Dios Mena
+Objetos icónicos: Palo de golf de De Vicenzo, guantes de Monzón
+Correspondencia y Prensa: Periodo 1961-2000
+R080 - Esculturas en las calles C-I
+Julio Constazo
+Lucio Correa Morales
+Hernán Cullen Ayerza
+Ricardo Dalla Lasta
+Carlos de la Cárcova
+Pablo de Robertis
+Antonio Devoto
+Lola Diamante
+Franco Di Segni
+Crisanto Dominguez
+Hernán Dompe
+Ruben Elosegui
+José Esteban
+Luis Falcini
+Nicasio Fernandez
+José Fioravanti
+Lucio Fontana
+Enrique Gaimari
+Noemí Gerstein
+Silvio Giagrande
+Mauro Glorioso
+Luisa Isabel Isella de Motteau
+R082 - Esculturas Fogón A-Z
+José Alonso: Cabeza de Mujer
+Fernando Arranz: Maternidad
+Edgardo Berjman: Escultura Autónoma
+Libero Badii: Cabeza de María Fux
+Budini: Bailarina o figura
+Antonio Devoto: Síntesis Formal en Toreo
+Franco Di Cegrí: Abstracción
+Crisanto Domínguez: Cabeza de G. Benavento
+Estefan Ercía: Cabeza
+Nicasio Fernández: Espera
+Manuel Fernández Tejeiro: Tótem Abstracto
+José Fioravanti: Beethoven (Bajorrelieve)
+Lucio Fontana: El Sueño de Leti
+Noemi Gerstein: Ronda
+Naum Knop: Los de arriba y los de abajo
+Aurelio Machi: Composición
+Alfredo Monti: El pecado original
+Víctor Marchese: Figura
+Mauro Núñez: Danza de la muerte
+Roberto Ortiz: Poste de sol
+Paino: Quijote
+Alberto Pilone: Límite
+Ferruccio Polaco: Caballo Muerto
+Carlos Schenone: Cabeza de Mujer
+Nicolás A. San Luis: Cabeza de Arturo Barca
+Antonio Sassone: Pudor
+Edi Torres: Cabeza de Carlos Schenone
+R079 - Esculturas en las calles A-B
+Victor Marchese: El Perrito Fernando
+Agustin Riganelli: Maternidad
+Francisco Reyes: Maternidad y Cabeza de Aldo Boglietti
+Adela Tarraf: Tango
+Crisanto Dominguez: Gaspar Benavento
+Martha Saggesse: Adolescente
+Pedro Zonza Briano: Joven
+Carlos Althaus: Torso
+Pablo de Robertis: Maternidad
+Zulema Adaime: Gestación
+Julia Juárez: Mujer Espacial
+Fabriciano Gomez: La Luna
+Antonio Devoto: Danza
+Suarez Marzal: Viento Norte y Remontando el Mar
+Humberto Gomez Lollo: La Luna (Mármol Travertino)
+R084 - Esculturas en general N-Z
+Libero Badii: El Alma
+Resistencia: La ciudad de las esculturas
+Marcelo Pacheco
+José Planes Casas
+Antonio Pujia
+Francisco Reyes
+Agustin Riganelli
+Eduardo Sabelli
+Juan Sanchez
+Hilda Sbrizza
+Ariel Scornick
+Carlos Schenone
+Schoffer
+Antonio Sibellino
+Silke
+Manuel Solis
+Leo Tavella
+Troiano Troiani
+Floreal Vayles
+Susana Vallene
+David Vallmitjane
+Jack Varnasky
+Julio Cesar Vergotini
+Wilfredo Viladrich
+Leo Vinci
+Rogelio Yrurtia
+R218 - Pedidos de Mangas
+Solicitud de Fondos: Cartas humorísticas pidiendo contribuciones (mangas) a través de bonos
+Cultura y Arte
+R074 - Documentos Victor Marchese
+Archivo del Escultor: Catálogos, recortes de diarios y correspondencia personal con Aldo Boglietti
+R088 - Musica
+Índice alfabético de artistas (A-Z)
+Ariel Ramírez y Andrés Segovia
+Camerata Bariloche y Pro Musica
+Teresa Parodi y Pia Sebastiani
+Primer Taller Latinoamericano de Música Popular
+Orquesta Sinfónica Universidad Nacional de Cuyo
+Conjuntos vocales y de cámara
+Dúos y solistas instrumentales
