@@ -2,11 +2,12 @@ import { useEffect, useState } from "react"
 import { Check, ChevronLeft, ChevronRight, Copy, Maximize2 } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"
-import { cajaPorId, config, fechaLegible, fotoPorId, fotosPorSobre, type Foto } from "@/lib/datos"
+import { cajaPorId, config, fechaLegible, fotoPorId, fotosPorSobre, tituloVisible, type Foto } from "@/lib/datos"
 import { enlace, ir } from "@/lib/ruta"
 import { citaAPA } from "@/lib/citas"
 import { Imagen } from "@/components/Imagen"
 import { NoEncontrado } from "./Cajas"
+import { Migas, migasDe } from "@/components/PanelExplorador"
 
 export function Ficha({ id }: { id: string }) {
   const foto = fotoPorId.get(id)
@@ -25,7 +26,10 @@ export function Ficha({ id }: { id: string }) {
 
   useEffect(() => {
     const tecla = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement || ampliada) return
+      // Las flechas solo navegan entre fotos si no hay un control que las use (WCAG 2.1.1)
+      const t = e.target as HTMLElement
+      if (ampliada || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return
+      if (t.closest?.("input, textarea, select, [contenteditable], [role=tablist], [role=radiogroup], [role=group], [role=listbox], [role=menu]")) return
       if (e.key === "ArrowLeft" && ant) ir(enlace.foto(ant.id))
       if (e.key === "ArrowRight" && sig) ir(enlace.foto(sig.id))
     }
@@ -39,19 +43,16 @@ export function Ficha({ id }: { id: string }) {
 
   return (
     <article className="mx-auto max-w-7xl px-4 py-8 md:px-6">
-      <nav aria-label="Ruta" className="flex flex-wrap items-center justify-between gap-3 text-sm text-muted-foreground">
-        <span>
-          <a href="#/cajas" className="hover:text-primary">Cajas y sobres</a> /{" "}
-          <a href={enlace.caja(foto.caja)} className="hover:text-primary">Caja {caja?.numero}</a> /{" "}
-          <a href={enlace.sobre(foto.sobre)} className="hover:text-primary">Sobre {foto.sobre}</a> /{" "}
-          <span className="signatura">{foto.id}</span>
-        </span>
-        <span className="flex items-center gap-1">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <Migas items={migasDe({ caja: foto.caja, sobre: foto.sobre, foto: foto.id })} />
+        <span className="flex items-center gap-1 text-sm text-muted-foreground">
           <NavFoto f={ant} dir="ant" />
-          <span className="px-2 tabular-nums">{pos + 1} / {hermanas.length}</span>
+          <span className="px-2 tabular-nums" aria-label={`Fotografía ${pos + 1} de ${hermanas.length} del sobre`}>
+            {pos + 1} / {hermanas.length}
+          </span>
           <NavFoto f={sig} dir="sig" />
         </span>
-      </nav>
+      </div>
 
       <div className="mt-6 grid gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
         {/* Imagen */}
@@ -62,28 +63,34 @@ export function Ficha({ id }: { id: string }) {
               type="button"
               onClick={() => setAmpliada(true)}
               className="foco absolute right-2 top-2 rounded-sm bg-background/85 p-2 backdrop-blur hover:text-primary"
-              aria-label="Ampliar imagen"
+              aria-label={`Ampliar ${lado}`}
             >
-              <Maximize2 className="h-4 w-4" />
+              <Maximize2 className="h-4 w-4" aria-hidden />
             </button>
           </div>
           <div className="mt-3 flex flex-wrap items-center gap-3">
-            <div className="inline-flex rounded-sm border p-0.5 text-sm" role="tablist" aria-label="Lado de la fotografía">
-              {(["anverso", "reverso"] as const).map((l) => (
-                <button
-                  key={l}
-                  role="tab"
-                  aria-selected={lado === l}
-                  onClick={() => setLado(l)}
-                  className={cn(
-                    "rounded-[2px] px-3 py-1 capitalize",
-                    lado === l ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground",
-                  )}
-                >
-                  {l}
-                </button>
-              ))}
+            <div className="inline-flex rounded-sm border border-input p-0.5 text-sm" role="group" aria-label="Cara de la fotografía">
+              {(["anverso", "reverso"] as const).map((l) => {
+                const falta = l === "reverso" && !foto.reverso
+                return (
+                  <button
+                    key={l}
+                    type="button"
+                    aria-pressed={lado === l}
+                    disabled={falta}
+                    title={falta ? "Reverso no digitalizado" : undefined}
+                    onClick={() => setLado(l)}
+                    className={cn(
+                      "foco rounded-[2px] px-3 py-1.5 capitalize disabled:cursor-not-allowed disabled:opacity-50",
+                      lado === l ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground",
+                    )}
+                  >
+                    {l}
+                  </button>
+                )
+              })}
             </div>
+            {!foto.reverso && <span className="text-xs text-muted-foreground">Reverso no digitalizado</span>}
           </div>
         </div>
 
@@ -93,12 +100,17 @@ export function Ficha({ id }: { id: string }) {
             {foto.sin_titulo ? (
               <span className="font-normal italic text-muted-foreground">Sin título</span>
             ) : (
-              foto.titulo
+              tituloVisible(foto)
             )}
           </h1>
+          {foto.titulo_atribuido && !foto.sin_titulo && (
+            <p className="mt-1 text-xs text-muted-foreground">
+              Título atribuido, tomado {foto.titulo_fuente === "reverso" ? "de la leyenda del reverso" : "del índice manuscrito"}.
+            </p>
+          )}
           <p className="mt-2 text-muted-foreground">
             {fechaLegible(foto)}
-            {foto.fecha_inferida && " (inferida del índice manuscrito)"}
+            {foto.fecha_inferida && " (fecha inferida del índice manuscrito)"}
             {foto.lugar && ` · ${foto.lugar}`}
           </p>
 
@@ -111,7 +123,7 @@ export function Ficha({ id }: { id: string }) {
               k="Índice manuscrito"
               v={
                 foto.indice_n ? (
-                  <a href="#/indice" className="text-primary hover:underline">
+                  <a href="#/indice" className="foco rounded-sm text-primary hover:underline">
                     Entrada {foto.indice_n}: <em>{foto.indice_titulo}</em>
                     {Number(foto.sobre.match(/\d+/)?.[0]) !== foto.indice_n && (
                       <span className="text-muted-foreground"> · corresponde al sobre {foto.indice_n}, se conserva en {foto.sobre}</span>
@@ -127,7 +139,7 @@ export function Ficha({ id }: { id: string }) {
             <Campo
               k="Caja"
               v={
-                <a href={enlace.caja(foto.caja)} className="text-primary hover:underline">
+                <a href={enlace.caja(foto.caja)} className="foco rounded-sm text-primary hover:underline">
                   Caja {caja?.numero} · {caja?.etiqueta} <span className="signatura text-muted-foreground">({foto.caja})</span>
                 </a>
               }
@@ -135,7 +147,7 @@ export function Ficha({ id }: { id: string }) {
             <Campo
               k="Sobre"
               v={
-                <a href={enlace.sobre(foto.sobre)} className="text-primary hover:underline">
+                <a href={enlace.sobre(foto.sobre)} className="foco rounded-sm text-primary hover:underline">
                   {foto.sobre}
                 </a>
               }
@@ -156,8 +168,9 @@ export function Ficha({ id }: { id: string }) {
             <Campo k="Técnica" v={foto.tecnica} />
             <Campo k="Soporte" v={foto.soporte} />
             <Campo k="Dimensiones" v={foto.dimensiones} />
-            <Campo k="Leyenda del reverso" v={foto.leyenda_reverso} />
-            <Campo k="Inscripciones (reverso)" v={foto.inscripciones_reverso} />
+            {/* La transcripción completa ya contiene la leyenda: se muestra la leyenda sola solo si no hay transcripción */}
+            <Campo k="Leyenda del reverso" v={foto.inscripciones_reverso ? undefined : foto.leyenda_reverso} />
+            <Campo k="Transcripción del reverso" v={foto.inscripciones_reverso} />
             <Campo k="Estado de conservación" v={foto.estado_conservacion} />
           </Seccion>
 
@@ -174,7 +187,7 @@ export function Ficha({ id }: { id: string }) {
 
       <Dialog open={ampliada} onOpenChange={setAmpliada}>
         <DialogContent className="max-w-[min(96vw,1400px)] border-none bg-black/95 p-2 sm:p-4">
-          <DialogTitle className="sr-only">{foto.titulo} ({lado})</DialogTitle>
+          <DialogTitle className="sr-only">{tituloVisible(foto)} ({lado})</DialogTitle>
           <div className="h-[86vh]">
             <Imagen foto={foto} lado={lado} ancho={2400} contener className="bg-transparent" />
           </div>
@@ -187,10 +200,10 @@ export function Ficha({ id }: { id: string }) {
 function NavFoto({ f, dir }: { f?: Foto; dir: "ant" | "sig" }) {
   const Icono = dir === "ant" ? ChevronLeft : ChevronRight
   const etiqueta = dir === "ant" ? "Fotografía anterior del sobre" : "Fotografía siguiente del sobre"
-  if (!f) return <span className="rounded-sm border p-1.5 opacity-30"><Icono className="h-4 w-4" /></span>
+  if (!f) return <span className="rounded-sm border p-2.5 opacity-30" aria-hidden><Icono className="h-4 w-4" /></span>
   return (
-    <a href={enlace.foto(f.id)} aria-label={etiqueta} title={`${etiqueta} (tecla ${dir === "ant" ? "←" : "→"})`} className="foco rounded-sm border p-1.5 hover:border-primary hover:text-primary">
-      <Icono className="h-4 w-4" />
+    <a href={enlace.foto(f.id)} aria-label={etiqueta} title={`${etiqueta} (tecla ${dir === "ant" ? "←" : "→"})`} className="foco rounded-sm border p-2.5 hover:border-primary hover:text-primary">
+      <Icono className="h-4 w-4" aria-hidden />
     </a>
   )
 }
@@ -203,7 +216,7 @@ function lista(vs: string[] | undefined, campo: string) {
         <a
           key={v}
           href={enlace.buscar(new URLSearchParams([[`f.${campo}`, v]]).toString())}
-          className="rounded-sm bg-accent px-1.5 py-0.5 text-sm hover:text-primary"
+          className="foco rounded-sm bg-accent px-1.5 py-0.5 text-sm hover:underline"
         >
           {v}
         </a>
@@ -253,16 +266,19 @@ function Citas({ foto }: { foto: Foto }) {
     <section className="mt-10">
       <h2 className="etiqueta border-b pb-2">Cómo citar · APA 7</h2>
       <div className="relative mt-3 rounded-sm border bg-card">
-        <pre className="whitespace-pre-wrap break-words p-4 pr-12 font-mono text-[0.78rem] leading-relaxed">{texto}</pre>
+        <pre className="whitespace-pre-wrap break-all p-4 pr-12 font-mono text-[0.78rem] leading-relaxed">{texto}</pre>
         <button
           type="button"
           onClick={copiar}
-          className="foco absolute right-2 top-2 rounded-sm p-2 text-muted-foreground hover:text-primary"
+          className="foco absolute right-2 top-2 inline-flex items-center gap-1 rounded-sm p-2 text-xs text-muted-foreground hover:text-primary"
           aria-label="Copiar cita"
         >
-          {copiado ? <Check className="h-4 w-4 text-primary" /> : <Copy className="h-4 w-4" />}
+          {copiado ? <Check className="h-4 w-4 text-primary" aria-hidden /> : <Copy className="h-4 w-4" aria-hidden />}
         </button>
       </div>
+      <p className="mt-1.5 h-4 text-xs text-primary" aria-live="polite">
+        {copiado ? "Cita copiada al portapapeles." : ""}
+      </p>
     </section>
   )
 }

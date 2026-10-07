@@ -74,8 +74,15 @@ function Fotografia({ c }: { c: Copia }) {
   )
 }
 
-/** Fondo de portada: fotos amontonadas al azar, no interactivas; cae una nueva arriba y la de más abajo se retira. */
-export function MosaicoFondo() {
+/** Con "reducir movimiento" activo, el fondo arranca quieto (WCAG 2.2.2 / 2.3.3). */
+export const prefiereQuieto = () =>
+  typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches
+
+/**
+ * Fondo de portada: fotos amontonadas al azar, no interactivas; cae una nueva arriba y la de más abajo se retira.
+ * `pausado` detiene la caída (control visible en Inicio).
+ */
+export function MosaicoFondo({ pausado = false }: { pausado?: boolean }) {
   const [pila, setPila] = useState<Copia[]>(pilaInicial)
   const pilaRef = useRef(pila)
   useEffect(() => {
@@ -83,9 +90,8 @@ export function MosaicoFondo() {
   }, [pila])
 
   useEffect(() => {
+    if (pausado) return
     let activo = true
-    // Siempre cambia; con "reducir movimiento" activo, solo más despacio.
-    const pausa = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? INTERVALO_MS * 2 : INTERVALO_MS
 
     const id = window.setInterval(() => {
       if (document.hidden) return
@@ -109,13 +115,13 @@ export function MosaicoFondo() {
         }
         img.src = src
       }
-    }, pausa)
+    }, INTERVALO_MS)
 
     return () => {
       activo = false
       window.clearInterval(id)
     }
-  }, [])
+  }, [pausado])
 
   return (
     <div aria-hidden className="pointer-events-none absolute inset-0 -z-10 select-none overflow-hidden bg-[#0d0b0a]">

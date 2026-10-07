@@ -22,7 +22,7 @@
     --destructive: 0 65% 42%;
     --destructive-foreground: 0 0% 98%;
     --border: 32 20% 78%;
-    --input: 32 20% 74%;
+    --input: 30 12% 50%; /* ≥3:1 sobre fondo y tarjeta (WCAG 1.4.11) */
     --ring: 18 72% 31%;
     --radius: 0.25rem;
     --tinta-suave: 26 12% 36%;
@@ -47,7 +47,7 @@
     --destructive: 0 62% 50%;
     --destructive-foreground: 0 0% 98%;
     --border: 24 10% 22%;
-    --input: 24 10% 26%;
+    --input: 28 8% 44%; /* ≥3:1 sobre fondo y tarjeta (WCAG 1.4.11) */
     --ring: 22 78% 58%;
     --tinta-suave: 32 12% 64%;
     --placa: 24 10% 18%;
@@ -68,6 +68,15 @@
   h1, h2, h3 {
     @apply font-serif;
     text-wrap: balance;
+  }
+  /* Foco visible uniforme para todo lo enfocable que no use .foco */
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+  /* Encabezados que reciben foco programático al cambiar de vista */
+  h1[tabindex="-1"]:focus {
+    outline: none;
   }
   ::selection {
     background: hsl(var(--primary) / 0.22);

@@ -132,13 +132,45 @@ export function urlImagen(f: Foto, lado: "anverso" | "reverso", ancho: number): 
   }
 }
 
+const MESES = ["ene.", "feb.", "mar.", "abr.", "may.", "jun.", "jul.", "ago.", "sept.", "oct.", "nov.", "dic."]
+
+/** EDTF -> forma legible en español: "1955-12-03" -> "3 dic. 1955"; "1955-12" -> "dic. 1955". */
+function fechaEDTF(t: string) {
+  return t
+    .split("/")
+    .map((p) => {
+      const m = p.match(/^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/)
+      if (!m) return p
+      const [, a, mes, dia] = m
+      if (!mes) return a
+      const nombre = MESES[Number(mes) - 1] ?? mes
+      return dia ? `${Number(dia)} ${nombre} ${a}` : `${nombre} ${a}`
+    })
+    .join("–")
+}
+
 export function fechaLegible(f: Foto) {
-  if (!f.fecha) return "s. f."
-  const base = f.fecha.replace(/[~?]/g, "").replace("/", "–")
+  if (!f.fecha) return "Sin fecha"
+  const base = fechaEDTF(f.fecha.replace(/[~?%]/g, ""))
   const calif = f.fecha_calificador === "circa" ? "ca. " : ""
   const duda = f.fecha_calificador === "incierta" ? " (?)" : ""
   return `${calif}${base}${duda}`
 }
+
+/** "1950s" -> "Década de 1950" */
+export function decadaLegible(v: string) {
+  const m = v.match(/^(\d{4})s$/)
+  return m ? `Década de ${m[1]}` : v
+}
+
+/** Título tal como se muestra: los atribuidos van entre corchetes (convención archivística). */
+export function tituloVisible(f: Foto) {
+  if (f.sin_titulo) return "Sin título"
+  return f.titulo_atribuido ? `[${f.titulo}]` : f.titulo
+}
+
+/** Portadas: el n.º 1 de cada sobre es el escaneo del propio sobre. */
+export const portadas = new Set(cajas.flatMap((c) => c.sobres.map((s) => s.portada)))
 
 /** Publicación: "con_datos" = selección piloto (título, índice o reverso); "todas" = inventario completo. */
 export const resumen = resumenJson as { criterio: "con_datos" | "todas"; inventario: number; publicadas: number; cajas_inventario: number }

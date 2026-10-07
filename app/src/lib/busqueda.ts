@@ -1,5 +1,5 @@
 import MiniSearch from "minisearch"
-import { fotos, fotoPorId, rotuloCaja, type Foto } from "./datos"
+import { decadaLegible, fotos, fotoPorId, rotuloCaja, type Foto } from "./datos"
 
 const VACIAS = new Set(
   "a al con de del el en la las los o para por que se su sus un una y e u".split(" "),
@@ -136,15 +136,18 @@ export interface ValorFaceta {
   cantidad: number
 }
 
+/** Etiqueta legible de un valor de faceta (también la usan los chips de filtros activos). */
+export function etiquetaValorFaceta(campo: string, v: string) {
+  if (campo === "caja") return rotuloCaja(v)
+  if (campo === "decada") return decadaLegible(v)
+  if (campo === "estado_ficha") return v.charAt(0).toUpperCase() + v.slice(1)
+  return v
+}
+
 export function contarFaceta(resultados: Foto[], campo: string): ValorFaceta[] {
   const cuenta = new Map<string, number>()
   for (const f of resultados) for (const v of valores(f, campo)) cuenta.set(v, (cuenta.get(v) ?? 0) + 1)
-  const etiqueta = (v: string) => {
-    if (campo === "caja") return rotuloCaja(v)
-    if (campo === "estado_ficha") return v.charAt(0).toUpperCase() + v.slice(1)
-    return v
-  }
-  const lista = [...cuenta].map(([valor, cantidad]) => ({ valor, etiqueta: etiqueta(valor), cantidad }))
+  const lista = [...cuenta].map(([valor, cantidad]) => ({ valor, etiqueta: etiquetaValorFaceta(campo, valor), cantidad }))
   if (campo === "caja") return lista.sort((a, b) => a.etiqueta.localeCompare(b.etiqueta, "es", { numeric: true }))
   if (campo === "decada") return lista.sort((a, b) => a.valor.localeCompare(b.valor))
   return lista.sort((a, b) => b.cantidad - a.cantidad || a.etiqueta.localeCompare(b.etiqueta))

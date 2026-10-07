@@ -35,7 +35,7 @@ export function Indice() {
           onChange={(e) => setFiltro(e.target.value)}
           placeholder="Filtrar el índice…"
           aria-label="Filtrar el índice"
-          className="h-9 w-full max-w-xs rounded-sm border border-input bg-card px-3 text-sm outline-none focus:ring-2 focus:ring-ring"
+          className="h-10 w-full max-w-xs rounded-sm border border-input bg-card px-3 text-sm outline-none focus:ring-2 focus:ring-ring"
         />
         <label className="flex items-center gap-2 text-sm">
           <input

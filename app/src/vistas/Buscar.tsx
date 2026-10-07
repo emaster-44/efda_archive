@@ -1,11 +1,12 @@
 import { useMemo, useState } from "react"
-import { SlidersHorizontal, X } from "lucide-react"
+import { Search, SlidersHorizontal, X } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { config, rotuloCaja } from "@/lib/datos"
+import { config } from "@/lib/datos"
 import { enlace, ir } from "@/lib/ruta"
 import {
   contarFaceta,
   ejecutar,
+  etiquetaValorFaceta,
   paramsDesdeConsulta,
   type Consulta,
   type Orden,
@@ -32,6 +33,7 @@ export function Buscar({ consulta }: { consulta: Consulta }) {
 
   const activos = Object.entries(consulta.filtros).flatMap(([c, vs]) => vs.map((v) => ({ c, v })))
   const hayFiltros = activos.length > 0 || consulta.desde || consulta.hasta
+  const cantidadFiltros = activos.length + (consulta.desde || consulta.hasta ? 1 : 0)
 
   const facetas = (
     <Facetas consulta={consulta} resultados={resultados} alternar={alternar} navegar={navegar} />
@@ -39,28 +41,24 @@ export function Buscar({ consulta }: { consulta: Consulta }) {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 md:px-6">
-      <div className="flex flex-wrap items-end justify-between gap-3 border-b pb-5">
-        <div>
-          <h1 className="font-serif text-3xl font-semibold uppercase tracking-[0.06em] md:text-5xl">
-            <a href="#/" className="foco rounded-sm hover:text-primary">{config.archivo.nombre}</a>
-          </h1>
-          {consulta.q && (
-            <p className="mt-3 text-lg">
-              “{consulta.q}”
-              <span className="ml-3 text-base text-muted-foreground tabular-nums">
-                {resultados.length.toLocaleString("es-AR")} {resultados.length === 1 ? "fotografía" : "fotografías"}
-              </span>
-            </p>
-          )}
-        </div>
-        <div className="flex flex-wrap items-center gap-2 text-sm">
+      <div className="border-b pb-5">
+        <h1 className="text-3xl font-semibold md:text-4xl">Buscar en el fondo</h1>
+        <CampoBusqueda key={consulta.q} inicial={consulta.q} enviar={(q) => navegar({ q, orden: undefined })} />
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+          <p className="text-muted-foreground" role="status">
+            <span className="font-medium tabular-nums text-foreground">{resultados.length.toLocaleString("es-AR")}</span>{" "}
+            {resultados.length === 1 ? "fotografía" : "fotografías"}
+            {consulta.q && <> para «{consulta.q}»</>}
+            {cantidadFiltros > 0 && <> · {cantidadFiltros} {cantidadFiltros === 1 ? "filtro" : "filtros"}</>}
+          </p>
           <button
             type="button"
             onClick={() => setPanel((p) => !p)}
-            className="foco inline-flex items-center gap-1.5 rounded-sm border px-3 py-1.5 lg:hidden"
+            className="foco inline-flex items-center gap-1.5 rounded-sm border border-input px-3 py-2 text-sm lg:hidden"
             aria-expanded={panel}
+            aria-controls="panel-filtros"
           >
-            <SlidersHorizontal className="h-4 w-4" /> Filtros
+            <SlidersHorizontal className="h-4 w-4" aria-hidden /> Filtros{cantidadFiltros > 0 && ` (${cantidadFiltros})`}
           </button>
         </div>
       </div>
@@ -74,8 +72,9 @@ export function Buscar({ consulta }: { consulta: Consulta }) {
               onClick={() => alternar(c, v)}
               className="foco inline-flex items-center gap-1 rounded-sm bg-accent px-2 py-1"
             >
-              <span className="text-muted-foreground">{etiquetaCampo(c)}:</span> {etiquetaValor(c, v)}
-              <X className="h-3.5 w-3.5" aria-label="quitar" />
+              <span className="text-muted-foreground">{etiquetaCampo(c)}:</span> {etiquetaValorFaceta(c, v)}
+              <X className="h-3.5 w-3.5" aria-hidden />
+              <span className="sr-only">(quitar filtro)</span>
             </button>
           ))}
           {(consulta.desde || consulta.hasta) && (
@@ -84,21 +83,22 @@ export function Buscar({ consulta }: { consulta: Consulta }) {
               onClick={() => navegar({ desde: undefined, hasta: undefined })}
               className="foco inline-flex items-center gap-1 rounded-sm bg-accent px-2 py-1"
             >
-              Años {consulta.desde ?? "…"}–{consulta.hasta ?? "…"} <X className="h-3.5 w-3.5" aria-label="quitar" />
+              Años {consulta.desde ?? "…"}–{consulta.hasta ?? "…"} <X className="h-3.5 w-3.5" aria-hidden />
+              <span className="sr-only">(quitar filtro)</span>
             </button>
           )}
           <button
             type="button"
             onClick={() => navegar({ filtros: {}, desde: undefined, hasta: undefined })}
-            className="text-primary underline-offset-2 hover:underline"
+            className="foco rounded-sm px-1 text-primary underline-offset-2 hover:underline"
           >
-            Limpiar filtros
+            Quitar todos los filtros
           </button>
         </div>
       )}
 
       <div className="mt-6 grid gap-8 lg:grid-cols-[250px_1fr]">
-        <aside className={cn("lg:block", panel ? "block" : "hidden")} aria-label="Filtros">
+        <aside id="panel-filtros" className={cn("lg:block", panel ? "block" : "hidden")} aria-label="Filtros">
           {facetas}
         </aside>
         <div>
@@ -112,8 +112,8 @@ export function Buscar({ consulta }: { consulta: Consulta }) {
             <div className="rounded-sm border border-dashed p-10 text-center">
               <p className="font-serif text-lg">Ninguna fotografía coincide con la consulta.</p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Probá con menos palabras, quitá filtros o recorré el{" "}
-                <a href="#/cajas" className="text-primary underline">cajas y sobres</a>.
+                Probá con menos palabras o con otra grafía del nombre, quitá filtros o recorré las{" "}
+                <a href="#/cajas" className="foco rounded-sm text-primary underline">cajas y sobres</a>.
               </p>
             </div>
           )}
@@ -161,7 +161,39 @@ function BotonPagina({
 }
 
 const etiquetaCampo = (c: string) => config.facetas.find((f) => f.campo === c)?.etiqueta ?? c
-const etiquetaValor = (c: string, v: string) => (c === "caja" ? rotuloCaja(v) : v)
+
+/** Campo de búsqueda persistente: permite corregir o cambiar la consulta sin volver a la portada. */
+function CampoBusqueda({ inicial, enviar }: { inicial: string; enviar: (q: string) => void }) {
+  const [texto, setTexto] = useState(inicial)
+  return (
+    <form
+      role="search"
+      className="mt-4 max-w-2xl"
+      onSubmit={(e) => {
+        e.preventDefault()
+        enviar(texto.trim())
+      }}
+    >
+      <label htmlFor="consulta" className="sr-only">
+        Buscar en el fondo
+      </label>
+      <div className="flex h-11 items-center rounded-sm border border-input bg-card focus-within:ring-2 focus-within:ring-ring">
+        <Search className="ml-3 h-4 w-4 shrink-0 text-muted-foreground" aria-hidden />
+        <input
+          id="consulta"
+          type="search"
+          value={texto}
+          onChange={(e) => setTexto(e.target.value)}
+          placeholder="Personas, obras, eventos, lugares, signatura…"
+          className="h-full w-full min-w-0 bg-transparent px-2.5 text-sm outline-none placeholder:text-muted-foreground"
+        />
+        <button type="submit" className="foco h-full shrink-0 border-l border-input px-4 text-sm font-medium text-primary hover:bg-accent">
+          Buscar
+        </button>
+      </div>
+    </form>
+  )
+}
 
 function Facetas({
   consulta,
@@ -232,7 +264,7 @@ function GrupoFaceta({
         })}
       </ul>
       {valores.length > 8 && (
-        <button type="button" onClick={() => setTodos((t) => !t)} className="mt-1 px-1 text-xs text-primary hover:underline">
+        <button type="button" onClick={() => setTodos((t) => !t)} aria-expanded={todos} className="foco mt-1 rounded-sm px-1 text-xs text-primary hover:underline">
           {todos ? "Mostrar menos" : `Ver los ${valores.length}`}
         </button>
       )}
@@ -268,7 +300,7 @@ function RangoAnios({ consulta, navegar }: { consulta: Consulta; navegar: (c: Pa
   }
   return (
     <form onSubmit={aplicar}>
-      <p className="etiqueta mb-2">Años</p>
+      <p className="etiqueta mb-2" id="rotulo-anios">Años</p>
       <div className="flex items-center gap-2 text-sm">
         <input
           inputMode="numeric"
@@ -287,8 +319,8 @@ function RangoAnios({ consulta, navegar }: { consulta: Consulta; navegar: (c: Pa
           onChange={(e) => setHasta(e.target.value)}
           className="h-8 w-full min-w-0 rounded-sm border border-input bg-card px-2 tabular-nums"
         />
-        <button type="submit" className="h-8 rounded-sm border px-2 hover:border-primary">
-          Ir
+        <button type="submit" className="foco h-8 rounded-sm border border-input px-2 hover:border-primary">
+          Aplicar
         </button>
       </div>
     </form>

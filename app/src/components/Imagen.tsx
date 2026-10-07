@@ -9,10 +9,12 @@ interface Props {
   className?: string
   contener?: boolean
   alt?: string
+  /** Imagen decorativa: el nombre accesible lo da el enlace que la contiene. */
+  decorativa?: boolean
 }
 
 /** Imagen con reserva tipográfica: si no hay URL o falla la carga, muestra la signatura. */
-export function Imagen({ foto, lado = "anverso", ancho, className, contener, alt }: Props) {
+export function Imagen({ foto, lado = "anverso", ancho, className, contener, alt, decorativa }: Props) {
   const src = urlImagen(foto, lado, ancho)
   const [error, setError] = useState(false)
   const [cargada, setCargada] = useState(false)
@@ -24,11 +26,10 @@ export function Imagen({ foto, lado = "anverso", ancho, className, contener, alt
           "flex h-full w-full flex-col items-center justify-center gap-1 bg-[hsl(var(--placa))] p-3 text-center",
           className,
         )}
-        role="img"
-        aria-label={`${foto.id}: ${lado} no disponible`}
+        {...(decorativa ? { "aria-hidden": true } : { role: "img", "aria-label": `${foto.id}: ${lado} no disponible` })}
       >
         <span className="signatura text-muted-foreground">{foto.id}</span>
-        <span className="text-[0.68rem] leading-tight text-muted-foreground/80">
+        <span className="text-[0.68rem] leading-tight text-muted-foreground">
           {lado === "reverso" && !foto.reverso ? "reverso no digitalizado" : `${lado === "reverso" ? "reverso" : "imagen"} no disponible`}
         </span>
       </div>
@@ -38,7 +39,7 @@ export function Imagen({ foto, lado = "anverso", ancho, className, contener, alt
   return (
     <img
       src={src}
-      alt={alt ?? `${foto.titulo} (${foto.id}, ${lado})`}
+      alt={decorativa ? "" : alt ?? `${foto.titulo} (${foto.id}, ${lado})`}
       loading="lazy"
       decoding="async"
       referrerPolicy="no-referrer"

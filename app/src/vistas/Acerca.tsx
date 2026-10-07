@@ -22,7 +22,7 @@ export function Acerca() {
       <h2 className="mt-12 text-2xl font-semibold">Criterios</h2>
       <ul className="mt-4 space-y-3 leading-relaxed text-muted-foreground">
         <li>
-          <strong className="text-foreground">Orden de precedencia.</strong> Se respeta la organización del
+          <strong className="text-foreground">Principio de procedencia y orden original.</strong> Se respeta la organización del
           fondo: Caja › Sobre › Fotografía. Cajas y sobres son unidades de resguardo; la fotografía es la
           unidad de archivo.
         </li>
@@ -76,6 +76,13 @@ export function Acerca() {
           </div>
         ))}
       </dl>
+
+      <h2 className="mt-12 text-2xl font-semibold" id="como-citar">Cómo citar</h2>
+      <p className="mt-4 leading-relaxed text-muted-foreground">
+        Cada ficha incluye una cita en formato APA 7 lista para copiar, con la signatura y el enlace permanente de la
+        fotografía. Los títulos atribuidos (tomados del índice manuscrito o del reverso) se citan entre corchetes,
+        igual que en la ficha.
+      </p>
 
       <h2 className="mt-12 text-2xl font-semibold">Créditos</h2>
       <p className="mt-4 leading-relaxed text-muted-foreground">
